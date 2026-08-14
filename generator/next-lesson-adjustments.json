@@ -1,0 +1,30 @@
+{
+  "sourceLessonId": "JP-V1-001",
+  "difficulty": 3,
+  "nextLessonAdjustments": [
+    {
+      "target": "〜を踏まえて",
+      "status": "recognition_improving_not_mastered",
+      "nextPractice": ["production", "sentence_creation"]
+    },
+    {
+      "target": "〜ように",
+      "status": "priority_weakness",
+      "nextPractice": [
+        "purpose: 全員に伝わるように、資料を整理しました。",
+        "ability_change: 日本語で説明できるようになりました。",
+        "request_reminder: 忘れないようにしてください。"
+      ]
+    },
+    {
+      "target": "〜に伴って",
+      "status": "review_incomplete",
+      "nextPractice": ["recycle_in_next_lesson"]
+    },
+    {
+      "target": "free_production",
+      "status": "insufficient_valid_sample",
+      "nextPractice": ["one_short_production_task"]
+    }
+  ]
+}
