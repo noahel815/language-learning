@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Next Japanese lesson adjustments",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["sourceLessonId", "feedbackStatus", "difficulty", "notes", "nextLessonAdjustments"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "sourceLessonId": { "type": "string", "pattern": "^JP-V1-[0-9]{3,}$" },
+    "feedbackStatus": { "enum": ["accepted_test_input", "graded_learning_feedback"] },
+    "difficulty": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "notes": { "type": "array", "items": { "type": "string" } },
+    "nextLessonAdjustments": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["target", "status", "priority", "nextPractice"],
+        "properties": { "target": { "type": "string" }, "status": { "type": "string" }, "priority": { "enum": ["low", "medium", "high"] }, "nextPractice": { "type": "array", "minItems": 1, "items": { "type": "string" } } }
+      }
+    }
+  }
+}

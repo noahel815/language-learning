@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://noahel815.github.io/language-learning/generator/template-schema.json",
+  "title": "Japanese Lesson Template V1 data contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["templateVersion", "lesson", "reading", "usefulSentences", "vocabulary", "patterns", "quiz", "outputPractice", "previousReview", "weaknessRecovery"],
+  "properties": {
+    "templateVersion": { "const": "Japanese Lesson Template V1" },
+    "lesson": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "date", "topicJa", "topicZh", "summaryZh", "jlptLevel", "duration", "domain"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^JP-V1-[0-9]{3,}$" },
+        "date": { "type": "string", "format": "date" },
+        "topicJa": { "type": "string", "minLength": 1 },
+        "topicZh": { "type": "string", "minLength": 1 },
+        "summaryZh": { "type": "string", "minLength": 1 },
+        "jlptLevel": { "type": "string", "pattern": "N[1-5].*N[1-5]" },
+        "duration": { "type": "string", "minLength": 1 },
+        "domain": { "type": "string", "minLength": 1 }
+      }
+    },
+    "reading": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["leadZh", "japaneseHtml", "translationZh", "pronunciation", "readingVocabulary"],
+      "properties": {
+        "leadZh": { "type": "string" },
+        "japaneseHtml": { "type": "string", "description": "Trusted generator HTML. Split ruby by understandable morpheme." },
+        "translationZh": { "type": "string" },
+        "pronunciation": { "$ref": "#/$defs/vocabularyItems" },
+        "readingVocabulary": { "$ref": "#/$defs/vocabularyItems" }
+      }
+    },
+    "usefulSentences": { "type": "array", "items": { "$ref": "#/$defs/bilingualExample" }, "minItems": 1 },
+    "vocabulary": { "$ref": "#/$defs/vocabularyItems" },
+    "patterns": { "type": "array", "items": { "$ref": "#/$defs/pattern" }, "minItems": 1 },
+    "quiz": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/question" } },
+    "outputPractice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["promptZh", "exampleJaHtml", "maxLength"],
+      "properties": { "promptZh": { "type": "string" }, "exampleJaHtml": { "type": "string" }, "maxLength": { "type": "integer", "minimum": 1, "maximum": 2000 } }
+    },
+    "previousReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["pattern", "explanationZh", "exampleJaHtml", "promptZh"],
+      "properties": { "pattern": { "type": "string" }, "explanationZh": { "type": "string" }, "exampleJaHtml": { "type": "string" }, "promptZh": { "type": "string" } }
+    },
+    "weaknessRecovery": { "type": "array", "items": { "type": "string", "minLength": 1 }, "minItems": 1 },
+    "feedback": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": { "requestLines": { "type": "array", "items": { "type": "string" }, "minItems": 1 } }
+    }
+  },
+  "$defs": {
+    "vocabularyItems": { "type": "array", "items": { "$ref": "#/$defs/vocabularyItem" }, "minItems": 1 },
+    "vocabularyItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["surface", "reading", "meaningZh", "pitchVerified"],
+      "properties": {
+        "surface": { "type": "string" }, "reading": { "type": "string" }, "meaningZh": { "type": "string" },
+        "pitch": { "type": ["string", "null"], "description": "Circled Tokyo accent notation only when verified." },
+        "pitchVerified": { "type": "boolean" }, "components": { "type": "array", "items": { "$ref": "#/$defs/vocabularyItem" } }
+      },
+      "allOf": [{ "if": { "properties": { "pitchVerified": { "const": false } }, "required": ["pitchVerified"] }, "then": { "properties": { "pitch": { "type": "null" } } } }]
+    },
+    "bilingualExample": { "type": "object", "additionalProperties": false, "required": ["japaneseHtml", "translationZh"], "properties": { "japaneseHtml": { "type": "string" }, "translationZh": { "type": "string" } } },
+    "pattern": { "type": "object", "additionalProperties": false, "required": ["name", "formation", "explanationZh", "example"], "properties": { "name": { "type": "string" }, "formation": { "type": "string" }, "explanationZh": { "type": "string" }, "example": { "$ref": "#/$defs/bilingualExample" } } },
+    "question": { "type": "object", "additionalProperties": false, "required": ["id", "type", "promptZh"], "properties": { "id": { "type": "string", "pattern": "^q[1-9][0-9]*$" }, "type": { "enum": ["singleChoice", "text", "textarea"] }, "promptZh": { "type": "string" }, "choices": { "type": "array", "items": { "type": "object", "required": ["value", "labelHtml"], "properties": { "value": { "type": "string" }, "labelHtml": { "type": "string" } }, "additionalProperties": false } } } }
+  }
+}

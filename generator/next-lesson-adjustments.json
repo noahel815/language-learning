@@ -1,30 +1,16 @@
 {
+  "$schema": "./next-lesson-adjustments.schema.json",
   "sourceLessonId": "JP-V1-001",
+  "feedbackStatus": "accepted_test_input",
   "difficulty": 3,
+  "notes": [
+    "Q2、Q3 與 Output Practice 的數字為刻意亂填，用於驗證欄位與純文字回傳流程，不作為學習能力判斷依據。",
+    "JP-V1-001 的手機版、字型、ruby/furigana、表單與 learning feedback 流程已由使用者初步驗收。"
+  ],
   "nextLessonAdjustments": [
-    {
-      "target": "〜を踏まえて",
-      "status": "recognition_improving_not_mastered",
-      "nextPractice": ["production", "sentence_creation"]
-    },
-    {
-      "target": "〜ように",
-      "status": "priority_weakness",
-      "nextPractice": [
-        "purpose: 全員に伝わるように、資料を整理しました。",
-        "ability_change: 日本語で説明できるようになりました。",
-        "request_reminder: 忘れないようにしてください。"
-      ]
-    },
-    {
-      "target": "〜に伴って",
-      "status": "review_incomplete",
-      "nextPractice": ["recycle_in_next_lesson"]
-    },
-    {
-      "target": "free_production",
-      "status": "insufficient_valid_sample",
-      "nextPractice": ["one_short_production_task"]
-    }
+    { "target": "〜を踏まえて", "status": "recognition_improving_not_mastered", "priority": "medium", "nextPractice": ["production", "sentence_creation"] },
+    { "target": "〜ように", "status": "priority_weakness", "priority": "high", "nextPractice": ["purpose", "ability_change", "request_reminder"] },
+    { "target": "〜に伴って", "status": "review_incomplete", "priority": "high", "nextPractice": ["recycle_in_next_lesson"] },
+    { "target": "free_production", "status": "insufficient_valid_sample", "priority": "high", "nextPractice": ["one_or_two_short_sentences"] }
   ]
 }
