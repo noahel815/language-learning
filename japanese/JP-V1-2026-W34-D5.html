@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <!--
+    Japanese Lesson Template V1 placeholders
+    Scalar tokens: JP-V1-2026-W34-D5, 2026-08-21, 駅前の移動を考える, 思考車站前的移動,
+    比較城市交通改善方案。, N3→N2, 25–35 分鐘, 城市／交通,
+    〜を踏まえて.
+    Repeatable/structured regions are addressed by stable section IDs:
+    #reading, #sentences, #grammar, #vocabulary, #quiz, #output, #review,
+    and #feedback .weak-list. See generator/template-schema.json.
+    Tokens are deliberately valid HTML text/JS string contents before rendering.
+  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>JP-V1-2026-W34-D5｜思考車站前的移動</title>
+  <style>
+    :root{--paper:#f3f1eb;--card:#fffefa;--ink:#242421;--muted:#696963;--line:#d9d6cc;--accent:#49665a;--accent2:#a65142;--soft:#e8eee9;--warn:#fff3d9;--shadow:0 18px 52px rgba(45,49,43,.09);--radius:18px}
+    @media(prefers-color-scheme:dark){:root{--paper:#171916;--card:#20231f;--ink:#f0eee8;--muted:#b8b6ad;--line:#444840;--accent:#9fc1ae;--accent2:#e39a8b;--soft:#29342d;--warn:#3b3321;--shadow:none}}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 12% 0,rgba(73,102,90,.12),transparent 30rem),var(--paper);color:var(--ink);font-family:"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;line-height:1.75;-webkit-font-smoothing:antialiased}
+    :lang(zh-Hant){font-family:"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif}
+    :lang(ja),ruby,rt,.jp,.dict-entry,.pronunciation,.pattern{font-family:"Hiragino Sans","Yu Gothic","YuGothic","Noto Sans JP",sans-serif}
+    button,input,textarea{font:inherit}.page{width:min(880px,calc(100% - 28px));margin:24px auto 64px;background:var(--card);border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow);overflow:hidden}
+    header{padding:clamp(30px,7vw,62px) clamp(20px,7vw,64px) 34px;border-bottom:1px solid var(--line);position:relative}header:after{content:"学";position:absolute;right:clamp(18px,6vw,54px);top:14px;font-family:"Hiragino Sans","Yu Gothic","YuGothic","Noto Sans JP",sans-serif;font-size:6rem;color:var(--accent);opacity:.08}.eyebrow,.kicker{color:var(--accent2);font-weight:700;font-size:.75rem;letter-spacing:.15em;text-transform:uppercase}.eyebrow{margin:0 0 12px}h1,h2,h3{line-height:1.35}h1{font-size:clamp(2rem,7vw,3.25rem);margin:0}.subtitle{color:var(--muted);margin:10px 0 0}.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}.tag{border:1px solid var(--line);border-radius:999px;padding:4px 10px;color:var(--muted);font-size:.82rem}
+    nav{display:flex;gap:7px;overflow:auto;padding:12px clamp(16px,5vw,42px);border-bottom:1px solid var(--line);scrollbar-width:none;position:sticky;top:0;background:color-mix(in srgb,var(--card) 93%,transparent);backdrop-filter:blur(12px);z-index:3}nav::-webkit-scrollbar{display:none}nav a{flex:none;color:var(--muted);text-decoration:none;padding:6px 10px;border-radius:999px;font-size:.82rem}nav a:hover,nav a:focus-visible{background:var(--soft);color:var(--accent)}
+    main{padding:0 clamp(20px,7vw,64px) 64px}section{padding-top:48px;scroll-margin-top:62px}h2{font-size:clamp(1.55rem,5vw,2.1rem);margin:4px 0 22px}.lead{color:var(--muted)}.card{border:1px solid var(--line);border-radius:var(--radius);padding:clamp(18px,5vw,30px)}.reading{background:color-mix(in srgb,var(--card) 94%,var(--accent) 6%)}.reading .jp{font-size:clamp(1.15rem,3.7vw,1.4rem);line-height:2;margin:0;letter-spacing:.025em}.translation{border-left:3px solid var(--accent);padding-left:16px;margin-top:22px;color:var(--muted)}
+    ruby{ruby-position:over;ruby-align:center}rt{font-size:.52em;font-weight:500;letter-spacing:0;color:var(--muted)}
+    .vocab-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:20px}.vocab{min-width:0;padding:13px 14px;border-radius:12px;background:color-mix(in srgb,var(--card) 86%,var(--soft) 14%);writing-mode:horizontal-tb!important}.dict-entry{display:flex;flex-wrap:wrap;align-items:baseline;gap:.08em;min-width:0;font-size:1.05rem;line-height:1.65}.dict-unit{display:inline-flex;align-items:baseline;gap:.08em;min-width:0}.dict-entry .pitch{flex:none;color:var(--accent2);font-weight:700;margin-right:.22em}.dict-entry .bracket{font-weight:700}.dict-entry .kana{color:var(--muted);overflow-wrap:anywhere}.compose{color:var(--muted);margin:0 .2em}.whole{flex-basis:100%;color:var(--muted);font-size:.82rem}.meaning{display:block;margin-top:3px;font-size:.9rem}
+    .pronunciation{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}.pron{display:inline-flex;flex-wrap:wrap;align-items:baseline;gap:.08em;padding:6px 9px;border-radius:10px;background:color-mix(in srgb,var(--card) 88%,var(--soft) 12%);font-size:.79rem;line-height:1.5}.pron .pitch{color:var(--accent2);font-weight:700;margin-right:.2em}.pron .kanji{font-size:.95rem;font-weight:700}.pron .kana{color:var(--muted)}.pron-note{margin:10px 0 0;color:var(--muted);font-size:.78rem}
+    .sentence{padding:24px 0;border-top:1px solid var(--line)}.sentence:first-of-type{border-top:0}.num{font-size:.75rem;color:var(--accent2);font-weight:700;letter-spacing:.1em}.sentence .jp{font-size:clamp(1.12rem,3.6vw,1.36rem);margin:5px 0 10px}.support{border-left:2px solid var(--accent);padding-left:13px;color:var(--muted);font-size:.9rem}.support .pronunciation{margin-top:0}.zh{margin:8px 0 0}.grammar-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.grammar h3{margin:0 0 8px}.pattern{color:var(--accent2);font-weight:700}.example{padding:14px 0 0;border-top:1px solid var(--line);margin-top:14px}.note{color:var(--muted);font-size:.9rem}
+    fieldset{border:0;padding:0;margin:0}.question{padding:20px 0;border-top:1px solid var(--line)}.question:first-child{border-top:0}.question p{margin:0 0 10px}.choice{display:block;padding:7px 0}.choice input,.weak input{accent-color:var(--accent);margin-right:8px}input[type=text],textarea{width:100%;border:1px solid var(--line);border-radius:11px;padding:11px 12px;background:var(--card);color:var(--ink)}textarea{min-height:100px;resize:vertical}.output textarea{min-height:140px}.counter{font-size:.78rem;color:var(--muted);text-align:right}.difficulty{display:flex;gap:8px;flex-wrap:wrap}.difficulty label{cursor:pointer}.difficulty input{position:absolute;opacity:0}.difficulty span{display:grid;place-items:center;width:42px;height:42px;border:1px solid var(--line);border-radius:50%}.difficulty input:checked+span{background:var(--accent);color:var(--card);border-color:var(--accent)}.weak-list{display:grid;grid-template-columns:1fr 1fr;gap:8px}.weak{padding:10px 12px;border:1px solid var(--line);border-radius:10px}.review{background:var(--warn)}details summary{cursor:pointer;font-weight:700}details[open] summary{margin-bottom:12px}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.btn{border:0;border-radius:12px;padding:11px 17px;cursor:pointer;font-weight:700}.primary{background:var(--accent);color:#fff}.secondary{background:var(--soft);color:var(--ink);border:1px solid var(--line)}.compact{padding:8px 12px;font-size:.85rem}.btn:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid color-mix(in srgb,var(--accent) 35%,transparent);outline-offset:2px}.result{display:none;margin-top:18px;scroll-margin-top:74px}.result.show{display:block}.result textarea{height:clamp(360px,58vh,560px);min-height:360px;font-family:Consolas,"Microsoft JhengHei",monospace;font-size:.9rem;line-height:1.65;-webkit-user-select:text;user-select:text;touch-action:manipulation}.status{min-height:1.7em;color:var(--accent);font-weight:700}.footer-note{margin-top:36px;color:var(--muted);font-size:.82rem;text-align:center}
+    @media(max-width:620px){body{overflow-x:hidden}.page{width:100%;max-width:100%;margin:0;border:0;border-radius:0}.vocab-grid,.grammar-grid,.weak-list{grid-template-columns:minmax(0,1fr)}.pronunciation{gap:6px}.pron{max-width:100%;padding:6px 8px;font-size:.76rem}nav{top:0}.actions .btn{width:100%}main{min-width:0;padding-bottom:42px}.reading .jp,.sentence .jp,.example{line-height:2.15;overflow-wrap:anywhere}textarea,input{max-width:100%}}
+    @media print{body{background:#fff}.page{width:100%;margin:0;border:0;box-shadow:none}nav,.actions,.result{display:none!important}section{break-inside:avoid}.card{break-inside:avoid}}
+  </style>
+</head>
+<body>
+<article class="page">
+  <header>
+    <p class="eyebrow">Japanese Learning · Template V1</p>
+    <h1 lang="ja">駅前の移動を考える</h1>
+    <p class="subtitle">思考車站前的移動｜比較城市交通改善方案。</p>
+    <div class="meta"><span class="tag">Lesson ID：JP-V1-2026-W34-D5</span><span class="tag">2026-08-21</span><span class="tag">N3→N2</span><span class="tag">25–35 分鐘</span><span class="tag">城市／交通</span></div>
+  </header>
+  <nav aria-label="本課導覽"><a href="#reading">Reading First</a><a href="#sentences">10 句</a><a href="#grammar">句型</a><a href="#vocabulary">單字</a><a href="#quiz">Quiz</a><a href="#output">Output</a><a href="#review">前課複習</a><a href="#feedback">回傳</a></nav>
+  <main>
+    <section id="reading">
+      <span class="kicker">01 · Reading First</span><h2>先讀完，再查單字</h2>
+      <p class="lead">找出車站前廣場改善的目的與做法。</p>
+      <div class="card reading"><p class="jp" lang="ja"><ruby>駅前<rt>えきまえ</rt></ruby>の<ruby>広場<rt>ひろば</rt></ruby>では、バスと<ruby>自転車<rt>じてんしゃ</rt></ruby>の<ruby>動線<rt>どうせん</rt></ruby>が<ruby>重<rt>かさ</rt></ruby>なり、<ruby>朝<rt>あさ</rt></ruby>は<ruby>混雑<rt>こんざつ</rt></ruby>します。<ruby>市<rt>し</rt></ruby>は、<ruby>歩行<rt>ほこう</rt></ruby><ruby>者<rt>しゃ</rt></ruby>が<ruby>安全<rt>あんぜん</rt></ruby>に<ruby>移動<rt>いどう</rt></ruby>できるように、<ruby>乗<rt>の</rt></ruby>り<ruby>場<rt>ば</rt></ruby>の<ruby>位置<rt>いち</rt></ruby>を<ruby>分<rt>わ</rt></ruby>ける<ruby>案<rt>あん</rt></ruby>を<ruby>検討<rt>けんとう</rt></ruby>しています。<ruby>利用<rt>りよう</rt></ruby><ruby>者<rt>しゃ</rt></ruby>には、<ruby>工事<rt>こうじ</rt></ruby><ruby>中<rt>ちゅう</rt></ruby>も<ruby>案内<rt>あんない</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>するように<ruby>求<rt>もと</rt></ruby>めます。</p><p class="translation" lang="zh-Hant">車站前巴士與自行車動線重疊，早上壅塞。市府為讓行人安全移動，研議分開乘車處，也要求使用者施工中確認指引。</p></div>
+      <div class="pronunciation" lang="ja" aria-label="短文關鍵詞讀音"><span class="pron"><span class="kanji">【駅前】</span><span class="kana">えきまえ</span><span class="compose">＋</span><span class="kanji">【広場】</span><span class="kana">ひろば</span></span></div>
+      <p class="pron-note">只在資料明確標示已確認時顯示音調；未確認者不標數字。</p>
+      <div class="vocab-grid" aria-label="閱讀詞彙"><div class="vocab"><span class="dict-entry" lang="ja"><span class="bracket">【動線】</span><span class="kana">どうせん</span></span><span class="meaning" lang="zh-Hant">動線</span></div><div class="vocab"><span class="dict-entry" lang="ja"><span class="bracket">【混雑】</span><span class="kana">こんざつ</span></span><span class="meaning" lang="zh-Hant">壅塞、擁擠</span></div></div>
+    </section>
+
+    <section id="sentences">
+      <span class="kicker">02 · Useful Sentences</span><h2>10 句實用句</h2>
+      <div class="sentence"><span class="num">01</span><p class="jp" lang="ja"><ruby>駅前<rt>えきまえ</rt></ruby>が<ruby>混雑<rt>こんざつ</rt></ruby>しています。</p><p class="zh" lang="zh-Hant">站前很擁擠。</p></div>
+      <div class="sentence"><span class="num">02</span><p class="jp" lang="ja"><ruby>動線<rt>どうせん</rt></ruby>が<ruby>重<rt>かさ</rt></ruby>なっています。</p><p class="zh" lang="zh-Hant">動線重疊。</p></div>
+      <div class="sentence"><span class="num">03</span><p class="jp" lang="ja"><ruby>安全<rt>あんぜん</rt></ruby>に<ruby>移動<rt>いどう</rt></ruby>できるように<ruby>分<rt>わ</rt></ruby>けます。</p><p class="zh" lang="zh-Hant">為安全移動而分開。</p></div>
+      <div class="sentence"><span class="num">04</span><p class="jp" lang="ja"><ruby>案内<rt>あんない</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>するようにお<ruby>願<rt>ねが</rt></ruby>いします。</p><p class="zh" lang="zh-Hant">請確認指引。</p></div>
+      <div class="sentence"><span class="num">05</span><p class="jp" lang="ja"><ruby>乗<rt>の</rt></ruby>り<ruby>場<rt>ば</rt></ruby>を<ruby>移<rt>うつ</rt></ruby>します。</p><p class="zh" lang="zh-Hant">移動乘車處。</p></div>
+      <div class="sentence"><span class="num">06</span><p class="jp" lang="ja"><ruby>工事<rt>こうじ</rt></ruby><ruby>中<rt>ちゅう</rt></ruby>は<ruby>通路<rt>つうろ</rt></ruby>が<ruby>変<rt>か</rt></ruby>わります。</p><p class="zh" lang="zh-Hant">施工中通道改變。</p></div>
+      <div class="sentence"><span class="num">07</span><p class="jp" lang="ja"><ruby>自転車<rt>じてんしゃ</rt></ruby>の<ruby>場所<rt>ばしょ</rt></ruby>を<ruby>分<rt>わ</rt></ruby>けます。</p><p class="zh" lang="zh-Hant">分開自行車空間。</p></div>
+      <div class="sentence"><span class="num">08</span><p class="jp" lang="ja"><ruby>朝<rt>あさ</rt></ruby>の<ruby>利用<rt>りよう</rt></ruby><ruby>者<rt>しゃ</rt></ruby>が<ruby>多<rt>おお</rt></ruby>いです。</p><p class="zh" lang="zh-Hant">早上使用者多。</p></div>
+      <div class="sentence"><span class="num">09</span><p class="jp" lang="ja"><ruby>現地<rt>げんち</rt></ruby>で<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>調<rt>しら</rt></ruby>べます。</p><p class="zh" lang="zh-Hant">在現場調查。</p></div>
+      <div class="sentence"><span class="num">10</span><p class="jp" lang="ja"><ruby>複数<rt>ふくすう</rt></ruby>の<ruby>案<rt>あん</rt></ruby>を<ruby>比較<rt>ひかく</rt></ruby>します。</p><p class="zh" lang="zh-Hant">比較多個方案。</p></div>
+    </section>
+
+    <section id="grammar">
+      <span class="kicker">03 · Key Patterns</span><h2>重點句型</h2><div class="grammar-grid"><article class="card grammar"><h3>〜ように（提醒／要求）</h3><p class="pattern" lang="ja">動詞普通形＋ように言う／求める</p><p>轉述提醒、要求或指示。</p><p class="example" lang="ja"><ruby>案内<rt>あんない</rt></ruby>を<ruby>見<rt>み</rt></ruby>るようにお<ruby>願<rt>ねが</rt></ruby>いします。</p><p class="note">請查看指引。</p></article><article class="card grammar"><h3>〜ために</h3><p class="pattern" lang="ja">名詞＋の／動詞普通形＋ために</p><p>表示明確目的。</p><p class="example" lang="ja"><ruby>安全<rt>あんぜん</rt></ruby>のために<ruby>通路<rt>つうろ</rt></ruby>を<ruby>分<rt>わ</rt></ruby>けます。</p><p class="note">為安全分開通道。</p></article></div>
+    </section>
+
+    <section id="vocabulary">
+      <span class="kicker">04 · Vocabulary</span><h2>本課單字</h2><div class="vocab-grid"><div class="vocab"><span class="dict-entry" lang="ja"><span class="dict-unit"><span class="bracket">【駅前】</span><span class="kana">えきまえ</span></span><span class="compose">＋</span><span class="dict-unit"><span class="bracket">【広場】</span><span class="kana">ひろば</span></span><span class="whole">→ 駅前広場</span></span><span class="meaning" lang="zh-Hant">站前廣場</span></div><div class="vocab"><span class="dict-entry" lang="ja"><span class="bracket">【歩行者】</span><span class="kana">ほこうしゃ</span></span><span class="meaning" lang="zh-Hant">行人</span></div></div>
+    </section>
+
+    <section id="quiz">
+      <span class="kicker">05 · Quick Quiz</span><h2>快速練習</h2><div class="card"><fieldset><div class="question"><p><strong>Q1.</strong> 早上壅塞的原因是？</p><label class="choice"><input type="radio" name="q1" value="A">A. 動線重疊</label><label class="choice"><input type="radio" name="q1" value="B">B. 車站關閉</label></div><div class="question"><p><strong>Q2.</strong> 填空：案内を見る（　）お願いします。</p><input type="text" id="q2" autocomplete="off" placeholder="請用日文填答"></div><div class="question"><p><strong>Q3.</strong> 用「〜ように」寫一句交通提醒或要求。</p><textarea id="q3" placeholder="請輸入答案"></textarea></div><div class="question"><p><strong>Q4.</strong> 市府打算如何改善安全？</p><textarea id="q4" placeholder="請輸入答案"></textarea></div></fieldset></div>
+    </section>
+
+    <section id="output">
+      <span class="kicker">06 · Output Practice</span><h2>輸出練習</h2><div class="card output"><p>請用 2 句日文提出一項車站或街道改善，並加入一個給使用者的提醒。</p><p class="note" lang="ja">例：<ruby>歩行<rt>ほこう</rt></ruby><ruby>者<rt>しゃ</rt></ruby>の<ruby>通路<rt>つうろ</rt></ruby>を<ruby>広<rt>ひろ</rt></ruby>げます。<ruby>案内<rt>あんない</rt></ruby>を<ruby>見<rt>み</rt></ruby>るようにお<ruby>願<rt>ねが</rt></ruby>いします。</p><textarea id="outputText" maxlength="450" placeholder="請用日文作答"></textarea><div class="counter"><span id="count">0</span> / 450</div></div>
+    </section>
+
+    <section id="review">
+      <span class="kicker">07 · Previous Review</span><h2>前課複習區</h2><div class="card review"><details><summary>展開 2 分鐘複習｜〜を踏まえて</summary><p>根據調查或意見選擇方案。</p><p lang="ja"><ruby>調査<rt>ちょうさ</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>乗<rt>の</rt></ruby>り<ruby>場<rt>ば</rt></ruby>を<ruby>移<rt>うつ</rt></ruby>します。</p><label for="reviewAnswer"><strong>小題：</strong>寫一句依調查改善交通的句子。</label><textarea id="reviewAnswer" placeholder="請輸入日文句子"></textarea></details></div>
+    </section>
+
+    <section id="feedback">
+      <span class="kicker">08 · Feedback</span><h2>自評與回傳 ChatGPT</h2><div class="card">
+      <h3>今天的難度</h3><div class="difficulty" role="radiogroup" aria-label="自評難度"><label><input type="radio" name="difficulty" value="1"><span>1</span></label><label><input type="radio" name="difficulty" value="2"><span>2</span></label><label><input type="radio" name="difficulty" value="3"><span>3</span></label><label><input type="radio" name="difficulty" value="4"><span>4</span></label><label><input type="radio" name="difficulty" value="5"><span>5</span></label></div><p class="note">1＝太簡單；5＝很吃力</p>
+      <h3>標記不熟內容</h3><div class="weak-list"><label class="weak"><input type="checkbox" name="weak" value="〜ように（提醒／要求）">〜ように（提醒／要求）</label><label class="weak"><input type="checkbox" name="weak" value="〜を踏まえて">〜を踏まえて</label><label class="weak"><input type="checkbox" name="weak" value="城市／交通單字">城市／交通單字</label><label class="weak"><input type="checkbox" name="weak" value="閱讀理解">閱讀理解</label><label class="weak"><input type="checkbox" name="weak" value="日文輸出">日文輸出</label></div><label for="weakOther"><strong>其他不熟或想複習的內容</strong></label><input type="text" id="weakOther" placeholder="自由填寫">
+      <div class="actions"><button class="btn primary" id="prepare" type="button">產生給 ChatGPT 的回饋文字</button><button class="btn secondary" id="clear" type="button">清除本課填答</button></div><p class="status" id="status" aria-live="polite"></p>
+      <div class="result" id="result"><label for="resultText"><strong>給 ChatGPT 的純文字回饋</strong></label><textarea id="resultText" readonly spellcheck="false" aria-describedby="status"></textarea><div class="actions"><button class="btn secondary compact" id="copyAgain" type="button">嘗試一鍵複製</button></div></div></div>
+    </section>
+    <p class="footer-note">本頁為單一 HTML 測試教材。答案只保存在目前瀏覽器，不會自動上傳。</p>
+  </main>
+</article>
+<script>
+  const lessonId='JP-V1-2026-W34-D5';
+  const ids=["q2", "q3", "q4", "outputText", "reviewAnswer", "weakOther"];
+  const allInputs=[...document.querySelectorAll('input,textarea')].filter(el=>el.id!=='resultText');
+  function save(){const data={};allInputs.forEach(el=>{if(el.type==='radio'||el.type==='checkbox')data[el.name+'|'+el.value]=el.checked;else data[el.id]=el.value});localStorage.setItem(lessonId,JSON.stringify(data));}
+  function load(){try{const data=JSON.parse(localStorage.getItem(lessonId)||'{}');allInputs.forEach(el=>{if(el.type==='radio'||el.type==='checkbox')el.checked=!!data[el.name+'|'+el.value];else if(data[el.id]!=null)el.value=data[el.id]});updateCount()}catch(e){}}
+  function value(name){return document.querySelector(`input[name="${name}"]:checked`)?.value||'未填';}
+  function text(id){return document.getElementById(id).value.trim()||'未填';}
+  function build(){const weak=[...document.querySelectorAll('input[name="weak"]:checked')].map(x=>x.value);const other=text('weakOther');if(other!=='未填')weak.push(other);return `[日文學習回饋]\nLesson ID: ${lessonId}\n主題: 思考車站前的移動\n\nQuick Quiz\nQ1: ${value('q1')}\nQ2: ${text('q2')}\nQ3: ${text('q3')}\nQ4: ${text('q4')}\n\nOutput Practice:\n${text('outputText')}\n\n前課複習（〜を踏まえて）:\n${text('reviewAnswer')}\n\n自評難度: ${value('difficulty')} / 5\n不熟內容: ${weak.length?weak.join('、'):'未標記'}\n\n請幫我：\n1. 批改答案與日文輸出。\n2. 說明主要錯誤與更自然的表達。\n3. 判斷需要加強的項目，作為下一週教材調整依據。`;}
+  function generateFeedback(){const out=document.getElementById('resultText');const result=document.getElementById('result');out.value=String(build());result.classList.add('show');document.getElementById('status').textContent='已產生回饋文字。iPhone 請在文字框內長按，選擇「全選」→「拷貝」，再貼到 ChatGPT。';result.scrollIntoView({behavior:'smooth',block:'start'});out.focus();out.select();out.setSelectionRange(0,out.value.length)}
+  async function tryOneTapCopy(){const out=document.getElementById('resultText');const plainText=String(out.value??'');try{if(!navigator.clipboard||typeof navigator.clipboard.writeText!=='function')throw new Error('Clipboard API unavailable');await navigator.clipboard.writeText(plainText);document.getElementById('status').textContent='已複製'}catch(e){document.getElementById('status').textContent='請使用上方文字框手動全選／拷貝'}}
+  allInputs.forEach(el=>el.addEventListener('input',save));allInputs.forEach(el=>el.addEventListener('change',save));
+  document.getElementById('outputText').addEventListener('input',updateCount);function updateCount(){document.getElementById('count').textContent=document.getElementById('outputText').value.length}
+  document.getElementById('prepare').addEventListener('click',generateFeedback);document.getElementById('copyAgain').addEventListener('click',tryOneTapCopy);
+  document.getElementById('clear').addEventListener('click',()=>{if(!confirm('確定清除本課所有填答與自評嗎？'))return;allInputs.forEach(el=>{if(el.type==='radio'||el.type==='checkbox')el.checked=false;else el.value=''});localStorage.removeItem(lessonId);document.getElementById('resultText').value='';document.getElementById('result').classList.remove('show');document.getElementById('status').textContent='已清除本課填答。';updateCount()});load();
+</script>
+</body>
+</html>
