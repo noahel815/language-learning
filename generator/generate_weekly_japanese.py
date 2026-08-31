@@ -35,7 +35,12 @@ def require(condition: bool, message: str) -> None:
 def validate_week(data: dict, schema: dict, adjustments: dict) -> list[dict]:
     require(data.get("templateVersion") == schema["properties"]["templateVersion"]["const"], "templateVersion 不符")
     lessons = data.get("lessons")
-    require(isinstance(lessons, list) and len(lessons) == 7, "weekly content 必須剛好有 7 課")
+    partial_week = data.get("partialWeek", False)
+    require(isinstance(partial_week, bool), "partialWeek 必須是 boolean")
+    if partial_week:
+        require(isinstance(lessons, list) and 1 <= len(lessons) <= 7, "partial week 必須有 1–7 課")
+    else:
+        require(isinstance(lessons, list) and len(lessons) == 7, "完整 weekly content 必須剛好有 7 課")
     required = schema["required"]
     lesson_required = schema["properties"]["lesson"]["required"]
     id_pattern = re.compile(schema["properties"]["lesson"]["properties"]["id"]["pattern"])
@@ -201,7 +206,7 @@ def main() -> int:
     print(f"已產生 {len(written)} 課：")
     for path in written:
         print(f"  - {path.relative_to(ROOT)}")
-    validation = subprocess.run([sys.executable, str(GENERATOR / "validate_lessons.py"), *map(str, written)], cwd=ROOT)
+    validation = subprocess.run([sys.executable, str(GENERATOR / "validate_lessons.py"), "--expected-count", str(len(written)), *map(str, written)], cwd=ROOT)
     require(validation.returncode == 0, "QA 未通過，不會發布")
     if args.publish:
         subprocess.run(["git", "add", "generator", "japanese", "index.html", "README.md", "run_weekly_japanese.bat"], cwd=ROOT, check=True)

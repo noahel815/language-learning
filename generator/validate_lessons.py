@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import re
 import sys
+import argparse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -17,11 +18,17 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def main(paths: list[str]) -> int:
-    files = [Path(item).resolve() for item in paths] if paths else sorted((ROOT / "japanese").glob("JP-V1-????-W??-D?.html"))
+def main(argv: list[str]) -> int:
+    parser = argparse.ArgumentParser(description="Validate generated Japanese lessons")
+    parser.add_argument("--expected-count", type=int, default=7)
+    parser.add_argument("paths", nargs="*")
+    args = parser.parse_args(argv)
+    files = [Path(item).resolve() for item in args.paths] if args.paths else sorted((ROOT / "japanese").glob("JP-V1-????-W??-D?.html"))
     failures: list[str] = []
-    if len(files) != 7:
-        failures.append(f"應有 7 份 lesson，實際 {len(files)} 份")
+    if not 1 <= args.expected_count <= 7:
+        failures.append(f"expected-count 必須介於 1–7，實際 {args.expected_count}")
+    if len(files) != args.expected_count:
+        failures.append(f"應有 {args.expected_count} 份 lesson，實際 {len(files)} 份")
     if not PROTECTED.exists() or sha256(PROTECTED) != EXPECTED_PROTECTED_SHA256:
         failures.append("JP-V1-001 不存在或 SHA-256 已改變")
     forbidden_value = re.compile(r"(?i)(api[_-]?key|token|secret)\s*[:=]\s*['\"][^'\"]{8,}")
@@ -52,7 +59,7 @@ def main(paths: list[str]) -> int:
         for failure in failures:
             print(f"  - {failure}")
         return 1
-    print("QA PASSED：7/7 lessons；placeholder、HTML、語系、ruby、互動、敏感值與靜態 mobile CSS 檢查通過；JP-V1-001 hash 未變。")
+    print(f"QA PASSED：{len(files)}/{args.expected_count} lessons；placeholder、HTML、語系、ruby、互動、敏感值與靜態 mobile CSS 檢查通過；JP-V1-001 hash 未變。")
     return 0
 
 

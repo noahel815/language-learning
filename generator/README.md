@@ -45,6 +45,8 @@ py -3 generator\generate_weekly_japanese.py --content generator\weekly-content.j
 
 重新執行同一週會更新同一週的 7 課；不會覆寫 `JP-V1-001.html`。若要保留已發布週次，請在換週前完成 Git commit。
 
+補產到某週目前日期時，可在 content JSON 根層加入 `"partialWeek": true`，並提供該週已到日期的 1–7 課。未標記 partial week 的正常週次仍強制 7 課，避免不小心漏課。
+
 ## QA 檢查範圍
 
 `validate_lessons.py` 會確認：
