@@ -19,7 +19,8 @@
         "summaryZh": { "type": "string", "minLength": 1 },
         "jlptLevel": { "type": "string", "pattern": "N[1-5].*N[1-5]" },
         "duration": { "type": "string", "minLength": 1 },
-        "domain": { "type": "string", "minLength": 1 }
+        "domain": { "type": "string", "minLength": 1 },
+        "trendSource": { "enum": ["threads", "google_trends", "nikkei", "travel", "review"] }
       }
     },
     "reading": {

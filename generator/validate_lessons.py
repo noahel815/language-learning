@@ -32,7 +32,8 @@ def main(argv: list[str]) -> int:
     if not PROTECTED.exists() or sha256(PROTECTED) != EXPECTED_PROTECTED_SHA256:
         failures.append("JP-V1-001 不存在或 SHA-256 已改變")
     forbidden_value = re.compile(r"(?i)(api[_-]?key|token|secret)\s*[:=]\s*['\"][^'\"]{8,}")
-    required = ['<!doctype html>', '<html lang="zh-Hant">', '<meta name="viewport"', ':lang(ja)', '<ruby>', '<rt>', 'id="quiz"', 'Quick Quiz', 'id="output"', 'Output Practice', 'id="feedback"', 'id="resultText"', 'function build()', 'navigator.clipboard', 'localStorage', '@media(max-width:620px)', 'overflow-x:hidden']
+    required = ['<!doctype html>', '<html lang="zh-Hant">', '<meta name="viewport"', '<meta name="trend-source"', ':lang(ja)', '<ruby>', '<rt>', 'id="quiz"', 'Quick Quiz', 'id="output"', 'Output Practice', 'id="feedback"', 'id="resultText"', 'function build()', 'navigator.clipboard', 'localStorage', '@media(max-width:620px)', 'overflow-x:hidden']
+    allowed_sources = {"threads", "google_trends", "nikkei", "travel", "review"}
     ids: set[str] = set()
     for path in files:
         if not path.exists():
@@ -50,6 +51,9 @@ def main(argv: list[str]) -> int:
         for marker in required:
             if marker not in text:
                 failures.append(f"{lesson_id} 缺少：{marker}")
+        source_match = re.search(r'<meta name="trend-source" content="([^"]+)">', text)
+        if source_match and source_match.group(1) not in allowed_sources:
+            failures.append(f"{lesson_id} trend-source 不在允許清單：{source_match.group(1)}")
         if forbidden_value.search(text):
             failures.append(f"{lesson_id} 疑似含敏感值")
         if 'width:min(880px,calc(100% - 28px))' not in text or 'max-width:100%' not in text:

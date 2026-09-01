@@ -1,0 +1,1716 @@
+{
+  "templateVersion": "Japanese Lesson Template V1",
+  "week": "2026-W37",
+  "contentPolicy": "2026-09-01 即時題材研究後原創；正文不複製貼文、榜單、摘要或新聞原文。",
+  "lessons": [
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W37-D1",
+        "date": "2026-09-07",
+        "topicJa": "住まい選びと浸水リスク",
+        "topicZh": "選住宅與淹水風險",
+        "summaryZh": "從地方問答熱度延伸居住選擇與防災規劃。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "城市／居住",
+        "trendSource": "threads"
+      },
+      "reading": {
+        "leadZh": "找出喜好、交通與風險資訊如何一起影響選址。",
+        "japaneseHtml": "家を選ぶとき、価格や駅からの距離だけでなく、<ruby>浸水<rt>しんすい</rt></ruby>の<ruby>危険<rt>きけん</rt></ruby>も確認する必要があります。地域の<ruby>地形<rt>ちけい</rt></ruby>と<ruby>災害<rt>さいがい</rt></ruby><ruby>履歴<rt>りれき</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>避難<rt>ひなん</rt></ruby>しやすい場所を考えます。大雨が増えても慌てないように、<ruby>自治体<rt>じちたい</rt></ruby>の地図を保存します。気候の変化に<ruby>伴<rt>ともな</rt></ruby>って、住まい選びの条件も変わります。",
+        "translationZh": "選房時除價格與車站距離，也要確認淹水風險。應根據地形與災害紀錄思考易避難的位置，並保存政府地圖以免豪雨時慌張；氣候變化也會改變住宅選擇條件。",
+        "pronunciation": [
+          {
+            "surface": "浸水リスク",
+            "reading": "しんすいりすく",
+            "meaningZh": "淹水風險",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "浸水",
+                "reading": "しんすい",
+                "meaningZh": "淹水",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "リスク",
+                "reading": "りすく",
+                "meaningZh": "風險",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "浸水リスク",
+            "reading": "しんすいりすく",
+            "meaningZh": "淹水風險",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "浸水",
+                "reading": "しんすい",
+                "meaningZh": "淹水",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "リスク",
+                "reading": "りすく",
+                "meaningZh": "風險",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          },
+          {
+            "surface": "災害履歴",
+            "reading": "さいがいりれき",
+            "meaningZh": "災害紀錄",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "災害",
+                "reading": "さいがい",
+                "meaningZh": "災害",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "履歴",
+                "reading": "りれき",
+                "meaningZh": "紀錄",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          },
+          {
+            "surface": "地形",
+            "reading": "ちけい",
+            "meaningZh": "地形",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "<ruby>浸水<rt>しんすい</rt></ruby>の危険を確認します。",
+          "translationZh": "確認淹水風險。"
+        },
+        {
+          "japaneseHtml": "駅からの距離だけで決めません。",
+          "translationZh": "不只看離車站距離。"
+        },
+        {
+          "japaneseHtml": "<ruby>地形<rt>ちけい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて選びます。",
+          "translationZh": "根據地形選擇。"
+        },
+        {
+          "japaneseHtml": "<ruby>避難<rt>ひなん</rt></ruby>しやすい場所を探します。",
+          "translationZh": "尋找容易避難的位置。"
+        },
+        {
+          "japaneseHtml": "この<ruby>話題<rt>わだい</rt></ruby>を一つの<ruby>情報<rt>じょうほう</rt></ruby>だけで<ruby>判断<rt>はんだん</rt></ruby>しません。",
+          "translationZh": "不只憑單一資訊判斷這個話題。"
+        },
+        {
+          "japaneseHtml": "<ruby>複数<rt>ふくすう</rt></ruby>の<ruby>見方<rt>みかた</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べます。",
+          "translationZh": "比較多種觀點。"
+        },
+        {
+          "japaneseHtml": "<ruby>背景<rt>はいけい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて<ruby>判断<rt>はんだん</rt></ruby>します。",
+          "translationZh": "根據背景作判斷。"
+        },
+        {
+          "japaneseHtml": "<ruby>誤解<rt>ごかい</rt></ruby>しないように、<ruby>出典<rt>しゅってん</rt></ruby>と<ruby>日付<rt>ひづけ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します。",
+          "translationZh": "為避免誤解而確認來源與日期。"
+        },
+        {
+          "japaneseHtml": "<ruby>関心<rt>かんしん</rt></ruby>の<ruby>高<rt>たか</rt></ruby>まりに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>説明<rt>せつめい</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>になります。",
+          "translationZh": "隨關注升高，說明也變得必要。"
+        },
+        {
+          "japaneseHtml": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>く<ruby>伝<rt>つた</rt></ruby>えます。",
+          "translationZh": "簡短表達自己的意見。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "浸水リスク",
+          "reading": "しんすいりすく",
+          "meaningZh": "淹水風險",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "浸水",
+              "reading": "しんすい",
+              "meaningZh": "淹水",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "リスク",
+              "reading": "りすく",
+              "meaningZh": "風險",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        },
+        {
+          "surface": "災害履歴",
+          "reading": "さいがいりれき",
+          "meaningZh": "災害紀錄",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "災害",
+              "reading": "さいがい",
+              "meaningZh": "災害",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "履歴",
+              "reading": "りれき",
+              "meaningZh": "紀錄",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        },
+        {
+          "surface": "地形",
+          "reading": "ちけい",
+          "meaningZh": "地形",
+          "pitch": null,
+          "pitchVerified": false
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜だけでなく",
+          "formation": "名詞＋だけでなく",
+          "explanationZh": "表示除了前項，還要考慮後項。",
+          "example": {
+            "japaneseHtml": "価格だけでなく、<ruby>安全<rt>あんぜん</rt></ruby>も考えます。",
+            "translationZh": "不只考慮價格，也考慮安全。"
+          }
+        },
+        {
+          "name": "〜ように／〜を踏まえて",
+          "formation": "動詞普通形＋ように／名詞＋を踏まえて",
+          "explanationZh": "分別表示目的、避免，以及將依據納入判斷。",
+          "example": {
+            "japaneseHtml": "<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>間違<rt>まちが</rt></ruby>えないように<ruby>確認<rt>かくにん</rt></ruby>します。",
+            "translationZh": "依情況判斷，並為避免錯誤而確認。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "選住宅時短文建議加入哪項條件？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. 浸水の危険"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. 人気だけ"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：背景を（　）まえて判断します。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句與本課主題有關的目的或提醒。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜に伴って」說明本課議題的一項變化。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用 3–4 句日文說明你的居住選址條件。",
+        "exampleJaHtml": "<ruby>地形<rt>ちけい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、安全な場所を選びます。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜を踏まえて",
+        "explanationZh": "把既有弱點句型放回新情境，確認能自行產出。",
+        "exampleJaHtml": "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>誤解<rt>ごかい</rt></ruby>しないように<ruby>説明<rt>せつめい</rt></ruby>します。",
+        "promptZh": "請用「〜を踏まえて」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "城市風險論述",
+        "閱讀理解",
+        "短篇自由輸出"
+      ]
+    },
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W37-D2",
+        "date": "2026-09-08",
+        "topicJa": "抽選型の交通政策を考える",
+        "topicZh": "思考抽獎型交通政策",
+        "summaryZh": "從交通抽獎熱搜練習誘因與成效判讀。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "政策／交通",
+        "trendSource": "google_trends"
+      },
+      "reading": {
+        "leadZh": "思考獎勵能否改變行為，以及如何衡量。",
+        "japaneseHtml": "交通ルールを守った人に<ruby>抽選<rt>ちゅうせん</rt></ruby>で特典を出す政策は、関心を集めやすい方法です。しかし、参加者が増えただけで事故が減ったとは<ruby>限<rt>かぎ</rt></ruby>りません。<ruby>違反<rt>いはん</rt></ruby>や事故のデータを<ruby>踏<rt>ふ</rt></ruby>まえて、効果を確認します。特典がなくても安全な行動が続くように、教育や道路の改善も必要です。",
+        "translationZh": "對守規則者提供抽獎獎勵容易引起關注，但參加人數增加不代表事故一定減少。應根據違規與事故資料評估成效，也要透過教育與道路改善讓安全行為在沒有獎勵時持續。",
+        "pronunciation": [
+          {
+            "surface": "抽選",
+            "reading": "ちゅうせん",
+            "meaningZh": "抽獎",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "抽選",
+            "reading": "ちゅうせん",
+            "meaningZh": "抽獎",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "交通違反",
+            "reading": "こうつういはん",
+            "meaningZh": "交通違規",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "交通",
+                "reading": "こうつう",
+                "meaningZh": "交通",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "違反",
+                "reading": "いはん",
+                "meaningZh": "違規",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          },
+          {
+            "surface": "特典",
+            "reading": "とくてん",
+            "meaningZh": "獎勵、優惠",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "<ruby>抽選<rt>ちゅうせん</rt></ruby>に参加します。",
+          "translationZh": "參加抽獎。"
+        },
+        {
+          "japaneseHtml": "参加者の数だけで効果を決めません。",
+          "translationZh": "不只憑參加人數判斷成效。"
+        },
+        {
+          "japaneseHtml": "事故のデータを<ruby>踏<rt>ふ</rt></ruby>まえて評価します。",
+          "translationZh": "根據事故資料評估。"
+        },
+        {
+          "japaneseHtml": "安全な行動が続くように工夫します。",
+          "translationZh": "設法讓安全行為持續。"
+        },
+        {
+          "japaneseHtml": "この<ruby>話題<rt>わだい</rt></ruby>を一つの<ruby>情報<rt>じょうほう</rt></ruby>だけで<ruby>判断<rt>はんだん</rt></ruby>しません。",
+          "translationZh": "不只憑單一資訊判斷這個話題。"
+        },
+        {
+          "japaneseHtml": "<ruby>複数<rt>ふくすう</rt></ruby>の<ruby>見方<rt>みかた</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べます。",
+          "translationZh": "比較多種觀點。"
+        },
+        {
+          "japaneseHtml": "<ruby>背景<rt>はいけい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて<ruby>判断<rt>はんだん</rt></ruby>します。",
+          "translationZh": "根據背景作判斷。"
+        },
+        {
+          "japaneseHtml": "<ruby>誤解<rt>ごかい</rt></ruby>しないように、<ruby>出典<rt>しゅってん</rt></ruby>と<ruby>日付<rt>ひづけ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します。",
+          "translationZh": "為避免誤解而確認來源與日期。"
+        },
+        {
+          "japaneseHtml": "<ruby>関心<rt>かんしん</rt></ruby>の<ruby>高<rt>たか</rt></ruby>まりに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>説明<rt>せつめい</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>になります。",
+          "translationZh": "隨關注升高，說明也變得必要。"
+        },
+        {
+          "japaneseHtml": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>く<ruby>伝<rt>つた</rt></ruby>えます。",
+          "translationZh": "簡短表達自己的意見。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "抽選",
+          "reading": "ちゅうせん",
+          "meaningZh": "抽獎",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "交通違反",
+          "reading": "こうつういはん",
+          "meaningZh": "交通違規",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "交通",
+              "reading": "こうつう",
+              "meaningZh": "交通",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "違反",
+              "reading": "いはん",
+              "meaningZh": "違規",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        },
+        {
+          "surface": "特典",
+          "reading": "とくてん",
+          "meaningZh": "獎勵、優惠",
+          "pitch": null,
+          "pitchVerified": false
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜かどうか",
+          "formation": "普通形＋かどうか",
+          "explanationZh": "表示是否成立仍需確認。",
+          "example": {
+            "japaneseHtml": "事故が減ったかどうか確認します。",
+            "translationZh": "確認事故是否減少。"
+          }
+        },
+        {
+          "name": "〜ように／〜を踏まえて",
+          "formation": "動詞普通形＋ように／名詞＋を踏まえて",
+          "explanationZh": "分別表示目的、避免，以及將依據納入判斷。",
+          "example": {
+            "japaneseHtml": "<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>間違<rt>まちが</rt></ruby>えないように<ruby>確認<rt>かくにん</rt></ruby>します。",
+            "translationZh": "依情況判斷，並為避免錯誤而確認。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "政策效果應依據什麼判斷？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. 事故や違反のデータ"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. 参加者数だけ"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：背景を（　）まえて判断します。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句與本課主題有關的目的或提醒。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜に伴って」說明本課議題的一項變化。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用 3–4 句日文評論一項獎勵型政策。",
+        "exampleJaHtml": "参加者が増えても、効果があるとは<ruby>限<rt>かぎ</rt></ruby>りません。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜に伴って",
+        "explanationZh": "把既有弱點句型放回新情境，確認能自行產出。",
+        "exampleJaHtml": "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>誤解<rt>ごかい</rt></ruby>しないように<ruby>説明<rt>せつめい</rt></ruby>します。",
+        "promptZh": "請用「〜に伴って」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "政策成效判讀",
+        "閱讀理解",
+        "短篇自由輸出"
+      ]
+    },
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W37-D3",
+        "date": "2026-09-09",
+        "topicJa": "AIデータセンターと電力",
+        "topicZh": "AI 資料中心與電力",
+        "summaryZh": "從電力需求成長理解基礎設施取捨。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "科技／能源",
+        "trendSource": "nikkei"
+      },
+      "reading": {
+        "leadZh": "找出 AI 服務成長為何同時牽動電網與效率。",
+        "japaneseHtml": "AIサービスの拡大に<ruby>伴<rt>ともな</rt></ruby>って、データセンターの<ruby>電力<rt>でんりょく</rt></ruby><ruby>需要<rt>じゅよう</rt></ruby>が増えています。新しい施設を建てるだけでなく、送電網と<ruby>冷却<rt>れいきゃく</rt></ruby>の効率も考える必要があります。地域の電力状況を<ruby>踏<rt>ふ</rt></ruby>まえて、安定して運転できるように計画します。便利さの一方で、費用と環境への影響も説明しなければなりません。",
+        "translationZh": "AI 服務擴大帶動資料中心用電增加。除興建設施，也須考慮電網與冷卻效率；應依地區電力狀況規劃穩定運轉，並說明便利之外的成本與環境影響。",
+        "pronunciation": [
+          {
+            "surface": "電力需要",
+            "reading": "でんりょくじゅよう",
+            "meaningZh": "電力需求",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "電力",
+                "reading": "でんりょく",
+                "meaningZh": "電力",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "需要",
+                "reading": "じゅよう",
+                "meaningZh": "需求",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "電力需要",
+            "reading": "でんりょくじゅよう",
+            "meaningZh": "電力需求",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "電力",
+                "reading": "でんりょく",
+                "meaningZh": "電力",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "需要",
+                "reading": "じゅよう",
+                "meaningZh": "需求",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          },
+          {
+            "surface": "送電網",
+            "reading": "そうでんもう",
+            "meaningZh": "輸電網",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "送電",
+                "reading": "そうでん",
+                "meaningZh": "輸電",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "網",
+                "reading": "もう",
+                "meaningZh": "網絡",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          },
+          {
+            "surface": "冷却効率",
+            "reading": "れいきゃくこうりつ",
+            "meaningZh": "冷卻效率",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "冷却",
+                "reading": "れいきゃく",
+                "meaningZh": "冷卻",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "効率",
+                "reading": "こうりつ",
+                "meaningZh": "效率",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "<ruby>電力<rt>でんりょく</rt></ruby><ruby>需要<rt>じゅよう</rt></ruby>が増えています。",
+          "translationZh": "電力需求正在增加。"
+        },
+        {
+          "japaneseHtml": "<ruby>送電網<rt>そうでんもう</rt></ruby>も強くする必要があります。",
+          "translationZh": "也需強化輸電網。"
+        },
+        {
+          "japaneseHtml": "地域の状況を<ruby>踏<rt>ふ</rt></ruby>まえて計画します。",
+          "translationZh": "依地方情況規劃。"
+        },
+        {
+          "japaneseHtml": "安定して運転できるようにします。",
+          "translationZh": "確保能穩定運轉。"
+        },
+        {
+          "japaneseHtml": "この<ruby>話題<rt>わだい</rt></ruby>を一つの<ruby>情報<rt>じょうほう</rt></ruby>だけで<ruby>判断<rt>はんだん</rt></ruby>しません。",
+          "translationZh": "不只憑單一資訊判斷這個話題。"
+        },
+        {
+          "japaneseHtml": "<ruby>複数<rt>ふくすう</rt></ruby>の<ruby>見方<rt>みかた</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べます。",
+          "translationZh": "比較多種觀點。"
+        },
+        {
+          "japaneseHtml": "<ruby>背景<rt>はいけい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて<ruby>判断<rt>はんだん</rt></ruby>します。",
+          "translationZh": "根據背景作判斷。"
+        },
+        {
+          "japaneseHtml": "<ruby>誤解<rt>ごかい</rt></ruby>しないように、<ruby>出典<rt>しゅってん</rt></ruby>と<ruby>日付<rt>ひづけ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します。",
+          "translationZh": "為避免誤解而確認來源與日期。"
+        },
+        {
+          "japaneseHtml": "<ruby>関心<rt>かんしん</rt></ruby>の<ruby>高<rt>たか</rt></ruby>まりに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>説明<rt>せつめい</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>になります。",
+          "translationZh": "隨關注升高，說明也變得必要。"
+        },
+        {
+          "japaneseHtml": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>く<ruby>伝<rt>つた</rt></ruby>えます。",
+          "translationZh": "簡短表達自己的意見。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "電力需要",
+          "reading": "でんりょくじゅよう",
+          "meaningZh": "電力需求",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "電力",
+              "reading": "でんりょく",
+              "meaningZh": "電力",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "需要",
+              "reading": "じゅよう",
+              "meaningZh": "需求",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        },
+        {
+          "surface": "送電網",
+          "reading": "そうでんもう",
+          "meaningZh": "輸電網",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "送電",
+              "reading": "そうでん",
+              "meaningZh": "輸電",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "網",
+              "reading": "もう",
+              "meaningZh": "網絡",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        },
+        {
+          "surface": "冷却効率",
+          "reading": "れいきゃくこうりつ",
+          "meaningZh": "冷卻效率",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "冷却",
+              "reading": "れいきゃく",
+              "meaningZh": "冷卻",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "効率",
+              "reading": "こうりつ",
+              "meaningZh": "效率",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜一方で",
+          "formation": "普通形＋一方で",
+          "explanationZh": "表示同一事物的另一面。",
+          "example": {
+            "japaneseHtml": "AIは便利な一方で、多くの<ruby>電力<rt>でんりょく</rt></ruby>を使います。",
+            "translationZh": "AI 便利，另一方面也耗用大量電力。"
+          }
+        },
+        {
+          "name": "〜ように／〜を踏まえて",
+          "formation": "動詞普通形＋ように／名詞＋を踏まえて",
+          "explanationZh": "分別表示目的、避免，以及將依據納入判斷。",
+          "example": {
+            "japaneseHtml": "<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>間違<rt>まちが</rt></ruby>えないように<ruby>確認<rt>かくにん</rt></ruby>します。",
+            "translationZh": "依情況判斷，並為避免錯誤而確認。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "設施之外還需要考慮什麼？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. 送電網と冷却効率"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. 建物の色だけ"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：背景を（　）まえて判断します。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句與本課主題有關的目的或提醒。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜に伴って」說明本課議題的一項變化。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用 3–4 句日文說明 AI 與能源的取捨。",
+        "exampleJaHtml": "AIの拡大に<ruby>伴<rt>ともな</rt></ruby>って、<ruby>電力<rt>でんりょく</rt></ruby><ruby>需要<rt>じゅよう</rt></ruby>が増えます。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜ように",
+        "explanationZh": "把既有弱點句型放回新情境，確認能自行產出。",
+        "exampleJaHtml": "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>誤解<rt>ごかい</rt></ruby>しないように<ruby>説明<rt>せつめい</rt></ruby>します。",
+        "promptZh": "請用「〜ように」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "能源取捨論述",
+        "閱讀理解",
+        "短篇自由輸出"
+      ]
+    },
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W37-D4",
+        "date": "2026-09-10",
+        "topicJa": "鳥羽水族館で時間を組み立てる",
+        "topicZh": "在鳥羽水族館安排時間",
+        "summaryZh": "以多場展示與離館期限練習排序。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "旅日／行程管理",
+        "trendSource": "travel"
+      },
+      "reading": {
+        "leadZh": "找出想看項目很多時，如何留下移動緩衝。",
+        "japaneseHtml": "<ruby>鳥羽<rt>とば</rt></ruby><ruby>水族館<rt>すいぞくかん</rt></ruby>では、展示やイベントの時間がそれぞれ違います。全部を見るのではなく、午後の出発時間を<ruby>踏<rt>ふ</rt></ruby>まえて、優先順位を決めます。人が多くても次の場所へ移動できるように、出口までの時間も残します。予定の変更に<ruby>伴<rt>ともな</rt></ruby>って、見送る項目を選ぶことも大切です。",
+        "translationZh": "鳥羽水族館的展示與活動時間不同。不是全部都看，而是依下午出發時間排優先順序；也要保留走到出口的時間，以免人多時延誤。行程變更時，選擇放棄哪些項目也很重要。",
+        "pronunciation": [
+          {
+            "surface": "水族館",
+            "reading": "すいぞくかん",
+            "meaningZh": "水族館",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "水族館",
+            "reading": "すいぞくかん",
+            "meaningZh": "水族館",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "優先順位",
+            "reading": "ゆうせんじゅんい",
+            "meaningZh": "優先順序",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "優先",
+                "reading": "ゆうせん",
+                "meaningZh": "優先",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "順位",
+                "reading": "じゅんい",
+                "meaningZh": "順序",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          },
+          {
+            "surface": "所要時間",
+            "reading": "しょようじかん",
+            "meaningZh": "所需時間",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "所要",
+                "reading": "しょよう",
+                "meaningZh": "所需",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "時間",
+                "reading": "じかん",
+                "meaningZh": "時間",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "見たい展示を三つ選びます。",
+          "translationZh": "選三個想看的展示。"
+        },
+        {
+          "japaneseHtml": "<ruby>出発<rt>しゅっぱつ</rt></ruby>時間を<ruby>踏<rt>ふ</rt></ruby>まえて決めます。",
+          "translationZh": "依出發時間決定。"
+        },
+        {
+          "japaneseHtml": "出口までの時間を残します。",
+          "translationZh": "保留走到出口的時間。"
+        },
+        {
+          "japaneseHtml": "全部を見る必要はありません。",
+          "translationZh": "不必全部都看。"
+        },
+        {
+          "japaneseHtml": "この<ruby>話題<rt>わだい</rt></ruby>を一つの<ruby>情報<rt>じょうほう</rt></ruby>だけで<ruby>判断<rt>はんだん</rt></ruby>しません。",
+          "translationZh": "不只憑單一資訊判斷這個話題。"
+        },
+        {
+          "japaneseHtml": "<ruby>複数<rt>ふくすう</rt></ruby>の<ruby>見方<rt>みかた</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べます。",
+          "translationZh": "比較多種觀點。"
+        },
+        {
+          "japaneseHtml": "<ruby>背景<rt>はいけい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて<ruby>判断<rt>はんだん</rt></ruby>します。",
+          "translationZh": "根據背景作判斷。"
+        },
+        {
+          "japaneseHtml": "<ruby>誤解<rt>ごかい</rt></ruby>しないように、<ruby>出典<rt>しゅってん</rt></ruby>と<ruby>日付<rt>ひづけ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します。",
+          "translationZh": "為避免誤解而確認來源與日期。"
+        },
+        {
+          "japaneseHtml": "<ruby>関心<rt>かんしん</rt></ruby>の<ruby>高<rt>たか</rt></ruby>まりに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>説明<rt>せつめい</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>になります。",
+          "translationZh": "隨關注升高，說明也變得必要。"
+        },
+        {
+          "japaneseHtml": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>く<ruby>伝<rt>つた</rt></ruby>えます。",
+          "translationZh": "簡短表達自己的意見。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "水族館",
+          "reading": "すいぞくかん",
+          "meaningZh": "水族館",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "優先順位",
+          "reading": "ゆうせんじゅんい",
+          "meaningZh": "優先順序",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "優先",
+              "reading": "ゆうせん",
+              "meaningZh": "優先",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "順位",
+              "reading": "じゅんい",
+              "meaningZh": "順序",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        },
+        {
+          "surface": "所要時間",
+          "reading": "しょようじかん",
+          "meaningZh": "所需時間",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "所要",
+              "reading": "しょよう",
+              "meaningZh": "所需",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "時間",
+              "reading": "じかん",
+              "meaningZh": "時間",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜のではなく",
+          "formation": "普通形＋のではなく",
+          "explanationZh": "表示否定前項並提出替代方案。",
+          "example": {
+            "japaneseHtml": "全部を見るのではなく、三つ選びます。",
+            "translationZh": "不是全部都看，而是選三個。"
+          }
+        },
+        {
+          "name": "〜ように／〜を踏まえて",
+          "formation": "動詞普通形＋ように／名詞＋を踏まえて",
+          "explanationZh": "分別表示目的、避免，以及將依據納入判斷。",
+          "example": {
+            "japaneseHtml": "<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>間違<rt>まちが</rt></ruby>えないように<ruby>確認<rt>かくにん</rt></ruby>します。",
+            "translationZh": "依情況判斷，並為避免錯誤而確認。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "短文為何要保留出口時間？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. 次の移動に遅れないため"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. 展示を増やすため"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：背景を（　）まえて判断します。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句與本課主題有關的目的或提醒。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜に伴って」說明本課議題的一項變化。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用 3–4 句日文安排水族館參觀順序。",
+        "exampleJaHtml": "<ruby>出発<rt>しゅっぱつ</rt></ruby>時間を<ruby>踏<rt>ふ</rt></ruby>まえて、三つ選びます。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜を踏まえて",
+        "explanationZh": "把既有弱點句型放回新情境，確認能自行產出。",
+        "exampleJaHtml": "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>誤解<rt>ごかい</rt></ruby>しないように<ruby>説明<rt>せつめい</rt></ruby>します。",
+        "promptZh": "請用「〜を踏まえて」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "旅日時間管理",
+        "閱讀理解",
+        "短篇自由輸出"
+      ]
+    },
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W37-D5",
+        "date": "2026-09-11",
+        "topicJa": "乱気流の体験を伝える",
+        "topicZh": "表達亂流經驗",
+        "summaryZh": "從旅途貼文延伸風險敘事與安全資訊。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "旅遊／媒體素養",
+        "trendSource": "threads"
+      },
+      "reading": {
+        "leadZh": "區分個人恐懼、可驗證事實與安全行動。",
+        "japaneseHtml": "強い<ruby>乱気流<rt>らんきりゅう</rt></ruby>を経験すると、怖さをすぐSNSに書きたくなることがあります。個人の体験は大切ですが、一回の体験だけで航空全体が危険だとは<ruby>限<rt>かぎ</rt></ruby>りません。<ruby>乗務員<rt>じょうむいん</rt></ruby>の案内を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>座席<rt>ざせき</rt></ruby>ベルトを外さないようにします。体験を伝えるときは、感情と確認できた事実を分けます。",
+        "translationZh": "遇到強烈亂流時，人可能立刻在社群寫下恐懼。個人經驗值得重視，但單一經驗不能代表整體航空都危險。應依機組指示繫好安全帶，分享時也要區分感受與可確認事實。",
+        "pronunciation": [
+          {
+            "surface": "乱気流",
+            "reading": "らんきりゅう",
+            "meaningZh": "亂流",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "乱気流",
+            "reading": "らんきりゅう",
+            "meaningZh": "亂流",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "乗務員",
+            "reading": "じょうむいん",
+            "meaningZh": "機組人員",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "座席ベルト",
+            "reading": "ざせきべると",
+            "meaningZh": "安全帶",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "座席",
+                "reading": "ざせき",
+                "meaningZh": "座位",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "ベルト",
+                "reading": "べると",
+                "meaningZh": "安全帶",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "強い<ruby>乱気流<rt>らんきりゅう</rt></ruby>を経験しました。",
+          "translationZh": "經歷強烈亂流。"
+        },
+        {
+          "japaneseHtml": "とても怖く感じました。",
+          "translationZh": "感到非常害怕。"
+        },
+        {
+          "japaneseHtml": "<ruby>乗務員<rt>じょうむいん</rt></ruby>の案内を聞きます。",
+          "translationZh": "聽從機組指示。"
+        },
+        {
+          "japaneseHtml": "感情と事実を分けて書きます。",
+          "translationZh": "分開感受與事實來寫。"
+        },
+        {
+          "japaneseHtml": "この<ruby>話題<rt>わだい</rt></ruby>を一つの<ruby>情報<rt>じょうほう</rt></ruby>だけで<ruby>判断<rt>はんだん</rt></ruby>しません。",
+          "translationZh": "不只憑單一資訊判斷這個話題。"
+        },
+        {
+          "japaneseHtml": "<ruby>複数<rt>ふくすう</rt></ruby>の<ruby>見方<rt>みかた</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べます。",
+          "translationZh": "比較多種觀點。"
+        },
+        {
+          "japaneseHtml": "<ruby>背景<rt>はいけい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて<ruby>判断<rt>はんだん</rt></ruby>します。",
+          "translationZh": "根據背景作判斷。"
+        },
+        {
+          "japaneseHtml": "<ruby>誤解<rt>ごかい</rt></ruby>しないように、<ruby>出典<rt>しゅってん</rt></ruby>と<ruby>日付<rt>ひづけ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します。",
+          "translationZh": "為避免誤解而確認來源與日期。"
+        },
+        {
+          "japaneseHtml": "<ruby>関心<rt>かんしん</rt></ruby>の<ruby>高<rt>たか</rt></ruby>まりに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>説明<rt>せつめい</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>になります。",
+          "translationZh": "隨關注升高，說明也變得必要。"
+        },
+        {
+          "japaneseHtml": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>く<ruby>伝<rt>つた</rt></ruby>えます。",
+          "translationZh": "簡短表達自己的意見。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "乱気流",
+          "reading": "らんきりゅう",
+          "meaningZh": "亂流",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "乗務員",
+          "reading": "じょうむいん",
+          "meaningZh": "機組人員",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "座席ベルト",
+          "reading": "ざせきべると",
+          "meaningZh": "安全帶",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "座席",
+              "reading": "ざせき",
+              "meaningZh": "座位",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "ベルト",
+              "reading": "べると",
+              "meaningZh": "安全帶",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜からといって",
+          "formation": "普通形＋からといって",
+          "explanationZh": "表示不能只因某原因就直接下結論。",
+          "example": {
+            "japaneseHtml": "怖かったからといって、いつも危険とは<ruby>限<rt>かぎ</rt></ruby>りません。",
+            "translationZh": "不能只因曾害怕就認為總是危險。"
+          }
+        },
+        {
+          "name": "〜ように／〜を踏まえて",
+          "formation": "動詞普通形＋ように／名詞＋を踏まえて",
+          "explanationZh": "分別表示目的、避免，以及將依據納入判斷。",
+          "example": {
+            "japaneseHtml": "<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>間違<rt>まちが</rt></ruby>えないように<ruby>確認<rt>かくにん</rt></ruby>します。",
+            "translationZh": "依情況判斷，並為避免錯誤而確認。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "分享經驗時應區分什麼？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. 感情と確認できた事実"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. 感情と写真の色"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：背景を（　）まえて判断します。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句與本課主題有關的目的或提醒。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜に伴って」說明本課議題的一項變化。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用 3–4 句日文寫一段負責任的旅途風險分享。",
+        "exampleJaHtml": "怖く感じましたが、案内を<ruby>踏<rt>ふ</rt></ruby>まえて行動しました。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜に伴って",
+        "explanationZh": "把既有弱點句型放回新情境，確認能自行產出。",
+        "exampleJaHtml": "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>誤解<rt>ごかい</rt></ruby>しないように<ruby>説明<rt>せつめい</rt></ruby>します。",
+        "promptZh": "請用「〜に伴って」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "風險敘事",
+        "閱讀理解",
+        "短篇自由輸出"
+      ]
+    },
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W37-D6",
+        "date": "2026-09-12",
+        "topicJa": "世論調査の数字を読む",
+        "topicZh": "讀懂民意調查數字",
+        "summaryZh": "從民調熱搜練習樣本、誤差與標題判讀。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "社會／資料素養",
+        "trendSource": "google_trends"
+      },
+      "reading": {
+        "leadZh": "找出一個百分比之外還要確認哪些條件。",
+        "japaneseHtml": "<ruby>世論<rt>よろん</rt></ruby><ruby>調査<rt>ちょうさ</rt></ruby>の数字を見るときは、結果の大きさだけでなく、誰に、いつ、どの方法で聞いたかを確認します。<ruby>標本<rt>ひょうほん</rt></ruby>と<ruby>質問<rt>しつもん</rt></ruby>の内容を<ruby>踏<rt>ふ</rt></ruby>まえて読まなければなりません。小さな差を大きく見せないように、<ruby>誤差<rt>ごさ</rt></ruby>の範囲も見ます。調査の増加に<ruby>伴<rt>ともな</rt></ruby>って、数字を説明する責任も重くなります。",
+        "translationZh": "閱讀民調時，除結果大小，也要確認對誰、何時、以何種方法提問。必須依樣本與問題內容判讀，並查看誤差範圍，避免誇大小差距。調查增加後，說明數字的責任也更重。",
+        "pronunciation": [
+          {
+            "surface": "世論調査",
+            "reading": "よろんちょうさ",
+            "meaningZh": "民意調查",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "世論",
+                "reading": "よろん",
+                "meaningZh": "輿論",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "調査",
+                "reading": "ちょうさ",
+                "meaningZh": "調查",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "世論調査",
+            "reading": "よろんちょうさ",
+            "meaningZh": "民意調查",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "世論",
+                "reading": "よろん",
+                "meaningZh": "輿論",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "調査",
+                "reading": "ちょうさ",
+                "meaningZh": "調查",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          },
+          {
+            "surface": "標本",
+            "reading": "ひょうほん",
+            "meaningZh": "樣本",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "誤差範囲",
+            "reading": "ごさはんい",
+            "meaningZh": "誤差範圍",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "誤差",
+                "reading": "ごさ",
+                "meaningZh": "誤差",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "範囲",
+                "reading": "はんい",
+                "meaningZh": "範圍",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "<ruby>調査<rt>ちょうさ</rt></ruby>の方法を確認します。",
+          "translationZh": "確認調查方法。"
+        },
+        {
+          "japaneseHtml": "誰に聞いたかを見ます。",
+          "translationZh": "查看詢問了誰。"
+        },
+        {
+          "japaneseHtml": "<ruby>誤差<rt>ごさ</rt></ruby>の範囲を<ruby>踏<rt>ふ</rt></ruby>まえて読みます。",
+          "translationZh": "根據誤差範圍判讀。"
+        },
+        {
+          "japaneseHtml": "小さな差を大きく見せないようにします。",
+          "translationZh": "避免誇大小差距。"
+        },
+        {
+          "japaneseHtml": "この<ruby>話題<rt>わだい</rt></ruby>を一つの<ruby>情報<rt>じょうほう</rt></ruby>だけで<ruby>判断<rt>はんだん</rt></ruby>しません。",
+          "translationZh": "不只憑單一資訊判斷這個話題。"
+        },
+        {
+          "japaneseHtml": "<ruby>複数<rt>ふくすう</rt></ruby>の<ruby>見方<rt>みかた</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べます。",
+          "translationZh": "比較多種觀點。"
+        },
+        {
+          "japaneseHtml": "<ruby>背景<rt>はいけい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて<ruby>判断<rt>はんだん</rt></ruby>します。",
+          "translationZh": "根據背景作判斷。"
+        },
+        {
+          "japaneseHtml": "<ruby>誤解<rt>ごかい</rt></ruby>しないように、<ruby>出典<rt>しゅってん</rt></ruby>と<ruby>日付<rt>ひづけ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します。",
+          "translationZh": "為避免誤解而確認來源與日期。"
+        },
+        {
+          "japaneseHtml": "<ruby>関心<rt>かんしん</rt></ruby>の<ruby>高<rt>たか</rt></ruby>まりに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>説明<rt>せつめい</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>になります。",
+          "translationZh": "隨關注升高，說明也變得必要。"
+        },
+        {
+          "japaneseHtml": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>く<ruby>伝<rt>つた</rt></ruby>えます。",
+          "translationZh": "簡短表達自己的意見。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "世論調査",
+          "reading": "よろんちょうさ",
+          "meaningZh": "民意調查",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "世論",
+              "reading": "よろん",
+              "meaningZh": "輿論",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "調査",
+              "reading": "ちょうさ",
+              "meaningZh": "調查",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        },
+        {
+          "surface": "標本",
+          "reading": "ひょうほん",
+          "meaningZh": "樣本",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "誤差範囲",
+          "reading": "ごさはんい",
+          "meaningZh": "誤差範圍",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "誤差",
+              "reading": "ごさ",
+              "meaningZh": "誤差",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "範囲",
+              "reading": "はんい",
+              "meaningZh": "範圍",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜に基づいて",
+          "formation": "名詞＋に基づいて",
+          "explanationZh": "表示以資料或規則為依據。",
+          "example": {
+            "japaneseHtml": "<ruby>標本<rt>ひょうほん</rt></ruby>に基づいて結果を説明します。",
+            "translationZh": "根據樣本說明結果。"
+          }
+        },
+        {
+          "name": "〜ように／〜を踏まえて",
+          "formation": "動詞普通形＋ように／名詞＋を踏まえて",
+          "explanationZh": "分別表示目的、避免，以及將依據納入判斷。",
+          "example": {
+            "japaneseHtml": "<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>間違<rt>まちが</rt></ruby>えないように<ruby>確認<rt>かくにん</rt></ruby>します。",
+            "translationZh": "依情況判斷，並為避免錯誤而確認。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "民調數字之外要確認什麼？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. 標本と質問方法"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. 見出しの色"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：背景を（　）まえて判断します。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句與本課主題有關的目的或提醒。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜に伴って」說明本課議題的一項變化。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用 3–4 句日文說明你如何閱讀一份民調。",
+        "exampleJaHtml": "<ruby>標本<rt>ひょうほん</rt></ruby>と<ruby>誤差<rt>ごさ</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて読みます。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜ように",
+        "explanationZh": "把既有弱點句型放回新情境，確認能自行產出。",
+        "exampleJaHtml": "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>誤解<rt>ごかい</rt></ruby>しないように<ruby>説明<rt>せつめい</rt></ruby>します。",
+        "promptZh": "請用「〜ように」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "數據判讀",
+        "閱讀理解",
+        "短篇自由輸出"
+      ]
+    },
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W37-D7",
+        "date": "2026-09-13",
+        "topicJa": "情報と意見を分けてまとめる",
+        "topicZh": "分開資訊與意見做整理",
+        "summaryZh": "回收住宅、政策、能源、旅行與民調的共同弱點。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "綜合複習",
+        "trendSource": "review"
+      },
+      "reading": {
+        "leadZh": "把本週題材整理成已確認、推測與個人意見。",
+        "japaneseHtml": "本週の話題には、住まい、交通政策、電力、旅行、調査がありました。どの話題でも、確認できた<ruby>事実<rt>じじつ</rt></ruby>と自分の<ruby>意見<rt>いけん</rt></ruby>を分けます。資料の条件を<ruby>踏<rt>ふ</rt></ruby>まえても結論が一つとは<ruby>限<rt>かぎ</rt></ruby>りません。<ruby>誤解<rt>ごかい</rt></ruby>が広がらないように、分からない点も書きます。情報の更新に<ruby>伴<rt>ともな</rt></ruby>って、結論を見直します。",
+        "translationZh": "本週包含住宅、交通政策、電力、旅行與民調。所有題材都要分開可確認事實與個人意見。即使參考資料條件，結論也未必只有一個；要寫出未知事項以免誤解，並隨資訊更新修正結論。",
+        "pronunciation": [
+          {
+            "surface": "事実",
+            "reading": "じじつ",
+            "meaningZh": "事實",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "事実",
+            "reading": "じじつ",
+            "meaningZh": "事實",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "推測",
+            "reading": "すいそく",
+            "meaningZh": "推測",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "結論",
+            "reading": "けつろん",
+            "meaningZh": "結論",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "<ruby>事実<rt>じじつ</rt></ruby>と意見を分けます。",
+          "translationZh": "分開事實與意見。"
+        },
+        {
+          "japaneseHtml": "<ruby>推測<rt>すいそく</rt></ruby>は推測だと書きます。",
+          "translationZh": "將推測明確標成推測。"
+        },
+        {
+          "japaneseHtml": "分からない点も残します。",
+          "translationZh": "保留未知事項。"
+        },
+        {
+          "japaneseHtml": "情報が変われば結論を見直します。",
+          "translationZh": "資訊改變時修正結論。"
+        },
+        {
+          "japaneseHtml": "この<ruby>話題<rt>わだい</rt></ruby>を一つの<ruby>情報<rt>じょうほう</rt></ruby>だけで<ruby>判断<rt>はんだん</rt></ruby>しません。",
+          "translationZh": "不只憑單一資訊判斷這個話題。"
+        },
+        {
+          "japaneseHtml": "<ruby>複数<rt>ふくすう</rt></ruby>の<ruby>見方<rt>みかた</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べます。",
+          "translationZh": "比較多種觀點。"
+        },
+        {
+          "japaneseHtml": "<ruby>背景<rt>はいけい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて<ruby>判断<rt>はんだん</rt></ruby>します。",
+          "translationZh": "根據背景作判斷。"
+        },
+        {
+          "japaneseHtml": "<ruby>誤解<rt>ごかい</rt></ruby>しないように、<ruby>出典<rt>しゅってん</rt></ruby>と<ruby>日付<rt>ひづけ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します。",
+          "translationZh": "為避免誤解而確認來源與日期。"
+        },
+        {
+          "japaneseHtml": "<ruby>関心<rt>かんしん</rt></ruby>の<ruby>高<rt>たか</rt></ruby>まりに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>説明<rt>せつめい</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>になります。",
+          "translationZh": "隨關注升高，說明也變得必要。"
+        },
+        {
+          "japaneseHtml": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>く<ruby>伝<rt>つた</rt></ruby>えます。",
+          "translationZh": "簡短表達自己的意見。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "事実",
+          "reading": "じじつ",
+          "meaningZh": "事實",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "推測",
+          "reading": "すいそく",
+          "meaningZh": "推測",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "結論",
+          "reading": "けつろん",
+          "meaningZh": "結論",
+          "pitch": null,
+          "pitchVerified": false
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜とは限らない",
+          "formation": "普通形＋とは限らない",
+          "explanationZh": "複習不能一概而論的表達。",
+          "example": {
+            "japaneseHtml": "資料が多くても、結論が一つとは<ruby>限<rt>かぎ</rt></ruby>りません。",
+            "translationZh": "資料多也不代表結論只有一個。"
+          }
+        },
+        {
+          "name": "〜ように／〜を踏まえて",
+          "formation": "動詞普通形＋ように／名詞＋を踏まえて",
+          "explanationZh": "分別表示目的、避免，以及將依據納入判斷。",
+          "example": {
+            "japaneseHtml": "<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>間違<rt>まちが</rt></ruby>えないように<ruby>確認<rt>かくにん</rt></ruby>します。",
+            "translationZh": "依情況判斷，並為避免錯誤而確認。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "整理資訊時應分開哪兩項？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. 事実と意見"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. 日付と文字色"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：背景を（　）まえて判断します。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句與本課主題有關的目的或提醒。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜に伴って」說明本課議題的一項變化。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請自由寫 4–5 句日文，比較本週兩個題材並使用三個弱點句型。",
+        "exampleJaHtml": "条件を<ruby>踏<rt>ふ</rt></ruby>まえても、結論が一つとは<ruby>限<rt>かぎ</rt></ruby>りません。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜を踏まえて",
+        "explanationZh": "把既有弱點句型放回新情境，確認能自行產出。",
+        "exampleJaHtml": "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>誤解<rt>ごかい</rt></ruby>しないように<ruby>説明<rt>せつめい</rt></ruby>します。",
+        "promptZh": "請用「〜を踏まえて」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "弱點統整",
+        "閱讀理解",
+        "短篇自由輸出"
+      ]
+    }
+  ]
+}

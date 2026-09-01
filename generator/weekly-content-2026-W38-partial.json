@@ -1,0 +1,574 @@
+{
+  "templateVersion": "Japanese Lesson Template V1",
+  "week": "2026-W38",
+  "contentPolicy": "2026-09-01 即時題材研究後原創；正文不複製貼文、榜單、摘要或新聞原文。",
+  "lessons": [
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W38-D1",
+        "date": "2026-09-14",
+        "topicJa": "人手不足と仕事の組み直し",
+        "topicZh": "人力短缺與工作重整",
+        "summaryZh": "從人口結構與生產力角度思考工作設計。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "經濟／工作",
+        "trendSource": "nikkei"
+      },
+      "reading": {
+        "leadZh": "找出自動化以外的人力短缺對策。",
+        "japaneseHtml": "<ruby>生産<rt>せいさん</rt></ruby><ruby>年齢<rt>ねんれい</rt></ruby><ruby>人口<rt>じんこう</rt></ruby>の減少に<ruby>伴<rt>ともな</rt></ruby>って、多くの職場で<ruby>人手<rt>ひとで</rt></ruby><ruby>不足<rt>ぶそく</rt></ruby>が続いています。機械を入れるだけでなく、不要な作業を減らし、経験を共有する必要があります。働く人の状況を<ruby>踏<rt>ふ</rt></ruby>まえて、無理なく続けられるように仕事を組み直します。<ruby>生産性<rt>せいさんせい</rt></ruby>は速さだけでなく、品質と安全も含めて考えます。",
+        "translationZh": "生產年齡人口減少使許多職場持續缺工。除導入機械，也要減少不必要工作並共享經驗。應依工作者狀況重整流程，使其能長久持續；生產力不只看速度，也包括品質與安全。",
+        "pronunciation": [
+          {
+            "surface": "人手不足",
+            "reading": "ひとでぶそく",
+            "meaningZh": "人力短缺",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "人手",
+                "reading": "ひとで",
+                "meaningZh": "人力",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "不足",
+                "reading": "ぶそく",
+                "meaningZh": "不足",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "人手不足",
+            "reading": "ひとでぶそく",
+            "meaningZh": "人力短缺",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "人手",
+                "reading": "ひとで",
+                "meaningZh": "人力",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "不足",
+                "reading": "ぶそく",
+                "meaningZh": "不足",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          },
+          {
+            "surface": "生産性",
+            "reading": "せいさんせい",
+            "meaningZh": "生產力",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "業務改善",
+            "reading": "ぎょうむかいぜん",
+            "meaningZh": "業務改善",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "業務",
+                "reading": "ぎょうむ",
+                "meaningZh": "業務",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "改善",
+                "reading": "かいぜん",
+                "meaningZh": "改善",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "<ruby>人手<rt>ひとで</rt></ruby><ruby>不足<rt>ぶそく</rt></ruby>が続いています。",
+          "translationZh": "人力短缺持續。"
+        },
+        {
+          "japaneseHtml": "不要な作業を減らします。",
+          "translationZh": "減少不必要作業。"
+        },
+        {
+          "japaneseHtml": "経験を共有できるようにします。",
+          "translationZh": "確保經驗可共享。"
+        },
+        {
+          "japaneseHtml": "働く人の状況を<ruby>踏<rt>ふ</rt></ruby>まえて変えます。",
+          "translationZh": "依工作者狀況調整。"
+        },
+        {
+          "japaneseHtml": "この<ruby>話題<rt>わだい</rt></ruby>を一つの<ruby>情報<rt>じょうほう</rt></ruby>だけで<ruby>判断<rt>はんだん</rt></ruby>しません。",
+          "translationZh": "不只憑單一資訊判斷這個話題。"
+        },
+        {
+          "japaneseHtml": "<ruby>複数<rt>ふくすう</rt></ruby>の<ruby>見方<rt>みかた</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べます。",
+          "translationZh": "比較多種觀點。"
+        },
+        {
+          "japaneseHtml": "<ruby>背景<rt>はいけい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて<ruby>判断<rt>はんだん</rt></ruby>します。",
+          "translationZh": "根據背景作判斷。"
+        },
+        {
+          "japaneseHtml": "<ruby>誤解<rt>ごかい</rt></ruby>しないように、<ruby>出典<rt>しゅってん</rt></ruby>と<ruby>日付<rt>ひづけ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します。",
+          "translationZh": "為避免誤解而確認來源與日期。"
+        },
+        {
+          "japaneseHtml": "<ruby>関心<rt>かんしん</rt></ruby>の<ruby>高<rt>たか</rt></ruby>まりに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>説明<rt>せつめい</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>になります。",
+          "translationZh": "隨關注升高，說明也變得必要。"
+        },
+        {
+          "japaneseHtml": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>く<ruby>伝<rt>つた</rt></ruby>えます。",
+          "translationZh": "簡短表達自己的意見。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "人手不足",
+          "reading": "ひとでぶそく",
+          "meaningZh": "人力短缺",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "人手",
+              "reading": "ひとで",
+              "meaningZh": "人力",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "不足",
+              "reading": "ぶそく",
+              "meaningZh": "不足",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        },
+        {
+          "surface": "生産性",
+          "reading": "せいさんせい",
+          "meaningZh": "生產力",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "業務改善",
+          "reading": "ぎょうむかいぜん",
+          "meaningZh": "業務改善",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "業務",
+              "reading": "ぎょうむ",
+              "meaningZh": "業務",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "改善",
+              "reading": "かいぜん",
+              "meaningZh": "改善",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜だけでなく",
+          "formation": "名詞＋だけでなく",
+          "explanationZh": "表示評估時包含不只一項。",
+          "example": {
+            "japaneseHtml": "速さだけでなく、品質も考えます。",
+            "translationZh": "不只速度，也考慮品質。"
+          }
+        },
+        {
+          "name": "〜ように／〜を踏まえて",
+          "formation": "動詞普通形＋ように／名詞＋を踏まえて",
+          "explanationZh": "分別表示目的、避免，以及將依據納入判斷。",
+          "example": {
+            "japaneseHtml": "<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>間違<rt>まちが</rt></ruby>えないように<ruby>確認<rt>かくにん</rt></ruby>します。",
+            "translationZh": "依情況判斷，並為避免錯誤而確認。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "人力短缺時除了機械還要做什麼？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. 作業を見直し経験を共有する"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. 仕事を増やすだけ"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：背景を（　）まえて判断します。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句與本課主題有關的目的或提醒。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜に伴って」說明本課議題的一項變化。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用 3–4 句日文提出一項工作流程改善。",
+        "exampleJaHtml": "状況を<ruby>踏<rt>ふ</rt></ruby>まえて、不要な作業を減らします。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜に伴って",
+        "explanationZh": "把既有弱點句型放回新情境，確認能自行產出。",
+        "exampleJaHtml": "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>誤解<rt>ごかい</rt></ruby>しないように<ruby>説明<rt>せつめい</rt></ruby>します。",
+        "promptZh": "請用「〜に伴って」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "工作改善論述",
+        "閱讀理解",
+        "短篇自由輸出"
+      ]
+    },
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W38-D2",
+        "date": "2026-09-15",
+        "topicJa": "帰国前の返却手続きを整える",
+        "topicZh": "整理返國前的還車流程",
+        "summaryZh": "以常滑加油、收據、ETC 與還車練習程序說明。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "旅日／自駕",
+        "trendSource": "travel"
+      },
+      "reading": {
+        "leadZh": "找出最後一天為何要倒推加油與還車時間。",
+        "japaneseHtml": "帰国の日は、空港へ行く前に車を<ruby>満<rt>まん</rt></ruby>タンにし、<ruby>給油<rt>きゅうゆ</rt></ruby>の<ruby>領収書<rt>りょうしゅうしょ</rt></ruby>を残します。<ruby>返却<rt>へんきゃく</rt></ruby>時間を<ruby>踏<rt>ふ</rt></ruby>まえて、常滑での散歩と買い物を早めに終えます。書類を忘れないように、ETCの精算と荷物も同じ一覧で確認します。手続きの増加に<ruby>伴<rt>ともな</rt></ruby>って、時間の余裕が必要になります。",
+        "translationZh": "返國日需在到機場前加滿油並保留加油收據。應依還車時間提早結束常滑散步與購物，並把 ETC 結算與行李列在同一張清單以免遺漏。手續增加時更需預留時間。",
+        "pronunciation": [
+          {
+            "surface": "給油領収書",
+            "reading": "きゅうゆりょうしゅうしょ",
+            "meaningZh": "加油收據",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "給油",
+                "reading": "きゅうゆ",
+                "meaningZh": "加油",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "領収書",
+                "reading": "りょうしゅうしょ",
+                "meaningZh": "收據",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "給油領収書",
+            "reading": "きゅうゆりょうしゅうしょ",
+            "meaningZh": "加油收據",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "給油",
+                "reading": "きゅうゆ",
+                "meaningZh": "加油",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "領収書",
+                "reading": "りょうしゅうしょ",
+                "meaningZh": "收據",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          },
+          {
+            "surface": "返却手続き",
+            "reading": "へんきゃくてつづき",
+            "meaningZh": "歸還手續",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "返却",
+                "reading": "へんきゃく",
+                "meaningZh": "歸還",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "手続き",
+                "reading": "てつづき",
+                "meaningZh": "手續",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          },
+          {
+            "surface": "時間の余裕",
+            "reading": "じかんのよゆう",
+            "meaningZh": "時間餘裕",
+            "pitch": null,
+            "pitchVerified": false,
+            "components": [
+              {
+                "surface": "時間",
+                "reading": "じかん",
+                "meaningZh": "時間",
+                "pitch": null,
+                "pitchVerified": false
+              },
+              {
+                "surface": "余裕",
+                "reading": "よゆう",
+                "meaningZh": "餘裕",
+                "pitch": null,
+                "pitchVerified": false
+              }
+            ]
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "車を<ruby>満<rt>まん</rt></ruby>タンにします。",
+          "translationZh": "把車加滿油。"
+        },
+        {
+          "japaneseHtml": "<ruby>領収書<rt>りょうしゅうしょ</rt></ruby>を残します。",
+          "translationZh": "保留收據。"
+        },
+        {
+          "japaneseHtml": "<ruby>返却<rt>へんきゃく</rt></ruby>時間を<ruby>踏<rt>ふ</rt></ruby>まえて出発します。",
+          "translationZh": "依還車時間出發。"
+        },
+        {
+          "japaneseHtml": "書類を忘れないように一覧で確認します。",
+          "translationZh": "用清單確認以免忘記文件。"
+        },
+        {
+          "japaneseHtml": "この<ruby>話題<rt>わだい</rt></ruby>を一つの<ruby>情報<rt>じょうほう</rt></ruby>だけで<ruby>判断<rt>はんだん</rt></ruby>しません。",
+          "translationZh": "不只憑單一資訊判斷這個話題。"
+        },
+        {
+          "japaneseHtml": "<ruby>複数<rt>ふくすう</rt></ruby>の<ruby>見方<rt>みかた</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べます。",
+          "translationZh": "比較多種觀點。"
+        },
+        {
+          "japaneseHtml": "<ruby>背景<rt>はいけい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて<ruby>判断<rt>はんだん</rt></ruby>します。",
+          "translationZh": "根據背景作判斷。"
+        },
+        {
+          "japaneseHtml": "<ruby>誤解<rt>ごかい</rt></ruby>しないように、<ruby>出典<rt>しゅってん</rt></ruby>と<ruby>日付<rt>ひづけ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します。",
+          "translationZh": "為避免誤解而確認來源與日期。"
+        },
+        {
+          "japaneseHtml": "<ruby>関心<rt>かんしん</rt></ruby>の<ruby>高<rt>たか</rt></ruby>まりに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>説明<rt>せつめい</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>になります。",
+          "translationZh": "隨關注升高，說明也變得必要。"
+        },
+        {
+          "japaneseHtml": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>く<ruby>伝<rt>つた</rt></ruby>えます。",
+          "translationZh": "簡短表達自己的意見。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "給油領収書",
+          "reading": "きゅうゆりょうしゅうしょ",
+          "meaningZh": "加油收據",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "給油",
+              "reading": "きゅうゆ",
+              "meaningZh": "加油",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "領収書",
+              "reading": "りょうしゅうしょ",
+              "meaningZh": "收據",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        },
+        {
+          "surface": "返却手続き",
+          "reading": "へんきゃくてつづき",
+          "meaningZh": "歸還手續",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "返却",
+              "reading": "へんきゃく",
+              "meaningZh": "歸還",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "手続き",
+              "reading": "てつづき",
+              "meaningZh": "手續",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        },
+        {
+          "surface": "時間の余裕",
+          "reading": "じかんのよゆう",
+          "meaningZh": "時間餘裕",
+          "pitch": null,
+          "pitchVerified": false,
+          "components": [
+            {
+              "surface": "時間",
+              "reading": "じかん",
+              "meaningZh": "時間",
+              "pitch": null,
+              "pitchVerified": false
+            },
+            {
+              "surface": "余裕",
+              "reading": "よゆう",
+              "meaningZh": "餘裕",
+              "pitch": null,
+              "pitchVerified": false
+            }
+          ]
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜までに",
+          "formation": "時間＋までに",
+          "explanationZh": "表示須在期限前完成。",
+          "example": {
+            "japaneseHtml": "十三時半までに車を<ruby>返却<rt>へんきゃく</rt></ruby>します。",
+            "translationZh": "在十三點半前還車。"
+          }
+        },
+        {
+          "name": "〜ように／〜を踏まえて",
+          "formation": "動詞普通形＋ように／名詞＋を踏まえて",
+          "explanationZh": "分別表示目的、避免，以及將依據納入判斷。",
+          "example": {
+            "japaneseHtml": "<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>間違<rt>まちが</rt></ruby>えないように<ruby>確認<rt>かくにん</rt></ruby>します。",
+            "translationZh": "依情況判斷，並為避免錯誤而確認。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "還車前應保留什麼？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. 給油の領収書"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. 駐車場の写真だけ"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：背景を（　）まえて判断します。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句與本課主題有關的目的或提醒。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜に伴って」說明本課議題的一項變化。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用 3–4 句日文倒推返國日的還車流程。",
+        "exampleJaHtml": "<ruby>返却<rt>へんきゃく</rt></ruby>時間を<ruby>踏<rt>ふ</rt></ruby>まえて、早めに<ruby>給油<rt>きゅうゆ</rt></ruby>します。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜ように",
+        "explanationZh": "把既有弱點句型放回新情境，確認能自行產出。",
+        "exampleJaHtml": "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>誤解<rt>ごかい</rt></ruby>しないように<ruby>説明<rt>せつめい</rt></ruby>します。",
+        "promptZh": "請用「〜ように」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "旅日程序表達",
+        "閱讀理解",
+        "短篇自由輸出"
+      ]
+    }
+  ],
+  "partialWeek": true
+}

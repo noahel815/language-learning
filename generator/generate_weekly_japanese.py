@@ -157,6 +157,8 @@ def render_lesson(template: str, data: dict) -> str:
     meta = data["lesson"]
     tokens = {"LESSON_ID": meta["id"], "LESSON_DATE": meta["date"], "TOPIC_JA": meta["topicJa"], "TOPIC_ZH": meta["topicZh"], "LESSON_SUMMARY_ZH": meta["summaryZh"], "JLPT_LEVEL": meta["jlptLevel"], "DURATION": meta["duration"], "DOMAIN": meta["domain"], "REVIEW_PATTERN": data["previousReview"]["pattern"]}
     document = template
+    source_meta = f'<meta name="trend-source" content="{html.escape(meta.get("trendSource", "review"), quote=True)}">'
+    document = document.replace('<meta name="viewport"', source_meta + '\n  <meta name="viewport"', 1)
     for key, value in tokens.items():
         document = document.replace(f"@@{key}@@", html.escape(str(value), quote=True))
     document = replace_section(document, "reading", render_reading(data))
@@ -179,7 +181,7 @@ def render_lesson(template: str, data: dict) -> str:
 def update_index(lessons: list[dict]) -> None:
     path = ROOT / "index.html"
     document = path.read_text(encoding="utf-8")
-    links = "\n".join(f'      <a class="lesson" href="japanese/{item["lesson"]["id"]}.html"><span>{html.escape(item["lesson"]["date"])} · {html.escape(item["lesson"]["topicZh"])}</span><small>{html.escape(item["lesson"]["id"])} · {html.escape(item["lesson"]["jlptLevel"])}</small></a>' for item in lessons)
+    links = "\n".join(f'      <a class="lesson" data-trend-source="{html.escape(item["lesson"].get("trendSource", "review"), quote=True)}" href="japanese/{item["lesson"]["id"]}.html"><span>{html.escape(item["lesson"]["date"])} · {html.escape(item["lesson"]["topicZh"])}</span><small>{html.escape(item["lesson"]["id"])} · {html.escape(item["lesson"]["jlptLevel"])}</small></a>' for item in lessons)
     block = f'    <section id="this-week"><h2>This Week｜本週日文</h2><div class="lessons">\n{links}\n    </div></section>'
     if '<section id="this-week">' in document:
         document = re.sub(r'    <section id="this-week">.*?</section>', block, document, flags=re.DOTALL)

@@ -61,6 +61,8 @@ py -3 generator\generate_weekly_japanese.py --content generator\weekly-content.j
 
 這是靜態 QA，不等同於 iPhone Safari 的實機視覺與點擊驗收。發布前若有修改模板或互動程式，仍應另做手機實測；正常每週內容生成不應修改 freeze template。
 
+2026-09 起的新課可在 `lesson.trendSource` 使用 `threads`、`google_trends`、`nikkei`、`travel` 或 `review`。Generator 會把它輸出為 HTML `<meta name="trend-source">`，供追溯與檢查，但不把來源文字放進學習正文。舊 content JSON 未填此欄時會維持相容並標成 `review`。
+
 也可單獨執行 QA：
 
 ```powershell
