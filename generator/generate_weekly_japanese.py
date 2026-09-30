@@ -14,6 +14,11 @@ import hashlib
 from datetime import date
 from pathlib import Path
 
+# Stable UTF-8 output for Windows pipes and GitHub runners.
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(encoding="utf-8")
+
 ROOT = Path(__file__).resolve().parents[1]
 GENERATOR = ROOT / "generator"
 TEMPLATE = ROOT / "templates" / "japanese-lesson-v1.html"

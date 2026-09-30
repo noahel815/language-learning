@@ -1,0 +1,27 @@
+name: Weekly pipeline safety
+on:
+  push:
+    paths: ['generator/**', 'run_weekly_pipeline.ps1', '.github/workflows/weekly-pipeline-qa.yml']
+  pull_request:
+    paths: ['generator/**', 'run_weekly_pipeline.ps1', '.github/workflows/weekly-pipeline-qa.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  safety:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Safety and generator regression tests
+        run: python -B -m unittest discover -s generator -p "test*.py" -v
+# No cron, credentials, model call or publication. Enable scheduling only after live acceptance.

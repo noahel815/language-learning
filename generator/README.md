@@ -74,19 +74,24 @@ py -3 generator\validate_lessons.py japanese\JP-V1-2026-W34-D1.html japanese\JP-
 先檢查 `git status` 與首頁／7 課內容，再依序執行：
 
 ```powershell
-git add generator japanese index.html README.md run_weekly_japanese.bat
-git commit -m "Add Japanese weekly generator V1"
-git push origin main
+powershell -File .\run_weekly_pipeline.ps1 -Action publish -Run .weekly\YYYY-Www
+powershell -File .\run_weekly_pipeline.ps1 -Action verify-pages -Run .weekly\YYYY-Www
 ```
 
 GitHub Pages 會沿用 repo 設定。首頁預期為 `https://noahel815.github.io/language-learning/`，lesson 預期為 `https://noahel815.github.io/language-learning/japanese/<Lesson-ID>.html`。
 
 Generator 另提供 `--publish`，會在 QA 通過後執行相同的 add／commit／push；為避免錯誤內容直接上線，日常預設請不要使用。
 
-## 下一階段：Learning Feedback 與 Notion
+## 歷史 V1 範圍：Learning Feedback 與 Notion
 
 V1 只產生教材並保留每課的純文字 Learning Feedback。接 Notion Dashboard 前還需要：定義 Learning Result 結構、把有效答案與測試亂填分開、將批改結果更新到 `next-lesson-adjustments.json`、設計 Notion database 欄位與去重規則，以及建立失敗重試與人工覆核流程。這些都不在 V1 自動執行。
 
 ## 2026-09-30 Candidate 修復
 
 請見 [診斷與操作紀錄](RECOVERY_2026-09-30.md)。新增 GitHub generator/QA 執行入口，尚不是每週 AI 出題排程。缺少新內容 JSON 時不會自動編寫教材。
+
+## 每週新內容層（2026-09-30 Candidate）
+
+現在的完整操作請以 [WEEKLY_WORK_RUNBOOK.md](WEEKLY_WORK_RUNBOOK.md) 為準。`generate_new_japanese_content.py` 由已登入 ChatGPT 的 Codex 編寫原創內容；`weekly_orchestrator.py` 判週、隔離轉檔、QA、限定提交、Pages 驗證與 Notion 去重關卡。Notion 由 Work connector 執行，非 Python 假 API。
+
+`build_mid_september_content.py` 保留為 historical reference、JSON 組裝範例與 regression fixture；不可接進週排程。新 run 的 context、日誌、staging、回饋保存在不進 Git 的 `.weekly/`。永久排程尚未建立。

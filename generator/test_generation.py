@@ -16,7 +16,7 @@ class GenerationTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name) / 'repo'
-        shutil.copytree(generator.ROOT, self.root, ignore=shutil.ignore_patterns('.git', '__pycache__'))
+        shutil.copytree(generator.ROOT, self.root, ignore=shutil.ignore_patterns('.git', '.weekly', 'reports', '__pycache__'))
         self.data = json.loads((self.root / 'generator/weekly-content-2026-W40-recovery.json').read_text(encoding='utf-8'))
         # Remove only the recovery output in this temporary copy to exercise first generation.
         self.output = self.root / 'japanese/JP-V1-2026-W40-D3.html'

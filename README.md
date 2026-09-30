@@ -16,3 +16,9 @@ To generate a new lesson, prepare lesson data that validates against `generator/
 The weekly generator turns one seven-lesson JSON file into seven self-contained lessons, runs static QA, and refreshes the weekly links on `index.html`. It does not call a model, Notion, news services, or GitHub automatically.
 
 For the simplest Windows workflow, double-click `run_weekly_japanese.bat`. See `generator/README.md` for the non-technical instructions, PowerShell command, QA scope, and publishing steps.
+
+## Weekly content pipeline — Candidate / dry run
+
+New original content author + resumable orchestrator: [Work runbook](generator/WEEKLY_WORK_RUNBOOK.md). Uses authenticated Codex/Work, no private API key. Dry-run output remains in ignored `.weekly/`; no permanent schedule or automatic publication is enabled. Frozen V1 and existing lessons remain protected.
+
+Manual preview: `powershell -File .\run_weekly_pipeline.ps1 -Action dry-run -Run .weekly\2026-W41`

@@ -1,0 +1,4 @@
+.weekly/
+__pycache__/
+*.pyc
+

@@ -8,6 +8,11 @@ import sys
 import argparse
 from pathlib import Path
 
+# Stable UTF-8 output for Windows pipes and GitHub runners.
+for _stream in (sys.stdout, sys.stderr):
+    if hasattr(_stream, "reconfigure"):
+        _stream.reconfigure(encoding="utf-8")
+
 ROOT = Path(__file__).resolve().parents[1]
 PROTECTED = ROOT / "japanese" / "JP-V1-001.html"
 EXPECTED_PROTECTED_SHA256 = "8d1e1933cc73351a8291f9ac00357116828dce54d7aac79ff5c91f811690b7bb"
