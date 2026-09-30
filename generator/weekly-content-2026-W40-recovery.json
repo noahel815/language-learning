@@ -135,9 +135,9 @@
       ],
       "patterns": [
         {
-          "name": "〜のではなく",
-          "formation": "動詞普通形＋のではなく",
-          "explanationZh": "表示不是採取前一種做法，而是選擇後一種做法。",
+          "name": "〜だけではなく",
+          "formation": "動詞普通形＋だけではなく",
+          "explanationZh": "表示不只做前一件事，也做後一件事。與短文中的「〜のではなく」（不是前者，而是後者）比較語意差異。",
           "example": {
             "japaneseHtml": "<ruby>断<rt>ことわ</rt></ruby>るだけではなく、<ruby>代案<rt>だいあん</rt></ruby>も<ruby>伝<rt>つた</rt></ruby>えます。",
             "translationZh": "不只拒絕，也提出替代方案。"
