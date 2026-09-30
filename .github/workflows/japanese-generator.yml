@@ -1,0 +1,47 @@
+name: Japanese generator validation
+on:
+  push:
+    branches: [main]
+    paths: ['generator/**', 'templates/**', '.github/workflows/japanese-generator.yml']
+  workflow_dispatch:
+    inputs:
+      content:
+        description: Reviewed content JSON already committed under generator/
+        required: true
+        default: generator/weekly-content-2026-W40-recovery.json
+permissions:
+  contents: read
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Regression tests
+        run: python -m unittest discover -s generator -p test_generation.py -v
+      - name: Generate and validate reviewed content
+        env:
+          CONTENT: ${{ inputs.content || 'generator/weekly-content-2026-W40-recovery.json' }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os, pathlib, subprocess, sys
+          root = pathlib.Path.cwd()
+          path = (root / os.environ['CONTENT']).resolve()
+          if not path.is_relative_to(root / 'generator') or path.suffix != '.json':
+              raise SystemExit('Content must be a JSON file under generator/')
+          subprocess.run([sys.executable, 'generator/generate_weekly_japanese.py', '--content', str(path)], check=True)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: validated-japanese-output
+          path: |
+            index.html
+            japanese/*.html
+          retention-days: 14
+
+# This is an execution/QA entry point, not an AI author or an unattended publisher.
+# Publication uses a reviewed atomic commit; existing Pages deployment remains in place.

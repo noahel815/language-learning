@@ -9,6 +9,8 @@ import json
 import re
 import subprocess
 import sys
+import tempfile
+import hashlib
 from datetime import date
 from pathlib import Path
 
@@ -55,7 +57,10 @@ def validate_week(data: dict, schema: dict, adjustments: dict) -> list[dict]:
         require(lesson_id != "JP-V1-001", "禁止覆寫 JP-V1-001")
         require(lesson_id not in seen, f"Lesson ID 重複：{lesson_id}")
         seen.add(lesson_id)
-        date.fromisoformat(lesson["lesson"]["date"])
+        lesson_date = date.fromisoformat(lesson["lesson"]["date"])
+        if "-W" in lesson_id:
+            year, week, day = lesson_date.isocalendar()
+            require(lesson_id == f"JP-V1-{year}-W{week:02d}-D{day}", f"{lesson_id} 與日期不符")
         require(len(lesson["usefulSentences"]) == 10, f"{lesson_id} 必須有 10 句實用句")
         require(lesson["reading"].get("japaneseHtml") and "<ruby>" in lesson["reading"]["japaneseHtml"], f"{lesson_id} Reading 缺少 ruby")
         require(lesson["quiz"], f"{lesson_id} Quick Quiz 不可為空")
@@ -178,41 +183,80 @@ def render_lesson(template: str, data: dict) -> str:
     return document
 
 
+def render_index(document: str, lessons: list[dict]) -> str:
+    links = "\n".join(f'      <a class="lesson" data-trend-source="{html.escape(item["lesson"].get("trendSource", "review"), quote=True)}" href="japanese/{item["lesson"]["id"]}.html"><span>{html.escape(item["lesson"]["date"])} · {html.escape(item["lesson"]["topicZh"])}</span><small>{html.escape(item["lesson"]["id"])} · {html.escape(item["lesson"]["jlptLevel"])}</small></a>' for item in lessons)
+    block = f'<section id="this-week"><h2>Latest｜最新教材</h2><div class="lessons">\n{links}\n    </div></section>'
+    existing = re.search(r'<section id="this-week">.*?</section>', document, flags=re.DOTALL)
+    if existing:
+        old = existing.group()
+        new_hrefs = set(re.findall(r'href="([^"]+)"', links))
+        old_hrefs = set(re.findall(r'href="([^"]+)"', old))
+        if old_hrefs - new_hrefs:
+            archived = old.replace(' id="this-week"', '', 1)
+            archived = re.sub(r'<h2>.*?</h2>', '<h2>Previous｜先前教材</h2>', archived, count=1)
+            block += '\n' + archived
+        document = document[:existing.start()] + block + document[existing.end():]
+    elif '<section' in document:
+        document = document.replace('<section', block + '\n<section', 1)
+    else:
+        require('</main>' in document, '首頁缺少 main 結束標籤')
+        document = document.replace('</main>', block + '\n</main>', 1)
+    for item in lessons:
+        require(f'japanese/{item["lesson"]["id"]}.html' in document, '首頁連結更新失敗')
+    return document
+
+
 def update_index(lessons: list[dict]) -> None:
     path = ROOT / "index.html"
-    document = path.read_text(encoding="utf-8")
-    links = "\n".join(f'      <a class="lesson" data-trend-source="{html.escape(item["lesson"].get("trendSource", "review"), quote=True)}" href="japanese/{item["lesson"]["id"]}.html"><span>{html.escape(item["lesson"]["date"])} · {html.escape(item["lesson"]["topicZh"])}</span><small>{html.escape(item["lesson"]["id"])} · {html.escape(item["lesson"]["jlptLevel"])}</small></a>' for item in lessons)
-    block = f'    <section id="this-week"><h2>This Week｜本週日文</h2><div class="lessons">\n{links}\n    </div></section>'
-    if '<section id="this-week">' in document:
-        document = re.sub(r'    <section id="this-week">.*?</section>', block, document, flags=re.DOTALL)
-    else:
-        document = document.replace("  </main>", block + "\n  </main>")
+    document = render_index(path.read_text(encoding="utf-8"), lessons)
     path.write_text(document, encoding="utf-8", newline="\n")
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate Japanese Weekly Lesson V1")
-    parser.add_argument("--content", type=Path, default=GENERATOR / "sample-weekly-content.json")
+    parser.add_argument("--content", type=Path, required=True)
+    parser.add_argument("--overwrite", action="store_true", help="明確允許修改已存在且不同的 lesson")
     parser.add_argument("--publish", action="store_true", help="QA 後 commit 並 push；預設不發布")
     args = parser.parse_args()
+    frozen = load_json(GENERATOR / 'frozen-hashes.json')
+    for name, expected in frozen.items():
+        require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == expected, f'Frozen baseline 改變：{name}')
+    if args.publish:
+        require(not subprocess.check_output(['git', 'diff', '--cached', '--name-only'], cwd=ROOT).strip(), '請先處理既有 staged 變更')
     protected_before = PROTECTED_SAMPLE.read_bytes()
     lessons = validate_week(load_json(args.content), load_json(SCHEMA), load_json(ADJUSTMENTS))
     template = TEMPLATE.read_text(encoding="utf-8")
-    written = []
+    rendered = {}
     for lesson in lessons:
         output = OUTPUT_DIR / f'{lesson["lesson"]["id"]}.html'
-        output.write_text(render_lesson(template, lesson), encoding="utf-8", newline="\n")
-        written.append(output)
-    update_index(lessons)
+        content = render_lesson(template, lesson)
+        require(args.overwrite or not output.exists() or output.read_text(encoding='utf-8') == content, f'拒絕覆寫既有教材：{output.name}')
+        rendered[output] = content
+    index_path = ROOT / 'index.html'
+    new_index = render_index(index_path.read_text(encoding='utf-8'), lessons)
+    with tempfile.TemporaryDirectory() as temporary:
+        staged = []
+        for output, content in rendered.items():
+            staged_path = Path(temporary) / output.name
+            staged_path.write_text(content, encoding='utf-8', newline='\n')
+            staged.append(staged_path)
+        validation = subprocess.run([sys.executable, str(GENERATOR / 'validate_lessons.py'), '--expected-count', str(len(staged)), *map(str, staged)], cwd=ROOT)
+        require(validation.returncode == 0, 'QA 未通過，未寫入教材與首頁')
+    for output, content in rendered.items():
+        output.write_text(content, encoding='utf-8', newline='\n')
+    index_path.write_text(new_index, encoding='utf-8', newline='\n')
+    written = list(rendered)
     require(PROTECTED_SAMPLE.read_bytes() == protected_before, "JP-V1-001 內容遭到變更")
     print(f"已產生 {len(written)} 課：")
     for path in written:
         print(f"  - {path.relative_to(ROOT)}")
-    validation = subprocess.run([sys.executable, str(GENERATOR / "validate_lessons.py"), "--expected-count", str(len(written)), *map(str, written)], cwd=ROOT)
-    require(validation.returncode == 0, "QA 未通過，不會發布")
     if args.publish:
-        subprocess.run(["git", "add", "generator", "japanese", "index.html", "README.md", "run_weekly_japanese.bat"], cwd=ROOT, check=True)
-        subprocess.run(["git", "commit", "-m", "Add Japanese weekly generator V1"], cwd=ROOT, check=True)
+        content_path = args.content.resolve().relative_to(ROOT)
+        subprocess.run(["git", "add", "--", str(content_path), "index.html", *[str(p.relative_to(ROOT)) for p in written]], cwd=ROOT, check=True)
+        if not subprocess.check_output(['git', 'diff', '--cached', '--name-only'], cwd=ROOT).strip():
+            print('沒有新變更；不重複 commit 或 push。')
+            return 0
+        subprocess.run(["git", "commit", "-m", "Publish validated Japanese lessons"], cwd=ROOT, check=True)
         subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=True)
     else:
         print("QA 通過。預設未執行 git push；發布方式請見 generator/README.md。")

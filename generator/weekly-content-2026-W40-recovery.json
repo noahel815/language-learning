@@ -1,0 +1,209 @@
+{
+  "templateVersion": "Japanese Lesson Template V1",
+  "week": "2026-W40",
+  "partialWeek": true,
+  "contentPolicy": "2026-09-30 流程修復驗證課，原創虛構情境，非時事報導；Candidate。未把測試回饋視為能力證據。",
+  "lessons": [
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W40-D3",
+        "date": "2026-09-30",
+        "topicJa": "予定が重なったときの伝え方",
+        "topicZh": "行程衝突時，如何說明與協調",
+        "summaryZh": "原創情境複習：說明時間限制、提出替代方案，練習清楚而有禮的協調。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "工作／日常協調",
+        "trendSource": "review"
+      },
+      "reading": {
+        "leadZh": "先找出無法配合的時間，再找出對方提出的替代方案。",
+        "japaneseHtml": "<ruby>来週<rt>らいしゅう</rt></ruby>、<ruby>研修<rt>けんしゅう</rt></ruby>と<ruby>打<rt>う</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせの<ruby>予定<rt>よてい</rt></ruby>が<ruby>重<rt>かさ</rt></ruby>なってしまいました。<ruby>担当者<rt>たんとうしゃ</rt></ruby>は、ただ「<ruby>参加<rt>さんか</rt></ruby>できません」と<ruby>伝<rt>つた</rt></ruby>えるのではなく、<ruby>先<rt>さき</rt></ruby>に<ruby>時間<rt>じかん</rt></ruby>の<ruby>制約<rt>せいやく</rt></ruby>を<ruby>説明<rt>せつめい</rt></ruby>しました。「その<ruby>時間<rt>じかん</rt></ruby>は<ruby>研修<rt>けんしゅう</rt></ruby>があります。<ruby>皆<rt>みな</rt></ruby>さんの<ruby>予定<rt>よてい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>翌日<rt>よくじつ</rt></ruby>の<ruby>午前<rt>ごぜん</rt></ruby>に<ruby>変更<rt>へんこう</rt></ruby>することはできますか」。<ruby>日程<rt>にってい</rt></ruby>の<ruby>変更<rt>へんこう</rt></ruby>に<ruby>伴<rt>ともな</rt></ruby>って、<ruby>資料<rt>しりょう</rt></ruby>を<ruby>送<rt>おく</rt></ruby>る<ruby>日<rt>ひ</rt></ruby>も<ruby>調整<rt>ちょうせい</rt></ruby>します。<ruby>議論<rt>ぎろん</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れないように、<ruby>確認<rt>かくにん</rt></ruby>してほしい<ruby>点<rt>てん</rt></ruby>を<ruby>先<rt>さき</rt></ruby>に<ruby>共有<rt>きょうゆう</rt></ruby>します。",
+        "translationZh": "下週研習與會議撞期了。負責人沒有只說「我無法參加」，而是先說明時間限制：「那個時段有研習。考量大家的行程，能否改到隔天上午？」隨會議日期調整，資料寄送日也要協調。為了不讓討論延誤，他會先分享希望大家確認的重點。",
+        "pronunciation": [
+          {
+            "surface": "制約",
+            "reading": "せいやく",
+            "meaningZh": "限制",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "制約",
+            "reading": "せいやく",
+            "meaningZh": "限制",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "代案",
+            "reading": "だいあん",
+            "meaningZh": "替代方案",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "調整",
+            "reading": "ちょうせい",
+            "meaningZh": "協調、調整",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "共有",
+            "reading": "きょうゆう",
+            "meaningZh": "共享",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "<ruby>予定<rt>よてい</rt></ruby>が<ruby>重<rt>かさ</rt></ruby>なってしまいました。",
+          "translationZh": "行程不巧撞期了。"
+        },
+        {
+          "japaneseHtml": "その<ruby>時間<rt>じかん</rt></ruby>は<ruby>研修<rt>けんしゅう</rt></ruby>があります。",
+          "translationZh": "那個時段有研習。"
+        },
+        {
+          "japaneseHtml": "<ruby>翌日<rt>よくじつ</rt></ruby>の<ruby>午前<rt>ごぜん</rt></ruby>に<ruby>変更<rt>へんこう</rt></ruby>できますか。",
+          "translationZh": "可以改到隔天上午嗎？"
+        },
+        {
+          "japaneseHtml": "<ruby>確認<rt>かくにん</rt></ruby>してほしい<ruby>点<rt>てん</rt></ruby>を<ruby>先<rt>さき</rt></ruby>に<ruby>共有<rt>きょうゆう</rt></ruby>します。",
+          "translationZh": "我會先分享希望大家確認的重點。"
+        },
+        {
+          "japaneseHtml": "この<ruby>話題<rt>わだい</rt></ruby>を一つの<ruby>情報<rt>じょうほう</rt></ruby>だけで<ruby>判断<rt>はんだん</rt></ruby>しません。",
+          "translationZh": "不只憑單一資訊判斷這個話題。"
+        },
+        {
+          "japaneseHtml": "<ruby>複数<rt>ふくすう</rt></ruby>の<ruby>見方<rt>みかた</rt></ruby>を<ruby>比<rt>くら</rt></ruby>べます。",
+          "translationZh": "比較多種觀點。"
+        },
+        {
+          "japaneseHtml": "<ruby>背景<rt>はいけい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて<ruby>判断<rt>はんだん</rt></ruby>します。",
+          "translationZh": "根據背景作判斷。"
+        },
+        {
+          "japaneseHtml": "<ruby>誤解<rt>ごかい</rt></ruby>しないように、<ruby>出典<rt>しゅってん</rt></ruby>と<ruby>日付<rt>ひづけ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します。",
+          "translationZh": "為避免誤解而確認來源與日期。"
+        },
+        {
+          "japaneseHtml": "<ruby>関心<rt>かんしん</rt></ruby>の<ruby>高<rt>たか</rt></ruby>まりに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>説明<rt>せつめい</rt></ruby>も<ruby>必要<rt>ひつよう</rt></ruby>になります。",
+          "translationZh": "隨關注升高，說明也變得必要。"
+        },
+        {
+          "japaneseHtml": "<ruby>自分<rt>じぶん</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>短<rt>みじか</rt></ruby>く<ruby>伝<rt>つた</rt></ruby>えます。",
+          "translationZh": "簡短表達自己的意見。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "制約",
+          "reading": "せいやく",
+          "meaningZh": "限制",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "代案",
+          "reading": "だいあん",
+          "meaningZh": "替代方案",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "調整",
+          "reading": "ちょうせい",
+          "meaningZh": "協調、調整",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "共有",
+          "reading": "きょうゆう",
+          "meaningZh": "共享",
+          "pitch": null,
+          "pitchVerified": false
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜のではなく",
+          "formation": "動詞普通形＋のではなく",
+          "explanationZh": "表示不是採取前一種做法，而是選擇後一種做法。",
+          "example": {
+            "japaneseHtml": "<ruby>断<rt>ことわ</rt></ruby>るだけではなく、<ruby>代案<rt>だいあん</rt></ruby>も<ruby>伝<rt>つた</rt></ruby>えます。",
+            "translationZh": "不只拒絕，也提出替代方案。"
+          }
+        },
+        {
+          "name": "〜ように／〜を踏まえて",
+          "formation": "動詞普通形＋ように／名詞＋を踏まえて",
+          "explanationZh": "分別表示目的、避免，以及將依據納入判斷。",
+          "example": {
+            "japaneseHtml": "<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>間違<rt>まちが</rt></ruby>えないように<ruby>確認<rt>かくにん</rt></ruby>します。",
+            "translationZh": "依情況判斷，並為避免錯誤而確認。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "負責人如何處理行程衝突？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. 制約を説明し、別の日時を提案する"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. 説明せずに欠席する"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：背景を（　）まえて判断します。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句與本課主題有關的目的或提醒。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜に伴って」說明本課議題的一項變化。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用自己的情境自由寫 2–3 句日文：說明一項時間限制，並提出替代方案。至少使用「〜を踏まえて」或「〜ように」造句。",
+        "exampleJaHtml": "<ruby>予定<rt>よてい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>翌日<rt>よくじつ</rt></ruby>の<ruby>午前<rt>ごぜん</rt></ruby>を<ruby>提案<rt>ていあん</rt></ruby>します。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜に伴って",
+        "explanationZh": "回收既有練習句型；這不是根據新的學習回饋判定能力。",
+        "exampleJaHtml": "<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>誤解<rt>ごかい</rt></ruby>しないように<ruby>説明<rt>せつめい</rt></ruby>します。",
+        "promptZh": "請用「〜に伴って」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "時間限制與替代方案的說明",
+        "閱讀理解",
+        "短篇自由輸出"
+      ]
+    }
+  ]
+}

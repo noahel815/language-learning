@@ -17,11 +17,11 @@ V1 不會連接模型 API、Notion API 或新聞網站。`sample-weekly-content.
 
 ## Windows 最簡單執行方式
 
-在 repo 根目錄雙擊：
+將已審閱的內容 JSON 拖放到 repo 根目錄的：
 
 `run_weekly_japanese.bat`
 
-這會讀取 sample、產生 7 課、更新首頁並執行 QA；預設不 commit、不 push。
+這會讀取指定 JSON、更新首頁並執行 QA；預設不 commit、不 push。直接雙擊只顯示使用方法，避免重跑舊 sample。
 
 PowerShell 一行指令（已安裝 Python 3）：
 
@@ -43,7 +43,7 @@ py -3 generator\generate_weekly_japanese.py --content generator\weekly-content.j
 - `index.html` 的本週 7 課連結
 - 終端機顯示 7 個輸出路徑與 QA 結果
 
-重新執行同一週會更新同一週的 7 課；不會覆寫 `JP-V1-001.html`。若要保留已發布週次，請在換週前完成 Git commit。
+相同內容可重跑；既有教材內容不同時會拒絕覆寫，需明確加上 `--overwrite` 才能更新。`JP-V1-001.html` 與 frozen template 永遠不得覆寫。
 
 補產到某週目前日期時，可在 content JSON 根層加入 `"partialWeek": true`，並提供該週已到日期的 1–7 課。未標記 partial week 的正常週次仍強制 7 課，避免不小心漏課。
 
@@ -86,3 +86,7 @@ Generator 另提供 `--publish`，會在 QA 通過後執行相同的 add／commi
 ## 下一階段：Learning Feedback 與 Notion
 
 V1 只產生教材並保留每課的純文字 Learning Feedback。接 Notion Dashboard 前還需要：定義 Learning Result 結構、把有效答案與測試亂填分開、將批改結果更新到 `next-lesson-adjustments.json`、設計 Notion database 欄位與去重規則，以及建立失敗重試與人工覆核流程。這些都不在 V1 自動執行。
+
+## 2026-09-30 Candidate 修復
+
+請見 [診斷與操作紀錄](RECOVERY_2026-09-30.md)。新增 GitHub generator/QA 執行入口，尚不是每週 AI 出題排程。缺少新內容 JSON 時不會自動編寫教材。
