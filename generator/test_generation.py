@@ -57,6 +57,13 @@ class GenerationTests(unittest.TestCase):
         self.assertNotEqual(self.run_generator().returncode, 0)
         self.assertFalse(self.output.exists())
 
+    def test_git_lf_template_baseline(self):
+        for name in ['japanese-lesson-v1.html', 'JAPANESE_TEMPLATE_V1.md']:
+            path = self.root / 'templates' / name
+            path.write_bytes(path.read_bytes().replace(b'\r\n', b'\n'))
+        result = self.run_generator()
+        self.assertEqual(result.returncode, 0, result.stderr)
+
     def test_qa_failure_no_writes(self):
         self.data['lessons'][0]['lesson']['trendSource'] = 'invalid'
         before = (self.root / 'index.html').read_bytes()

@@ -220,7 +220,7 @@ def main() -> int:
     args = parser.parse_args()
     frozen = load_json(GENERATOR / 'frozen-hashes.json')
     for name, expected in frozen.items():
-        require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == expected, f'Frozen baseline 改變：{name}')
+        require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() in expected, f'Frozen baseline 改變：{name}')
     if args.publish:
         require(not subprocess.check_output(['git', 'diff', '--cached', '--name-only'], cwd=ROOT).strip(), '請先處理既有 staged 變更')
     protected_before = PROTECTED_SAMPLE.read_bytes()

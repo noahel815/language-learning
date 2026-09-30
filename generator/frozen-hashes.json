@@ -1,5 +1,13 @@
 {
-  "templates/japanese-lesson-v1.html": "935ebc790f4c7d40791c4fc27227dbe73b7191acf33321bc17f2d2f6ad59ad19",
-  "templates/JAPANESE_TEMPLATE_V1.md": "f93cd18d620cbd69b7b6a5f564397d222c86c5d21bdd9b27ab95c4ad53691ecb",
-  "japanese/JP-V1-001.html": "8d1e1933cc73351a8291f9ac00357116828dce54d7aac79ff5c91f811690b7bb"
+  "templates/japanese-lesson-v1.html": [
+    "935ebc790f4c7d40791c4fc27227dbe73b7191acf33321bc17f2d2f6ad59ad19",
+    "a1834ec71c27be73ff95652a89b1bf065a28d3cec16f3628b136dd77d008bf92"
+  ],
+  "templates/JAPANESE_TEMPLATE_V1.md": [
+    "f93cd18d620cbd69b7b6a5f564397d222c86c5d21bdd9b27ab95c4ad53691ecb",
+    "48d22b184dcf1d6b70dcb500cb5e0696cb82eb1ae990e9e64789cc6280692017"
+  ],
+  "japanese/JP-V1-001.html": [
+    "8d1e1933cc73351a8291f9ac00357116828dce54d7aac79ff5c91f811690b7bb"
+  ]
 }
