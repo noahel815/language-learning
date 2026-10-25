@@ -1,0 +1,1592 @@
+{
+  "templateVersion": "Japanese Lesson Template V1",
+  "week": "2026-W44",
+  "partialWeek": false,
+  "contentPolicy": "Candidate; original fictional situations; context/source only inspiration (Bunka-cho language survey, JNTO official materials; not claimed as news); carryover patterns are curriculum practice, not observed weaknesses.",
+  "lessons": [
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W44-D1",
+        "date": "2026-10-26",
+        "topicJa": "雨の日の通勤準備",
+        "topicZh": "雨天通勤前的準備",
+        "summaryZh": "原創情境：根據天氣預報調整出門時間與隨身物品，練習「〜ように」與「〜ことにする」。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "日常生活",
+        "trendSource": "review"
+      },
+      "reading": {
+        "leadZh": "先找出作者為雨天做了哪些準備，再找出準備的理由。",
+        "japaneseHtml": "<ruby>朝<rt>あさ</rt></ruby>の<ruby>天気予報<rt>てんきよほう</rt></ruby>で、<ruby>午後<rt>ごご</rt></ruby>から<ruby>雨<rt>あめ</rt></ruby>になると<ruby>分<rt>わ</rt></ruby>かりました。<ruby>私<rt>わたし</rt></ruby>は<ruby>電車<rt>でんしゃ</rt></ruby>で<ruby>通勤<rt>つうきん</rt></ruby>しているので、<ruby>傘<rt>かさ</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れないように、<ruby>玄関<rt>げんかん</rt></ruby>のドアの<ruby>前<rt>まえ</rt></ruby>に<ruby>置<rt>お</rt></ruby>いておきます。<ruby>予報<rt>よほう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、いつもより<ruby>十分<rt>じゅっぷん</rt></ruby><ruby>早<rt>はや</rt></ruby>く<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>ることにしました。<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は<ruby>駅<rt>えき</rt></ruby>が<ruby>混<rt>こ</rt></ruby>み、<ruby>電車<rt>でんしゃ</rt></ruby>も<ruby>遅<rt>おく</rt></ruby>れやすいからです。<ruby>季節<rt>きせつ</rt></ruby>が<ruby>秋<rt>あき</rt></ruby>から<ruby>冬<rt>ふゆ</rt></ruby>に<ruby>変<rt>か</rt></ruby>わるのに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>朝<rt>あさ</rt></ruby>の<ruby>空気<rt>くうき</rt></ruby>も<ruby>冷<rt>つめ</rt></ruby>たくなってきました。そこで、<ruby>小<rt>ちい</rt></ruby>さいタオルをかばんに<ruby>入<rt>い</rt></ruby>れるようにしています。ぬれた<ruby>服<rt>ふく</rt></ruby>のまま<ruby>会議<rt>かいぎ</rt></ruby>に<ruby>出<rt>で</rt></ruby>ると、<ruby>集中<rt>しゅうちゅう</rt></ruby>できません。<ruby>準備<rt>じゅんび</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>し<ruby>面倒<rt>めんどう</rt></ruby>ですが、おかげで<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>いて<ruby>一日<rt>いちにち</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>められます。",
+        "translationZh": "早上的天氣預報說，下午起會下雨。我搭電車通勤，所以為了不忘記帶傘，先把傘放在玄關門前。考量預報，我決定比平常早十分鐘出門，因為下雨天車站擁擠、電車也容易誤點。隨著季節從秋天轉向冬天，早晨的空氣也變冷了，所以我養成在包包裡放小毛巾的習慣。衣服濕著去開會會無法專心。準備雖然有點麻煩，但多虧如此，我能沉著地開始一天。",
+        "pronunciation": [
+          {
+            "surface": "通勤",
+            "reading": "つうきん",
+            "meaningZh": "通勤",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "予報",
+            "reading": "よほう",
+            "meaningZh": "預報",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "通勤",
+            "reading": "つうきん",
+            "meaningZh": "通勤",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "予報",
+            "reading": "よほう",
+            "meaningZh": "預報",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "遅れる",
+            "reading": "おくれる",
+            "meaningZh": "遲到、延誤",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "集中",
+            "reading": "しゅうちゅう",
+            "meaningZh": "專心",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "面倒",
+            "reading": "めんどう",
+            "meaningZh": "麻煩",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "<ruby>傘<rt>かさ</rt></ruby>を<ruby>忘<rt>わす</rt></ruby>れないように、<ruby>玄関<rt>げんかん</rt></ruby>に<ruby>置<rt>お</rt></ruby>いておきます。",
+          "translationZh": "為了不忘記帶傘，先放在玄關。"
+        },
+        {
+          "japaneseHtml": "<ruby>天気予報<rt>てんきよほう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>る<ruby>時間<rt>じかん</rt></ruby>を<ruby>決<rt>き</rt></ruby>めます。",
+          "translationZh": "考量天氣預報來決定出門時間。"
+        },
+        {
+          "japaneseHtml": "<ruby>十分<rt>じゅっぷん</rt></ruby><ruby>早<rt>はや</rt></ruby>く<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>ることにしました。",
+          "translationZh": "我決定提早十分鐘出門。"
+        },
+        {
+          "japaneseHtml": "<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は<ruby>電車<rt>でんしゃ</rt></ruby>が<ruby>遅<rt>おく</rt></ruby>れやすいです。",
+          "translationZh": "下雨天電車容易誤點。"
+        },
+        {
+          "japaneseHtml": "<ruby>季節<rt>きせつ</rt></ruby>の<ruby>変化<rt>へんか</rt></ruby>に<ruby>伴<rt>ともな</rt></ruby>って、<ruby>朝<rt>あさ</rt></ruby>の<ruby>空気<rt>くうき</rt></ruby>も<ruby>冷<rt>つめ</rt></ruby>たくなりました。",
+          "translationZh": "隨著季節變化，早晨的空氣也變冷了。"
+        },
+        {
+          "japaneseHtml": "かばんに<ruby>小<rt>ちい</rt></ruby>さいタオルを<ruby>入<rt>い</rt></ruby>れるようにしています。",
+          "translationZh": "我習慣在包包裡放小毛巾。"
+        },
+        {
+          "japaneseHtml": "ぬれたままだと、<ruby>会議<rt>かいぎ</rt></ruby>に<ruby>集中<rt>しゅうちゅう</rt></ruby>できません。",
+          "translationZh": "一直濕著的話，開會無法專心。"
+        },
+        {
+          "japaneseHtml": "<ruby>準備<rt>じゅんび</rt></ruby>は<ruby>少<rt>すこ</rt></ruby>し<ruby>面倒<rt>めんどう</rt></ruby>ですが、<ruby>安心<rt>あんしん</rt></ruby>です。",
+          "translationZh": "準備雖然有點麻煩，但很安心。"
+        },
+        {
+          "japaneseHtml": "<ruby>駅<rt>えき</rt></ruby>が<ruby>混<rt>こ</rt></ruby>む<ruby>時間<rt>じかん</rt></ruby>を<ruby>避<rt>さ</rt></ruby>けて<ruby>通勤<rt>つうきん</rt></ruby>します。",
+          "translationZh": "避開車站擁擠的時段通勤。"
+        },
+        {
+          "japaneseHtml": "<ruby>毎朝<rt>まいあさ</rt></ruby>、<ruby>天気<rt>てんき</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>する<ruby>習慣<rt>しゅうかん</rt></ruby>があります。",
+          "translationZh": "我有每天早上確認天氣的習慣。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "通勤",
+          "reading": "つうきん",
+          "meaningZh": "通勤",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "予報",
+          "reading": "よほう",
+          "meaningZh": "預報",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "遅れる",
+          "reading": "おくれる",
+          "meaningZh": "遲到、延誤",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "集中",
+          "reading": "しゅうちゅう",
+          "meaningZh": "專心",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "面倒",
+          "reading": "めんどう",
+          "meaningZh": "麻煩",
+          "pitch": null,
+          "pitchVerified": false
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜ように（目的）",
+          "formation": "動詞辭書形／ない形＋ように",
+          "explanationZh": "表示「為了達成／避免某個狀態」而事先做某事，前面多用無意志的動詞或否定形。",
+          "example": {
+            "japaneseHtml": "<ruby>遅<rt>おく</rt></ruby>れないように、<ruby>早<rt>はや</rt></ruby>めに<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>ます。",
+            "translationZh": "為了不遲到，提早出門。"
+          }
+        },
+        {
+          "name": "〜ことにする",
+          "formation": "動詞辭書形／ない形＋ことにする",
+          "explanationZh": "表示自己做出決定；過去形「ことにした」是已經決定了。",
+          "example": {
+            "japaneseHtml": "<ruby>今日<rt>きょう</rt></ruby>から、<ruby>毎朝<rt>まいあさ</rt></ruby><ruby>歩<rt>ある</rt></ruby>くことにする。",
+            "translationZh": "我決定從今天起每天早上走路。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "作者為了雨天通勤，做了什麼準備？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. <ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は<ruby>家<rt>いえ</rt></ruby>で<ruby>一日<rt>いちにち</rt></ruby><ruby>休<rt>やす</rt></ruby>む"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. <ruby>早<rt>はや</rt></ruby>く<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>て、<ruby>傘<rt>かさ</rt></ruby>とタオルを<ruby>用意<rt>ようい</rt></ruby>する"
+            },
+            {
+              "value": "C",
+              "labelHtml": "C. <ruby>車<rt>くるま</rt></ruby>で<ruby>会社<rt>かいしゃ</rt></ruby>に<ruby>行<rt>い</rt></ruby>く"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：予報を（　）まえて、早く家を出ることにしました。請填入一個漢字。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句與本課主題有關的目的或提醒（例如不忘記某物）。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜に伴って」寫一句：說明季節或天氣變化帶來的一項改變。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用自己的情境自由寫 2–3 句日文：說明你明天的天氣或行程，並至少使用「〜を踏まえて」或「〜ように」造句。",
+        "exampleJaHtml": "<ruby>予定<rt>よてい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>明日<rt>あした</rt></ruby>は<ruby>早<rt>はや</rt></ruby>く<ruby>寝<rt>ね</rt></ruby>ることにします。<ruby>朝<rt>あさ</rt></ruby><ruby>寝坊<rt>ねぼう</rt></ruby>しないように、<ruby>目覚<rt>めざ</rt></ruby>ましを<ruby>二<rt>ふた</rt></ruby>つかけます。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜を踏まえて",
+        "explanationZh": "回收既有練習句型（課程延續，非新發現的弱點）：「〜を踏まえて」表示把前提、意見或情況納入考量後再判斷。",
+        "exampleJaHtml": "<ruby>天気<rt>てんき</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>持<rt>も</rt></ruby>ち<ruby>物<rt>もの</rt></ruby>を<ruby>選<rt>えら</rt></ruby>びます。",
+        "promptZh": "請用「〜を踏まえて」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "短篇自由輸出",
+        "雨天通勤的準備說明"
+      ]
+    },
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W44-D2",
+        "date": "2026-10-27",
+        "topicJa": "議事録を送る前の確認",
+        "topicZh": "寄出會議紀錄前的確認",
+        "summaryZh": "原創情境：業務窗口整理會議紀錄，區分已決定與未定事項，練習「〜を踏まえて」與「〜上で」。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "ビジネス",
+        "trendSource": "review"
+      },
+      "reading": {
+        "leadZh": "先找出作者怎麼分類資訊，再找出寄出前的確認步驟。",
+        "japaneseHtml": "<ruby>会議<rt>かいぎ</rt></ruby>のあと、<ruby>議事録<rt>ぎじろく</rt></ruby>を<ruby>参加者<rt>さんかしゃ</rt></ruby>に<ruby>送<rt>おく</rt></ruby>ります。<ruby>私<rt>わたし</rt></ruby>は<ruby>建築士<rt>けんちくし</rt></ruby>ではないので、<ruby>設計<rt>せっけい</rt></ruby>の<ruby>内容<rt>ないよう</rt></ruby>は<ruby>判断<rt>はんだん</rt></ruby>せず、<ruby>決<rt>き</rt></ruby>まったことと<ruby>未定<rt>みてい</rt></ruby>のことを<ruby>分<rt>わ</rt></ruby>けて<ruby>書<rt>か</rt></ruby>きます。<ruby>先方<rt>せんぽう</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>次回<rt>じかい</rt></ruby>までの<ruby>宿題<rt>しゅくだい</rt></ruby>も<ruby>一覧<rt>いちらん</rt></ruby>にしました。<ruby>納期<rt>のうき</rt></ruby>の<ruby>変更<rt>へんこう</rt></ruby>に<ruby>伴<rt>ともな</rt></ruby>って、<ruby>関係者<rt>かんけいしゃ</rt></ruby>に<ruby>連絡<rt>れんらく</rt></ruby>する<ruby>順番<rt>じゅんばん</rt></ruby>も<ruby>見直<rt>みなお</rt></ruby>します。<ruby>誤解<rt>ごかい</rt></ruby>が<ruby>起<rt>お</rt></ruby>きないように、<ruby>数字<rt>すうじ</rt></ruby>と<ruby>日付<rt>ひづけ</rt></ruby>は<ruby>資料<rt>しりょう</rt></ruby>と<ruby>見比<rt>みくら</rt></ruby>べて<ruby>確認<rt>かくにん</rt></ruby>します。<ruby>上司<rt>じょうし</rt></ruby>にも<ruby>読<rt>よ</rt></ruby>んでもらった<ruby>上<rt>うえ</rt></ruby>で<ruby>送<rt>おく</rt></ruby>れば、<ruby>間違<rt>まちが</rt></ruby>いに<ruby>気<rt>き</rt></ruby>づきやすくなります。<ruby>小<rt>ちい</rt></ruby>さな<ruby>作業<rt>さぎょう</rt></ruby>ですが、これが<ruby>次<rt>つぎ</rt></ruby>の<ruby>打<rt>う</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせを<ruby>楽<rt>らく</rt></ruby>にしてくれます。",
+        "translationZh": "會議結束後，我把會議紀錄寄給與會者。我不是建築師，所以不判斷設計內容，只把已決定與未定的事項分開寫。考量對方的意見，我也把到下次為止的待辦事項整理成清單。隨著交期變更，通知相關人員的順序也要重新檢視。為了避免誤解，數字與日期會對照資料確認。若請主管也讀過之後再寄，就更容易發現錯誤。雖然是小作業，卻能讓下一次的討論更輕鬆。",
+        "pronunciation": [
+          {
+            "surface": "議事録",
+            "reading": "ぎじろく",
+            "meaningZh": "會議紀錄",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "未定",
+            "reading": "みてい",
+            "meaningZh": "未定",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "議事録",
+            "reading": "ぎじろく",
+            "meaningZh": "會議紀錄",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "未定",
+            "reading": "みてい",
+            "meaningZh": "未定",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "納期",
+            "reading": "のうき",
+            "meaningZh": "交期",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "見直す",
+            "reading": "みなおす",
+            "meaningZh": "重新檢視",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "宿題",
+            "reading": "しゅくだい",
+            "meaningZh": "待辦事項、功課",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "<ruby>決<rt>き</rt></ruby>まったことと<ruby>未定<rt>みてい</rt></ruby>のことを<ruby>分<rt>わ</rt></ruby>けて<ruby>書<rt>か</rt></ruby>きます。",
+          "translationZh": "把已決定與未定的事項分開寫。"
+        },
+        {
+          "japaneseHtml": "<ruby>先方<rt>せんぽう</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>資料<rt>しりょう</rt></ruby>を<ruby>直<rt>なお</rt></ruby>します。",
+          "translationZh": "考量對方的意見來修改資料。"
+        },
+        {
+          "japaneseHtml": "<ruby>次回<rt>じかい</rt></ruby>までの<ruby>宿題<rt>しゅくだい</rt></ruby>を<ruby>一覧<rt>いちらん</rt></ruby>にしました。",
+          "translationZh": "把到下次為止的待辦事項做成清單。"
+        },
+        {
+          "japaneseHtml": "<ruby>納期<rt>のうき</rt></ruby>の<ruby>変更<rt>へんこう</rt></ruby>に<ruby>伴<rt>ともな</rt></ruby>って、<ruby>連絡<rt>れんらく</rt></ruby>の<ruby>順番<rt>じゅんばん</rt></ruby>を<ruby>見直<rt>みなお</rt></ruby>します。",
+          "translationZh": "隨著交期變更，重新檢視聯絡順序。"
+        },
+        {
+          "japaneseHtml": "<ruby>誤解<rt>ごかい</rt></ruby>が<ruby>起<rt>お</rt></ruby>きないように、<ruby>数字<rt>すうじ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します。",
+          "translationZh": "為了避免誤解，確認數字。"
+        },
+        {
+          "japaneseHtml": "<ruby>上司<rt>じょうし</rt></ruby>に<ruby>読<rt>よ</rt></ruby>んでもらった<ruby>上<rt>うえ</rt></ruby>で<ruby>送<rt>おく</rt></ruby>ります。",
+          "translationZh": "請主管讀過之後再寄出。"
+        },
+        {
+          "japaneseHtml": "<ruby>資料<rt>しりょう</rt></ruby>と<ruby>見比<rt>みくら</rt></ruby>べて、<ruby>日付<rt>ひづけ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>しました。",
+          "translationZh": "對照資料確認了日期。"
+        },
+        {
+          "japaneseHtml": "<ruby>設計<rt>せっけい</rt></ruby>の<ruby>内容<rt>ないよう</rt></ruby>は、<ruby>私<rt>わたし</rt></ruby>が<ruby>判断<rt>はんだん</rt></ruby>することではありません。",
+          "translationZh": "設計內容不是我能判斷的事。"
+        },
+        {
+          "japaneseHtml": "<ruby>議事録<rt>ぎじろく</rt></ruby>は、<ruby>会議<rt>かいぎ</rt></ruby>のあと、なるべく<ruby>早<rt>はや</rt></ruby>く<ruby>送<rt>おく</rt></ruby>ります。",
+          "translationZh": "會議紀錄會在會後盡量快點寄出。"
+        },
+        {
+          "japaneseHtml": "<ruby>小<rt>ちい</rt></ruby>さな<ruby>確認<rt>かくにん</rt></ruby>が、<ruby>次<rt>つぎ</rt></ruby>の<ruby>打<rt>う</rt></ruby>ち<ruby>合<rt>あ</rt></ruby>わせを<ruby>楽<rt>らく</rt></ruby>にします。",
+          "translationZh": "小小的確認能讓下次討論更輕鬆。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "議事録",
+          "reading": "ぎじろく",
+          "meaningZh": "會議紀錄",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "未定",
+          "reading": "みてい",
+          "meaningZh": "未定",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "納期",
+          "reading": "のうき",
+          "meaningZh": "交期",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "見直す",
+          "reading": "みなおす",
+          "meaningZh": "重新檢視",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "宿題",
+          "reading": "しゅくだい",
+          "meaningZh": "待辦事項、功課",
+          "pitch": null,
+          "pitchVerified": false
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜を踏まえて",
+          "formation": "名詞＋を踏まえて",
+          "explanationZh": "表示把前提、意見或情況納入考量後，再做判斷或行動。",
+          "example": {
+            "japaneseHtml": "<ruby>相手<rt>あいて</rt></ruby>の<ruby>事情<rt>じじょう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>日程<rt>にってい</rt></ruby>を<ruby>提案<rt>ていあん</rt></ruby>します。",
+            "translationZh": "考量對方的情況來提出日程。"
+          }
+        },
+        {
+          "name": "〜上で",
+          "formation": "動詞た形／名詞の＋上で",
+          "explanationZh": "表示先完成前一步，再進行下一步（先後順序）。",
+          "example": {
+            "japaneseHtml": "<ruby>内容<rt>ないよう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>した<ruby>上<rt>うえ</rt></ruby>で、<ruby>返事<rt>へんじ</rt></ruby>をします。",
+            "translationZh": "確認內容之後再回覆。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "作者在會議紀錄裡，怎麼處理設計相關內容？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. <ruby>設計<rt>せっけい</rt></ruby>の<ruby>内容<rt>ないよう</rt></ruby>を<ruby>自分<rt>じぶん</rt></ruby>で<ruby>判断<rt>はんだん</rt></ruby>して<ruby>書<rt>か</rt></ruby>く"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. <ruby>数字<rt>すうじ</rt></ruby>は<ruby>確認<rt>かくにん</rt></ruby>せず、そのまま<ruby>送<rt>おく</rt></ruby>る"
+            },
+            {
+              "value": "C",
+              "labelHtml": "C. <ruby>決<rt>き</rt></ruby>まったことと<ruby>未定<rt>みてい</rt></ruby>のことを<ruby>分<rt>わ</rt></ruby>けて<ruby>書<rt>か</rt></ruby>く"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：上司に読んでもらった（　）で送ります。請填入一個漢字。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句：為了避免誤解或錯誤，你會怎麼做。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜を踏まえて」寫一句：根據同事或客戶的意見，你會調整什麼。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用自己的情境自由寫 2–3 句日文：說明你寄出文件前會確認什麼，並至少使用「〜上で」或「〜に伴って」造句。",
+        "exampleJaHtml": "<ruby>内容<rt>ないよう</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>した<ruby>上<rt>うえ</rt></ruby>で<ruby>送<rt>おく</rt></ruby>ります。<ruby>担当者<rt>たんとうしゃ</rt></ruby>が<ruby>変<rt>か</rt></ruby>わるのに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>宛先<rt>あてさき</rt></ruby>も<ruby>見直<rt>みなお</rt></ruby>します。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜に伴って",
+        "explanationZh": "回收既有練習句型（課程延續，非新發現的弱點）：「〜に伴って」表示隨著某件事的變化，另一件事也跟著變化。",
+        "exampleJaHtml": "<ruby>人数<rt>にんずう</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>に<ruby>伴<rt>ともな</rt></ruby>って、<ruby>会場<rt>かいじょう</rt></ruby>を<ruby>変更<rt>へんこう</rt></ruby>しました。",
+        "promptZh": "請用「〜に伴って」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "短篇自由輸出",
+        "會議紀錄與確認步驟"
+      ]
+    },
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W44-D3",
+        "date": "2026-10-28",
+        "topicJa": "駅で乗り換えを尋ねる",
+        "topicZh": "在車站詢問轉乘方式",
+        "summaryZh": "原創情境：旅行時向站務員詢問轉乘，聽懂請求並說明決定，練習「〜ようにしてください」與「〜ついでに」。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "旅行／レストラン",
+        "trendSource": "travel"
+      },
+      "reading": {
+        "leadZh": "先找出站務員的建議，再找出作者怎麼決定。",
+        "japaneseHtml": "<ruby>旅行<rt>りょこう</rt></ruby>で<ruby>初<rt>はじ</rt></ruby>めての<ruby>駅<rt>えき</rt></ruby>に<ruby>着<rt>つ</rt></ruby>くと、<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えの<ruby>案内<rt>あんない</rt></ruby>が<ruby>多<rt>おお</rt></ruby>くて<ruby>迷<rt>まよ</rt></ruby>いました。<ruby>駅員<rt>えきいん</rt></ruby>さんに<ruby>聞<rt>き</rt></ruby>くと、「<ruby>次<rt>つぎ</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>は<ruby>混<rt>こ</rt></ruby>んでいるので、<ruby>一本<rt>いっぽん</rt></ruby>あとのに<ruby>乗<rt>の</rt></ruby>るようにしてください」と<ruby>言<rt>い</rt></ruby>われました。<ruby>荷物<rt>にもつ</rt></ruby>が<ruby>多<rt>おお</rt></ruby>かったからです。<ruby>案内<rt>あんない</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>私<rt>わたし</rt></ruby>は<ruby>十分<rt>じゅっぷん</rt></ruby>ほど<ruby>待<rt>ま</rt></ruby>つことにしました。<ruby>待<rt>ま</rt></ruby>つついでに、<ruby>切符<rt>きっぷ</rt></ruby><ruby>売<rt>う</rt></ruby>り<ruby>場<rt>ば</rt></ruby>で<ruby>地図<rt>ちず</rt></ruby>ももらいました。<ruby>利用者<rt>りようしゃ</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えるのに<ruby>伴<rt>ともな</rt></ruby>って、ホームの<ruby>案内板<rt>あんないばん</rt></ruby>も<ruby>新<rt>あたら</rt></ruby>しくなったそうです。<ruby>分<rt>わ</rt></ruby>からないときは、<ruby>遠慮<rt>えんりょ</rt></ruby>せずに<ruby>聞<rt>き</rt></ruby>くようにしています。おかげで、<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>持<rt>も</rt></ruby>って<ruby>走<rt>はし</rt></ruby>らずに、ゆっくり<ruby>座<rt>すわ</rt></ruby>って<ruby>行<rt>い</rt></ruby>くことができました。",
+        "translationZh": "旅行時到了第一次去的車站，轉乘指示很多讓我迷惘。問站務員後，他說：「下一班電車很擠，請搭晚一班的。」因為我行李很多。考量這項建議，我決定等十分鐘左右。等車的同時，順便在售票處拿了地圖。聽說隨著使用者增加，月台的指示牌也換新了。不懂的時候，我會不客氣地發問。多虧如此，我不用提著行李奔跑，能夠悠閒地坐著前往。",
+        "pronunciation": [
+          {
+            "surface": "乗り換え",
+            "reading": "のりかえ",
+            "meaningZh": "轉乘",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "駅員",
+            "reading": "えきいん",
+            "meaningZh": "站務員",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "乗り換え",
+            "reading": "のりかえ",
+            "meaningZh": "轉乘",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "駅員",
+            "reading": "えきいん",
+            "meaningZh": "站務員",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "荷物",
+            "reading": "にもつ",
+            "meaningZh": "行李",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "切符",
+            "reading": "きっぷ",
+            "meaningZh": "車票",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "遠慮",
+            "reading": "えんりょ",
+            "meaningZh": "客氣、顧慮",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "すみません、<ruby>乗<rt>の</rt></ruby>り<ruby>換<rt>か</rt></ruby>えを<ruby>教<rt>おし</rt></ruby>えてください。",
+          "translationZh": "不好意思，請告訴我怎麼轉乘。"
+        },
+        {
+          "japaneseHtml": "<ruby>次<rt>つぎ</rt></ruby>の<ruby>電車<rt>でんしゃ</rt></ruby>は<ruby>混<rt>こ</rt></ruby>んでいます。",
+          "translationZh": "下一班電車很擠。"
+        },
+        {
+          "japaneseHtml": "<ruby>一本<rt>いっぽん</rt></ruby>あとの<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>るようにしてください。",
+          "translationZh": "請搭晚一班的電車。"
+        },
+        {
+          "japaneseHtml": "<ruby>案内<rt>あんない</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>少<rt>すこ</rt></ruby>し<ruby>待<rt>ま</rt></ruby>つことにしました。",
+          "translationZh": "考量指引，我決定稍等一下。"
+        },
+        {
+          "japaneseHtml": "<ruby>待<rt>ま</rt></ruby>つついでに、<ruby>地図<rt>ちず</rt></ruby>ももらいました。",
+          "translationZh": "等車的同時順便拿了地圖。"
+        },
+        {
+          "japaneseHtml": "<ruby>利用者<rt>りようしゃ</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えるのに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>案内板<rt>あんないばん</rt></ruby>も<ruby>増<rt>ふ</rt></ruby>えました。",
+          "translationZh": "隨著使用者增加，指示牌也變多了。"
+        },
+        {
+          "japaneseHtml": "<ruby>忘<rt>わす</rt></ruby>れ<ruby>物<rt>もの</rt></ruby>をしないように、<ruby>荷物<rt>にもつ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します。",
+          "translationZh": "為了不遺忘東西，確認行李。"
+        },
+        {
+          "japaneseHtml": "<ruby>分<rt>わ</rt></ruby>からないときは、<ruby>遠慮<rt>えんりょ</rt></ruby>せずに<ruby>聞<rt>き</rt></ruby>きます。",
+          "translationZh": "不懂的時候，不客氣地發問。"
+        },
+        {
+          "japaneseHtml": "ホームの<ruby>番号<rt>ばんごう</rt></ruby>をもう<ruby>一度<rt>いちど</rt></ruby><ruby>見<rt>み</rt></ruby>てください。",
+          "translationZh": "請再看一次月台號碼。"
+        },
+        {
+          "japaneseHtml": "<ruby>切符<rt>きっぷ</rt></ruby>を<ruby>買<rt>か</rt></ruby>うついでに、<ruby>時刻表<rt>じこくひょう</rt></ruby>も<ruby>見<rt>み</rt></ruby>ました。",
+          "translationZh": "買車票的同時順便看了時刻表。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "乗り換え",
+          "reading": "のりかえ",
+          "meaningZh": "轉乘",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "駅員",
+          "reading": "えきいん",
+          "meaningZh": "站務員",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "荷物",
+          "reading": "にもつ",
+          "meaningZh": "行李",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "切符",
+          "reading": "きっぷ",
+          "meaningZh": "車票",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "遠慮",
+          "reading": "えんりょ",
+          "meaningZh": "客氣、顧慮",
+          "pitch": null,
+          "pitchVerified": false
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜ようにしてください",
+          "formation": "動詞辭書形／ない形＋ようにしてください",
+          "explanationZh": "委婉提出請求或叮嚀，語氣比「〜てください」柔和，常用於提醒日常習慣或注意事項。",
+          "example": {
+            "japaneseHtml": "<ruby>走<rt>はし</rt></ruby>らないようにしてください。",
+            "translationZh": "請不要奔跑。"
+          }
+        },
+        {
+          "name": "〜ついでに",
+          "formation": "動詞辭書形／名詞の＋ついでに",
+          "explanationZh": "表示趁著做某事的機會，順便做另一件事。",
+          "example": {
+            "japaneseHtml": "<ruby>買<rt>か</rt></ruby>い<ruby>物<rt>もの</rt></ruby>のついでに、<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>にも<ruby>寄<rt>よ</rt></ruby>ります。",
+            "translationZh": "買東西時順便去郵局。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "作者聽完站務員的建議後，怎麼做？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. <ruby>一本<rt>いっぽん</rt></ruby>あとの<ruby>電車<rt>でんしゃ</rt></ruby>に<ruby>乗<rt>の</rt></ruby>り、<ruby>十分<rt>じゅっぷん</rt></ruby>ほど<ruby>待<rt>ま</rt></ruby>つ"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. <ruby>混<rt>こ</rt></ruby>んでいる<ruby>電車<rt>でんしゃ</rt></ruby>にすぐ<ruby>乗<rt>の</rt></ruby>る"
+            },
+            {
+              "value": "C",
+              "labelHtml": "C. <ruby>駅<rt>えき</rt></ruby>を<ruby>出<rt>で</rt></ruby>てタクシーに<ruby>乗<rt>の</rt></ruby>る"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：待つ（　）に、地図ももらいました。請填入一個平假名組成的語詞。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句：旅行時為了避免遺漏或迷路，你會怎麼做。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜に伴って」寫一句：說明車站或街道隨使用者增加而產生的變化。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用自己的情境自由寫 2–3 句日文：在車站或餐廳向別人詢問一件事，並至少使用「〜ようにしてください」或「〜ついでに」造句。",
+        "exampleJaHtml": "すみません、<ruby>出口<rt>でぐち</rt></ruby>を<ruby>教<rt>おし</rt></ruby>えてください。<ruby>案内<rt>あんない</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>右<rt>みぎ</rt></ruby>の<ruby>階段<rt>かいだん</rt></ruby>から<ruby>上<rt>あ</rt></ruby>がるようにします。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜ように（目的／提醒）",
+        "explanationZh": "回收既有練習句型（課程延續，非新發現的弱點）：「〜ように」可表示目的，也可用在「〜ようにしてください」的請求。",
+        "exampleJaHtml": "<ruby>迷<rt>まよ</rt></ruby>わないように、<ruby>地図<rt>ちず</rt></ruby>を<ruby>見<rt>み</rt></ruby>ながら<ruby>歩<rt>ある</rt></ruby>きます。",
+        "promptZh": "請用「〜ように」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "短篇自由輸出",
+        "旅行時的請求與提問"
+      ]
+    },
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W44-D4",
+        "date": "2026-10-29",
+        "topicJa": "展示室の照明を説明する",
+        "topicZh": "說明展示室的照明",
+        "summaryZh": "原創情境：建築業務在見學會聽取照明說明並整理給客戶，練習「〜に伴って」與「〜によって」。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "建築／設計",
+        "trendSource": "review"
+      },
+      "reading": {
+        "leadZh": "先找出照明如何配合展示，再找出作者怎麼區分已知與未知。",
+        "japaneseHtml": "<ruby>美術館<rt>びじゅつかん</rt></ruby>の<ruby>見学会<rt>けんがくかい</rt></ruby>で、<ruby>展示室<rt>てんじしつ</rt></ruby>の<ruby>照明<rt>しょうめい</rt></ruby>について<ruby>説明<rt>せつめい</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きました。<ruby>担当者<rt>たんとうしゃ</rt></ruby>は「<ruby>作品<rt>さくひん</rt></ruby>によって、<ruby>光<rt>ひかり</rt></ruby>の<ruby>強<rt>つよ</rt></ruby>さを<ruby>変<rt>か</rt></ruby>えています」と<ruby>話<rt>はな</rt></ruby>しました。<ruby>私<rt>わたし</rt></ruby>は<ruby>建築士<rt>けんちくし</rt></ruby>ではありませんが、<ruby>営業<rt>えいぎょう</rt></ruby>の<ruby>立場<rt>たちば</rt></ruby>で<ruby>顧客<rt>こきゃく</rt></ruby>に<ruby>説明<rt>せつめい</rt></ruby>するために、その<ruby>話<rt>はなし</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえてメモを<ruby>整理<rt>せいり</rt></ruby>しました。<ruby>展示<rt>てんじ</rt></ruby>の<ruby>入<rt>い</rt></ruby>れ<ruby>替<rt>か</rt></ruby>えに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>照明<rt>しょうめい</rt></ruby>の<ruby>位置<rt>いち</rt></ruby>を<ruby>動<rt>うご</rt></ruby>かすこともあるそうです。<ruby>見学者<rt>けんがくしゃ</rt></ruby>の<ruby>目<rt>め</rt></ruby>が<ruby>疲<rt>つか</rt></ruby>れないように、<ruby>壁<rt>かべ</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>も<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>いたものにしています。ただし、<ruby>実際<rt>じっさい</rt></ruby>の<ruby>工事<rt>こうじ</rt></ruby>で<ruby>何<rt>なに</rt></ruby>ができるかは、<ruby>設計<rt>せっけい</rt></ruby>チームに<ruby>確認<rt>かくにん</rt></ruby>が<ruby>必要<rt>ひつよう</rt></ruby>です。<ruby>分<rt>わ</rt></ruby>かったことと、まだ<ruby>分<rt>わ</rt></ruby>からないことを<ruby>分<rt>わ</rt></ruby>けて<ruby>覚<rt>おぼ</rt></ruby>えておきます。",
+        "translationZh": "在美術館的見學會上，我聽了展示室照明的說明。負責人說：「依作品不同，我們會調整光的強度。」我不是建築師，但為了以業務立場向客戶說明，我根據他的說明整理了筆記。聽說隨著展覽更換，照明的位置也可能移動。為了不讓參觀者眼睛疲勞，牆壁的顏色也選用沉穩的色調。不過，實際施工能做到什麼，需要向設計團隊確認。我會把已知與未知的事分開記住。",
+        "pronunciation": [
+          {
+            "surface": "照明",
+            "reading": "しょうめい",
+            "meaningZh": "照明",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "展示室",
+            "reading": "てんじしつ",
+            "meaningZh": "展示室",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "照明",
+            "reading": "しょうめい",
+            "meaningZh": "照明",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "展示室",
+            "reading": "てんじしつ",
+            "meaningZh": "展示室",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "見学会",
+            "reading": "けんがくかい",
+            "meaningZh": "參觀活動",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "顧客",
+            "reading": "こきゃく",
+            "meaningZh": "客戶",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "整理",
+            "reading": "せいり",
+            "meaningZh": "整理",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "<ruby>展示室<rt>てんじしつ</rt></ruby>の<ruby>照明<rt>しょうめい</rt></ruby>について<ruby>説明<rt>せつめい</rt></ruby>を<ruby>聞<rt>き</rt></ruby>きました。",
+          "translationZh": "我聽了展示室照明的說明。"
+        },
+        {
+          "japaneseHtml": "<ruby>作品<rt>さくひん</rt></ruby>によって、<ruby>光<rt>ひかり</rt></ruby>の<ruby>強<rt>つよ</rt></ruby>さを<ruby>変<rt>か</rt></ruby>えています。",
+          "translationZh": "依作品不同而調整光的強度。"
+        },
+        {
+          "japaneseHtml": "<ruby>担当者<rt>たんとうしゃ</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、メモを<ruby>整理<rt>せいり</rt></ruby>しました。",
+          "translationZh": "根據負責人的說明整理了筆記。"
+        },
+        {
+          "japaneseHtml": "<ruby>展示<rt>てんじ</rt></ruby>の<ruby>入<rt>い</rt></ruby>れ<ruby>替<rt>か</rt></ruby>えに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>照明<rt>しょうめい</rt></ruby>の<ruby>位置<rt>いち</rt></ruby>を<ruby>動<rt>うご</rt></ruby>かします。",
+          "translationZh": "隨著展覽更換，移動照明位置。"
+        },
+        {
+          "japaneseHtml": "<ruby>目<rt>め</rt></ruby>が<ruby>疲<rt>つか</rt></ruby>れないように、<ruby>壁<rt>かべ</rt></ruby>の<ruby>色<rt>いろ</rt></ruby>を<ruby>落<rt>お</rt></ruby>ち<ruby>着<rt>つ</rt></ruby>いたものにしています。",
+          "translationZh": "為了不讓眼睛疲勞，牆壁選用沉穩的顏色。"
+        },
+        {
+          "japaneseHtml": "<ruby>実際<rt>じっさい</rt></ruby>の<ruby>工事<rt>こうじ</rt></ruby>については、<ruby>設計<rt>せっけい</rt></ruby>チームに<ruby>確認<rt>かくにん</rt></ruby>します。",
+          "translationZh": "實際施工的部分，向設計團隊確認。"
+        },
+        {
+          "japaneseHtml": "<ruby>季節<rt>きせつ</rt></ruby>によって、<ruby>窓<rt>まど</rt></ruby>から<ruby>入<rt>はい</rt></ruby>る<ruby>光<rt>ひかり</rt></ruby>が<ruby>変<rt>か</rt></ruby>わります。",
+          "translationZh": "依季節不同，從窗戶進來的光也會改變。"
+        },
+        {
+          "japaneseHtml": "<ruby>顧客<rt>こきゃく</rt></ruby>に<ruby>分<rt>わ</rt></ruby>かりやすい<ruby>言葉<rt>ことば</rt></ruby>で<ruby>説明<rt>せつめい</rt></ruby>します。",
+          "translationZh": "用客戶容易懂的話來說明。"
+        },
+        {
+          "japaneseHtml": "<ruby>分<rt>わ</rt></ruby>かったことと<ruby>分<rt>わ</rt></ruby>からないことを<ruby>分<rt>わ</rt></ruby>けて<ruby>覚<rt>おぼ</rt></ruby>えます。",
+          "translationZh": "把已知與未知的事分開記住。"
+        },
+        {
+          "japaneseHtml": "<ruby>人<rt>ひと</rt></ruby>によって、<ruby>明<rt>あか</rt></ruby>るさの<ruby>感<rt>かん</rt></ruby>じ<ruby>方<rt>かた</rt></ruby>は<ruby>違<rt>ちが</rt></ruby>います。",
+          "translationZh": "每個人對亮度的感受不同。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "照明",
+          "reading": "しょうめい",
+          "meaningZh": "照明",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "展示室",
+          "reading": "てんじしつ",
+          "meaningZh": "展示室",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "見学会",
+          "reading": "けんがくかい",
+          "meaningZh": "參觀活動",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "顧客",
+          "reading": "こきゃく",
+          "meaningZh": "客戶",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "整理",
+          "reading": "せいり",
+          "meaningZh": "整理",
+          "pitch": null,
+          "pitchVerified": false
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜に伴って",
+          "formation": "名詞／動詞辭書形の＋に伴って",
+          "explanationZh": "表示隨著前項的變化，後項也跟著變化。",
+          "example": {
+            "japaneseHtml": "<ruby>利用者<rt>りようしゃ</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>に<ruby>伴<rt>ともな</rt></ruby>って、<ruby>入口<rt>いりぐち</rt></ruby>を<ruby>広<rt>ひろ</rt></ruby>げました。",
+            "translationZh": "隨著使用者增加，把入口加寬了。"
+          }
+        },
+        {
+          "name": "〜によって",
+          "formation": "名詞＋によって",
+          "explanationZh": "表示「依…而不同」，說明情況會隨對象、時期或條件改變。",
+          "example": {
+            "japaneseHtml": "<ruby>季節<rt>きせつ</rt></ruby>によって、<ruby>景色<rt>けしき</rt></ruby>が<ruby>変<rt>か</rt></ruby>わります。",
+            "translationZh": "景色依季節而不同。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "依據短文，展示室的照明是怎麼設定的？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. <ruby>照明<rt>しょうめい</rt></ruby>はいつも<ruby>同<rt>おな</rt></ruby>じ<ruby>強<rt>つよ</rt></ruby>さにしている"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. <ruby>施工<rt>せこう</rt></ruby>できるかどうかを<ruby>営業<rt>えいぎょう</rt></ruby>が<ruby>決<rt>き</rt></ruby>める"
+            },
+            {
+              "value": "C",
+              "labelHtml": "C. <ruby>作品<rt>さくひん</rt></ruby>によって<ruby>光<rt>ひかり</rt></ruby>の<ruby>強<rt>つよ</rt></ruby>さを<ruby>変<rt>か</rt></ruby>えている"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：作品（　）、光の強さを変えています。請填入「によって」。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句：為了讓使用者舒適，空間可以怎麼做。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜に伴って」寫一句：說明某個空間隨使用變化而做的調整。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用自己的情境自由寫 2–3 句日文：向客戶說明一項你已確認與一項尚未確認的事，並至少使用「〜によって」或「〜を踏まえて」造句。",
+        "exampleJaHtml": "<ruby>時間<rt>じかん</rt></ruby>によって、ロビーの<ruby>明<rt>あか</rt></ruby>るさが<ruby>変<rt>か</rt></ruby>わります。<ruby>担当者<rt>たんとうしゃ</rt></ruby>の<ruby>説明<rt>せつめい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、お<ruby>客様<rt>おきゃくさま</rt></ruby>に<ruby>伝<rt>つた</rt></ruby>えます。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜を踏まえて",
+        "explanationZh": "回收既有練習句型（課程延續，非新發現的弱點）：「〜を踏まえて」表示以已知資訊為基礎再說明或判斷。",
+        "exampleJaHtml": "<ruby>現場<rt>げんば</rt></ruby>の<ruby>様子<rt>ようす</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>案<rt>あん</rt></ruby>を<ruby>修正<rt>しゅうせい</rt></ruby>します。",
+        "promptZh": "請用「〜を踏まえて」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "短篇自由輸出",
+        "已知與未知的區分說明"
+      ]
+    },
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W44-D5",
+        "date": "2026-10-30",
+        "topicJa": "ケース分析で優先順位を決める",
+        "topicZh": "個案分析中決定優先順序",
+        "summaryZh": "原創情境：IMBA 課堂小組討論假想自行車店個案，練習「〜に基づいて」與「〜を踏まえて」。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "IMBA",
+        "trendSource": "review"
+      },
+      "reading": {
+        "leadZh": "先找出小組根據什麼整理課題，再找出意見分歧時怎麼決定。",
+        "japaneseHtml": "<ruby>経営<rt>けいえい</rt></ruby>の<ruby>授業<rt>じゅぎょう</rt></ruby>で、<ruby>架空<rt>かくう</rt></ruby>の<ruby>自転車店<rt>じてんしゃてん</rt></ruby>のケースを<ruby>分析<rt>ぶんせき</rt></ruby>しました。データに<ruby>基<rt>もと</rt></ruby>づいて<ruby>課題<rt>かだい</rt></ruby>を<ruby>整理<rt>せいり</rt></ruby>し、<ruby>売上<rt>うりあげ</rt></ruby>が<ruby>落<rt>お</rt></ruby>ちた<ruby>理由<rt>りゆう</rt></ruby>の<ruby>仮説<rt>かせつ</rt></ruby>を<ruby>三<rt>みっ</rt></ruby>つ<ruby>挙<rt>あ</rt></ruby>げました。<ruby>班<rt>はん</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かれたときは、<ruby>先生<rt>せんせい</rt></ruby>の<ruby>助言<rt>じょげん</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>を<ruby>決<rt>き</rt></ruby>めました。<ruby>調査<rt>ちょうさ</rt></ruby>する<ruby>店舗<rt>てんぽ</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えるのに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>集<rt>あつ</rt></ruby>める<ruby>数字<rt>すうじ</rt></ruby>も<ruby>多<rt>おお</rt></ruby>くなります。そこで、<ruby>発表<rt>はっぴょう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に、<ruby>根拠<rt>こんきょ</rt></ruby>の<ruby>弱<rt>よわ</rt></ruby>い<ruby>部分<rt>ぶぶん</rt></ruby>がないか<ruby>探<rt>さが</rt></ruby>すようにしています。<ruby>意見<rt>いけん</rt></ruby>が<ruby>違<rt>ちが</rt></ruby>っても、まず<ruby>相手<rt>あいて</rt></ruby>の<ruby>理由<rt>りゆう</rt></ruby>を<ruby>最後<rt>さいご</rt></ruby>まで<ruby>聞<rt>き</rt></ruby>くと、<ruby>話<rt>はな</rt></ruby>し<ruby>合<rt>あ</rt></ruby>いが<ruby>早<rt>はや</rt></ruby>く<ruby>進<rt>すす</rt></ruby>みます。",
+        "translationZh": "在經營課上，我們分析了一間虛構自行車店的個案。根據資料整理課題，並列出三個營收下滑原因的假設。小組意見分歧時，我們參考老師的建議來決定優先順序。隨著調查的店鋪增加，要蒐集的數字也變多。因此在發表前，我會養成尋找依據薄弱之處的習慣。即使意見不同，先聽完對方的理由，討論就會進行得更快。",
+        "pronunciation": [
+          {
+            "surface": "課題",
+            "reading": "かだい",
+            "meaningZh": "課題、待解決的問題",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "仮説",
+            "reading": "かせつ",
+            "meaningZh": "假設",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "課題",
+            "reading": "かだい",
+            "meaningZh": "課題、待解決的問題",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "仮説",
+            "reading": "かせつ",
+            "meaningZh": "假設",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "助言",
+            "reading": "じょげん",
+            "meaningZh": "建議",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "優先順位",
+            "reading": "ゆうせんじゅんい",
+            "meaningZh": "優先順序",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "根拠",
+            "reading": "こんきょ",
+            "meaningZh": "依據",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "データに<ruby>基<rt>もと</rt></ruby>づいて、<ruby>課題<rt>かだい</rt></ruby>を<ruby>整理<rt>せいり</rt></ruby>しました。",
+          "translationZh": "根據資料整理了課題。"
+        },
+        {
+          "japaneseHtml": "<ruby>売上<rt>うりあげ</rt></ruby>が<ruby>落<rt>お</rt></ruby>ちた<ruby>理由<rt>りゆう</rt></ruby>の<ruby>仮説<rt>かせつ</rt></ruby>を<ruby>挙<rt>あ</rt></ruby>げます。",
+          "translationZh": "列出營收下滑原因的假設。"
+        },
+        {
+          "japaneseHtml": "<ruby>先生<rt>せんせい</rt></ruby>の<ruby>助言<rt>じょげん</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>優先順位<rt>ゆうせんじゅんい</rt></ruby>を<ruby>決<rt>き</rt></ruby>めました。",
+          "translationZh": "參考老師的建議決定了優先順序。"
+        },
+        {
+          "japaneseHtml": "<ruby>店舗<rt>てんぽ</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えるのに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>集<rt>あつ</rt></ruby>める<ruby>数字<rt>すうじ</rt></ruby>も<ruby>増<rt>ふ</rt></ruby>えます。",
+          "translationZh": "隨著店鋪增加，要蒐集的數字也增加。"
+        },
+        {
+          "japaneseHtml": "<ruby>根拠<rt>こんきょ</rt></ruby>が<ruby>弱<rt>よわ</rt></ruby>い<ruby>部分<rt>ぶぶん</rt></ruby>がないか<ruby>探<rt>さが</rt></ruby>すようにしています。",
+          "translationZh": "我習慣尋找依據薄弱的部分。"
+        },
+        {
+          "japaneseHtml": "まず、<ruby>相手<rt>あいて</rt></ruby>の<ruby>理由<rt>りゆう</rt></ruby>を<ruby>最後<rt>さいご</rt></ruby>まで<ruby>聞<rt>き</rt></ruby>きます。",
+          "translationZh": "首先，把對方的理由聽到最後。"
+        },
+        {
+          "japaneseHtml": "<ruby>意見<rt>いけん</rt></ruby>が<ruby>分<rt>わ</rt></ruby>かれたときは、<ruby>目的<rt>もくてき</rt></ruby>に<ruby>戻<rt>もど</rt></ruby>ります。",
+          "translationZh": "意見分歧時，就回到目的。"
+        },
+        {
+          "japaneseHtml": "<ruby>調査<rt>ちょうさ</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>に<ruby>基<rt>もと</rt></ruby>づいて、<ruby>案<rt>あん</rt></ruby>を<ruby>二<rt>ふた</rt></ruby>つに<ruby>絞<rt>しぼ</rt></ruby>りました。",
+          "translationZh": "根據調查結果，把方案縮減為兩個。"
+        },
+        {
+          "japaneseHtml": "<ruby>発表<rt>はっぴょう</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>に、<ruby>班<rt>はん</rt></ruby>で<ruby>練習<rt>れんしゅう</rt></ruby>します。",
+          "translationZh": "發表前，小組先練習。"
+        },
+        {
+          "japaneseHtml": "<ruby>説明<rt>せつめい</rt></ruby>が<ruby>長<rt>なが</rt></ruby>くならないように、<ruby>要点<rt>ようてん</rt></ruby>を<ruby>三<rt>みっ</rt></ruby>つにします。",
+          "translationZh": "為了讓說明不冗長，把重點縮成三個。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "課題",
+          "reading": "かだい",
+          "meaningZh": "課題、待解決的問題",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "仮説",
+          "reading": "かせつ",
+          "meaningZh": "假設",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "助言",
+          "reading": "じょげん",
+          "meaningZh": "建議",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "優先順位",
+          "reading": "ゆうせんじゅんい",
+          "meaningZh": "優先順序",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "根拠",
+          "reading": "こんきょ",
+          "meaningZh": "依據",
+          "pitch": null,
+          "pitchVerified": false
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜に基づいて",
+          "formation": "名詞＋に基づいて",
+          "explanationZh": "表示以某項資料、規則或事實為根據來判斷、行動。",
+          "example": {
+            "japaneseHtml": "アンケートに<ruby>基<rt>もと</rt></ruby>づいて、サービスを<ruby>改善<rt>かいぜん</rt></ruby>します。",
+            "translationZh": "根據問卷改善服務。"
+          }
+        },
+        {
+          "name": "〜を踏まえて",
+          "formation": "名詞＋を踏まえて",
+          "explanationZh": "表示把前提、意見或情況納入考量後，再做判斷或行動。",
+          "example": {
+            "japaneseHtml": "<ruby>前回<rt>ぜんかい</rt></ruby>の<ruby>反省<rt>はんせい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>準備<rt>じゅんび</rt></ruby>を<ruby>変<rt>か</rt></ruby>えました。",
+            "translationZh": "參考上次的反省，改變了準備方式。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "小組是依據什麼整理課題的？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. <ruby>感想<rt>かんそう</rt></ruby>だけで<ruby>課題<rt>かだい</rt></ruby>を<ruby>決<rt>き</rt></ruby>める"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. データに<ruby>基<rt>もと</rt></ruby>づいて<ruby>課題<rt>かだい</rt></ruby>を<ruby>整理<rt>せいり</rt></ruby>する"
+            },
+            {
+              "value": "C",
+              "labelHtml": "C. <ruby>先生<rt>せんせい</rt></ruby>が<ruby>一人<rt>ひとり</rt></ruby>で<ruby>全部<rt>ぜんぶ</rt></ruby><ruby>決<rt>き</rt></ruby>める"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：データに（　）づいて課題を整理しました。請填入一個漢字。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句：為了讓發表更清楚，你會怎麼準備。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜に伴って」寫一句：說明資料或人數增加之後會有的變化。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用自己的情境自由寫 2–3 句日文：說明小組討論的一個決定與理由，並至少使用「〜に基づいて」或「〜を踏まえて」造句。",
+        "exampleJaHtml": "<ruby>調査<rt>ちょうさ</rt></ruby>の<ruby>結果<rt>けっか</rt></ruby>に<ruby>基<rt>もと</rt></ruby>づいて、<ruby>広告<rt>こうこく</rt></ruby>の<ruby>方法<rt>ほうほう</rt></ruby>を<ruby>決<rt>き</rt></ruby>めました。<ruby>班<rt>はん</rt></ruby>の<ruby>意見<rt>いけん</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>予算<rt>よさん</rt></ruby>も<ruby>見直<rt>みなお</rt></ruby>します。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜に伴って",
+        "explanationZh": "回收既有練習句型（課程延續，非新發現的弱點）：「〜に伴って」表示隨著前項變化，後項也跟著改變。",
+        "exampleJaHtml": "<ruby>規模<rt>きぼ</rt></ruby>の<ruby>拡大<rt>かくだい</rt></ruby>に<ruby>伴<rt>ともな</rt></ruby>って、<ruby>担当者<rt>たんとうしゃ</rt></ruby>も<ruby>増<rt>ふ</rt></ruby>やしました。",
+        "promptZh": "請用「〜に伴って」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "短篇自由輸出",
+        "依據資料說明意見"
+      ]
+    },
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W44-D6",
+        "date": "2026-10-31",
+        "topicJa": "AIの要約を確かめる",
+        "topicZh": "確認 AI 的摘要是否正確",
+        "summaryZh": "原創情境：用練習用假資料讓 AI 做摘要並逐句核對，練習「〜かどうか」與「〜ようにする」。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "AI／テクノロジー",
+        "trendSource": "review"
+      },
+      "reading": {
+        "leadZh": "先找出 AI 摘要的問題，再找出作者的確認方法。",
+        "japaneseHtml": "<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>録音<rt>ろくおん</rt></ruby>を<ruby>文字<rt>もじ</rt></ruby>にして、AIに<ruby>要約<rt>ようやく</rt></ruby>を<ruby>作<rt>つく</rt></ruby>らせました。もちろん、<ruby>使<rt>つか</rt></ruby>ったのは<ruby>練習用<rt>れんしゅうよう</rt></ruby>の<ruby>架空<rt>かくう</rt></ruby>の<ruby>内容<rt>ないよう</rt></ruby>で、<ruby>実際<rt>じっさい</rt></ruby>の<ruby>顧客名<rt>こきゃくめい</rt></ruby>や<ruby>金額<rt>きんがく</rt></ruby>は<ruby>入<rt>い</rt></ruby>れていません。<ruby>要約<rt>ようやく</rt></ruby>は<ruby>読<rt>よ</rt></ruby>みやすかったものの、<ruby>元<rt>もと</rt></ruby>の<ruby>会議<rt>かいぎ</rt></ruby>で<ruby>出<rt>で</rt></ruby>ていない<ruby>結論<rt>けつろん</rt></ruby>が<ruby>一行<rt>いちぎょう</rt></ruby><ruby>入<rt>はい</rt></ruby>っていました。そこで、<ruby>数字<rt>すうじ</rt></ruby>や<ruby>日付<rt>ひづけ</rt></ruby>が<ruby>元<rt>もと</rt></ruby>のメモと<ruby>合<rt>あ</rt></ruby>っているかどうか、<ruby>一文<rt>いちぶん</rt></ruby>ずつ<ruby>確認<rt>かくにん</rt></ruby>しました。AIの<ruby>利用<rt>りよう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えるのに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>確認<rt>かくにん</rt></ruby>の<ruby>手順<rt>てじゅん</rt></ruby>を<ruby>決<rt>き</rt></ruby>めるチームも<ruby>増<rt>ふ</rt></ruby>えています。<ruby>手順<rt>てじゅん</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>最後<rt>さいご</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>の<ruby>目<rt>め</rt></ruby>で<ruby>読<rt>よ</rt></ruby>むようにします。<ruby>便利<rt>べんり</rt></ruby>な<ruby>道具<rt>どうぐ</rt></ruby>でも、<ruby>責任<rt>せきにん</rt></ruby>は<ruby>人間<rt>にんげん</rt></ruby>にあります。",
+        "translationZh": "我把會議錄音轉成文字，請 AI 製作摘要。當然，使用的是練習用的虛構內容，沒有輸入真實的客戶名稱或金額。摘要雖然易讀，卻混入了一行原會議中沒有出現的結論。因此我逐句確認數字與日期是否與原本的筆記一致。隨著 AI 的使用增加，訂定確認流程的團隊也變多了。依照流程，最後我會用自己的眼睛讀過。就算是方便的工具，責任仍在人身上。",
+        "pronunciation": [
+          {
+            "surface": "要約",
+            "reading": "ようやく",
+            "meaningZh": "摘要",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "結論",
+            "reading": "けつろん",
+            "meaningZh": "結論",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "要約",
+            "reading": "ようやく",
+            "meaningZh": "摘要",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "結論",
+            "reading": "けつろん",
+            "meaningZh": "結論",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "手順",
+            "reading": "てじゅん",
+            "meaningZh": "步驟、流程",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "責任",
+            "reading": "せきにん",
+            "meaningZh": "責任",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "録音",
+            "reading": "ろくおん",
+            "meaningZh": "錄音",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>録音<rt>ろくおん</rt></ruby>を<ruby>文字<rt>もじ</rt></ruby>にしました。",
+          "translationZh": "我把會議錄音轉成文字。"
+        },
+        {
+          "japaneseHtml": "AIに<ruby>要約<rt>ようやく</rt></ruby>を<ruby>作<rt>つく</rt></ruby>らせました。",
+          "translationZh": "我請 AI 做了摘要。"
+        },
+        {
+          "japaneseHtml": "<ruby>要約<rt>ようやく</rt></ruby>は<ruby>読<rt>よ</rt></ruby>みやすいものの、<ruby>結論<rt>けつろん</rt></ruby>が<ruby>一行<rt>いちぎょう</rt></ruby><ruby>増<rt>ふ</rt></ruby>えていました。",
+          "translationZh": "摘要雖然易讀，卻多出一行結論。"
+        },
+        {
+          "japaneseHtml": "<ruby>数字<rt>すうじ</rt></ruby>が<ruby>合<rt>あ</rt></ruby>っているかどうか、<ruby>確認<rt>かくにん</rt></ruby>します。",
+          "translationZh": "確認數字是否正確。"
+        },
+        {
+          "japaneseHtml": "<ruby>日付<rt>ひづけ</rt></ruby>が<ruby>元<rt>もと</rt></ruby>のメモと<ruby>同<rt>おな</rt></ruby>じかどうか、<ruby>見比<rt>みくら</rt></ruby>べます。",
+          "translationZh": "對照日期是否與原筆記相同。"
+        },
+        {
+          "japaneseHtml": "AIの<ruby>利用<rt>りよう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えるのに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>手順<rt>てじゅん</rt></ruby>を<ruby>決<rt>き</rt></ruby>めます。",
+          "translationZh": "隨著 AI 的使用增加，訂定流程。"
+        },
+        {
+          "japaneseHtml": "<ruby>手順<rt>てじゅん</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>最後<rt>さいご</rt></ruby>は<ruby>自分<rt>じぶん</rt></ruby>の<ruby>目<rt>め</rt></ruby>で<ruby>読<rt>よ</rt></ruby>みます。",
+          "translationZh": "依照流程，最後用自己的眼睛閱讀。"
+        },
+        {
+          "japaneseHtml": "<ruby>非公開<rt>ひこうかい</rt></ruby>の<ruby>情報<rt>じょうほう</rt></ruby>は<ruby>入力<rt>にゅうりょく</rt></ruby>しないようにします。",
+          "translationZh": "不輸入非公開的資訊。"
+        },
+        {
+          "japaneseHtml": "<ruby>間違<rt>まちが</rt></ruby>いを<ruby>見<rt>み</rt></ruby><ruby>逃<rt>のが</rt></ruby>さないように、<ruby>一文<rt>いちぶん</rt></ruby>ずつ<ruby>読<rt>よ</rt></ruby>みます。",
+          "translationZh": "為了不漏看錯誤，一句一句讀。"
+        },
+        {
+          "japaneseHtml": "<ruby>便利<rt>べんり</rt></ruby>な<ruby>道具<rt>どうぐ</rt></ruby>でも、<ruby>責任<rt>せきにん</rt></ruby>は<ruby>人間<rt>にんげん</rt></ruby>にあります。",
+          "translationZh": "即使是方便的工具，責任仍在人。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "要約",
+          "reading": "ようやく",
+          "meaningZh": "摘要",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "結論",
+          "reading": "けつろん",
+          "meaningZh": "結論",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "手順",
+          "reading": "てじゅん",
+          "meaningZh": "步驟、流程",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "責任",
+          "reading": "せきにん",
+          "meaningZh": "責任",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "録音",
+          "reading": "ろくおん",
+          "meaningZh": "錄音",
+          "pitch": null,
+          "pitchVerified": false
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜かどうか",
+          "formation": "普通形＋かどうか",
+          "explanationZh": "表示「是否…」，把是非問題嵌入句中，後面常接確認、判斷、知道等動詞。",
+          "example": {
+            "japaneseHtml": "<ruby>日付<rt>ひづけ</rt></ruby>が<ruby>合<rt>あ</rt></ruby>っているかどうか、<ruby>確認<rt>かくにん</rt></ruby>します。",
+            "translationZh": "確認日期是否正確。"
+          }
+        },
+        {
+          "name": "〜ようにする",
+          "formation": "動詞辭書形／ない形＋ようにする",
+          "explanationZh": "表示努力養成習慣，或盡量做到（不做）某事。",
+          "example": {
+            "japaneseHtml": "<ruby>毎晩<rt>まいばん</rt></ruby>、メモを<ruby>見直<rt>みなお</rt></ruby>すようにする。",
+            "translationZh": "我盡量每晚重新看筆記。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "作者發現 AI 摘要有什麼問題？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. <ruby>要約<rt>ようやく</rt></ruby>に<ruby>元<rt>もと</rt></ruby>の<ruby>会議<rt>かいぎ</rt></ruby>にない<ruby>結論<rt>けつろん</rt></ruby>が<ruby>入<rt>はい</rt></ruby>っていた"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. <ruby>要約<rt>ようやく</rt></ruby>は<ruby>一文字<rt>ひともじ</rt></ruby>も<ruby>間違<rt>まちが</rt></ruby>っていなかった"
+            },
+            {
+              "value": "C",
+              "labelHtml": "C. <ruby>実際<rt>じっさい</rt></ruby>の<ruby>顧客名<rt>こきゃくめい</rt></ruby>を<ruby>入力<rt>にゅうりょく</rt></ruby>した"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：数字が合っている（　）、確認しました。請填入「是否」的日文（ひらがな）。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句：使用 AI 時，你為了避免風險會怎麼做。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜を踏まえて」寫一句：依照既定流程，你最後會做什麼。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用自己的情境自由寫 2–3 句日文：說明你如何確認 AI 或網路資訊是否正確，並至少使用「〜かどうか」或「〜ようにする」造句。",
+        "exampleJaHtml": "<ruby>情報<rt>じょうほう</rt></ruby>が<ruby>新<rt>あたら</rt></ruby>しいかどうか、<ruby>日付<rt>ひづけ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します。<ruby>出典<rt>しゅってん</rt></ruby>を<ruby>探<rt>さが</rt></ruby>すようにしています。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜ように（目的／提醒）",
+        "explanationZh": "回收既有練習句型（課程延續，非新發現的弱點）：「〜ように」表示為了達到或避免某種狀態而事先採取行動。",
+        "exampleJaHtml": "<ruby>間違<rt>まちが</rt></ruby>えないように、<ruby>二回<rt>にかい</rt></ruby><ruby>確認<rt>かくにん</rt></ruby>します。",
+        "promptZh": "請用「〜ように」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "短篇自由輸出",
+        "AI 輸出的確認流程"
+      ]
+    },
+    {
+      "templateVersion": "Japanese Lesson Template V1",
+      "lesson": {
+        "id": "JP-V1-2026-W44-D7",
+        "date": "2026-11-01",
+        "topicJa": "今週の準備と確認をまとめる",
+        "topicZh": "統整本週的準備與確認",
+        "summaryZh": "原創情境：回顧一週的準備與確認習慣，綜合練習「〜を踏まえて」「〜に伴って」「〜ように」。",
+        "jlptLevel": "N3→N2",
+        "duration": "25–35 分鐘",
+        "domain": "総合復習",
+        "trendSource": "review"
+      },
+      "reading": {
+        "leadZh": "先找出本週提到的情境，再找出作者共通的做法。",
+        "japaneseHtml": "<ruby>今週<rt>こんしゅう</rt></ruby>は、<ruby>準備<rt>じゅんび</rt></ruby>と<ruby>確認<rt>かくにん</rt></ruby>について<ruby>考<rt>かんが</rt></ruby>える<ruby>一週間<rt>いっしゅうかん</rt></ruby>でした。<ruby>雨<rt>あめ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は、<ruby>予報<rt>よほう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて<ruby>早<rt>はや</rt></ruby>く<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>ます。<ruby>議事録<rt>ぎじろく</rt></ruby>は、<ruby>誤解<rt>ごかい</rt></ruby>が<ruby>起<rt>お</rt></ruby>きないように、<ruby>数字<rt>すうじ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>してから<ruby>送<rt>おく</rt></ruby>ります。<ruby>旅先<rt>たびさき</rt></ruby>では、<ruby>案内<rt>あんない</rt></ruby>を<ruby>見<rt>み</rt></ruby>て、<ruby>分<rt>わ</rt></ruby>からなければ<ruby>駅員<rt>えきいん</rt></ruby>さんに<ruby>聞<rt>き</rt></ruby>きます。<ruby>見学会<rt>けんがくかい</rt></ruby>で<ruby>聞<rt>き</rt></ruby>いた<ruby>照明<rt>しょうめい</rt></ruby>の<ruby>話<rt>はなし</rt></ruby>は、<ruby>分<rt>わ</rt></ruby>かったことと<ruby>未確認<rt>みかくにん</rt></ruby>のことを<ruby>分<rt>わ</rt></ruby>けて<ruby>記録<rt>きろく</rt></ruby>しました。<ruby>授業<rt>じゅぎょう</rt></ruby>では、データに<ruby>基<rt>もと</rt></ruby>づいて<ruby>意見<rt>いけん</rt></ruby>を<ruby>言<rt>い</rt></ruby>い、AIの<ruby>要約<rt>ようやく</rt></ruby>は、<ruby>正<rt>ただ</rt></ruby>しいかどうか<ruby>自分<rt>じぶん</rt></ruby>で<ruby>確<rt>たし</rt></ruby>かめました。<ruby>仕事<rt>しごと</rt></ruby>や<ruby>勉強<rt>べんきょう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えるのに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>確認<rt>かくにん</rt></ruby>の<ruby>習慣<rt>しゅうかん</rt></ruby>はますます<ruby>大切<rt>たいせつ</rt></ruby>になります。<ruby>来週<rt>らいしゅう</rt></ruby>も、<ruby>無理<rt>むり</rt></ruby>のない<ruby>方法<rt>ほうほう</rt></ruby>で<ruby>続<rt>つづ</rt></ruby>けたいです。",
+        "translationZh": "這週是思考準備與確認的一週。下雨天，考量預報提早出門。會議紀錄為了避免誤解，確認過數字後再寄出。在旅途中，看指示，不懂就問站務員。見學會聽到的照明說明，我把已知與未確認的事分開記錄。在課堂上，根據資料發表意見，AI 的摘要則自己確認是否正確。隨著工作與學習增加，確認的習慣會越來越重要。下週也想用不勉強的方式持續下去。",
+        "pronunciation": [
+          {
+            "surface": "習慣",
+            "reading": "しゅうかん",
+            "meaningZh": "習慣",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "未確認",
+            "reading": "みかくにん",
+            "meaningZh": "尚未確認",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ],
+        "readingVocabulary": [
+          {
+            "surface": "習慣",
+            "reading": "しゅうかん",
+            "meaningZh": "習慣",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "未確認",
+            "reading": "みかくにん",
+            "meaningZh": "尚未確認",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "記録",
+            "reading": "きろく",
+            "meaningZh": "記錄",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "方法",
+            "reading": "ほうほう",
+            "meaningZh": "方法",
+            "pitch": null,
+            "pitchVerified": false
+          },
+          {
+            "surface": "旅先",
+            "reading": "たびさき",
+            "meaningZh": "旅行地點",
+            "pitch": null,
+            "pitchVerified": false
+          }
+        ]
+      },
+      "usefulSentences": [
+        {
+          "japaneseHtml": "<ruby>今週<rt>こんしゅう</rt></ruby>は、<ruby>準備<rt>じゅんび</rt></ruby>と<ruby>確認<rt>かくにん</rt></ruby>を<ruby>大切<rt>たいせつ</rt></ruby>にしました。",
+          "translationZh": "這週我很重視準備與確認。"
+        },
+        {
+          "japaneseHtml": "<ruby>予報<rt>よほう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>早<rt>はや</rt></ruby>く<ruby>家<rt>いえ</rt></ruby>を<ruby>出<rt>で</rt></ruby>ます。",
+          "translationZh": "考量預報，提早出門。"
+        },
+        {
+          "japaneseHtml": "<ruby>誤解<rt>ごかい</rt></ruby>が<ruby>起<rt>お</rt></ruby>きないように、<ruby>数字<rt>すうじ</rt></ruby>を<ruby>確認<rt>かくにん</rt></ruby>します。",
+          "translationZh": "為了避免誤解，確認數字。"
+        },
+        {
+          "japaneseHtml": "<ruby>仕事<rt>しごと</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えるのに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>確認<rt>かくにん</rt></ruby>の<ruby>習慣<rt>しゅうかん</rt></ruby>が<ruby>大切<rt>たいせつ</rt></ruby>になります。",
+          "translationZh": "隨著工作增加，確認的習慣變得重要。"
+        },
+        {
+          "japaneseHtml": "<ruby>分<rt>わ</rt></ruby>からなければ、<ruby>駅員<rt>えきいん</rt></ruby>さんに<ruby>聞<rt>き</rt></ruby>きます。",
+          "translationZh": "不懂的話就問站務員。"
+        },
+        {
+          "japaneseHtml": "<ruby>分<rt>わ</rt></ruby>かったことと<ruby>未確認<rt>みかくにん</rt></ruby>のことを<ruby>分<rt>わ</rt></ruby>けて<ruby>記録<rt>きろく</rt></ruby>します。",
+          "translationZh": "把已知與未確認的事分開記錄。"
+        },
+        {
+          "japaneseHtml": "データに<ruby>基<rt>もと</rt></ruby>づいて、<ruby>意見<rt>いけん</rt></ruby>を<ruby>言<rt>い</rt></ruby>います。",
+          "translationZh": "根據資料表達意見。"
+        },
+        {
+          "japaneseHtml": "<ruby>正<rt>ただ</rt></ruby>しいかどうか、<ruby>自分<rt>じぶん</rt></ruby>で<ruby>確<rt>たし</rt></ruby>かめます。",
+          "translationZh": "自己確認是否正確。"
+        },
+        {
+          "japaneseHtml": "<ruby>来週<rt>らいしゅう</rt></ruby>も、<ruby>無理<rt>むり</rt></ruby>のない<ruby>方法<rt>ほうほう</rt></ruby>で<ruby>続<rt>つづ</rt></ruby>けたいです。",
+          "translationZh": "下週也想用不勉強的方式持續。"
+        },
+        {
+          "japaneseHtml": "<ruby>授業<rt>じゅぎょう</rt></ruby>の<ruby>反省<rt>はんせい</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>準備<rt>じゅんび</rt></ruby>を<ruby>変<rt>か</rt></ruby>えます。",
+          "translationZh": "根據課堂的反省，改變準備方式。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "surface": "習慣",
+          "reading": "しゅうかん",
+          "meaningZh": "習慣",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "未確認",
+          "reading": "みかくにん",
+          "meaningZh": "尚未確認",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "記録",
+          "reading": "きろく",
+          "meaningZh": "記錄",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "方法",
+          "reading": "ほうほう",
+          "meaningZh": "方法",
+          "pitch": null,
+          "pitchVerified": false
+        },
+        {
+          "surface": "旅先",
+          "reading": "たびさき",
+          "meaningZh": "旅行地點",
+          "pitch": null,
+          "pitchVerified": false
+        }
+      ],
+      "patterns": [
+        {
+          "name": "〜を踏まえて",
+          "formation": "名詞＋を踏まえて",
+          "explanationZh": "把前提或情況納入考量後再行動；本週多次出現的核心句型。",
+          "example": {
+            "japaneseHtml": "<ruby>今週<rt>こんしゅう</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>来週<rt>らいしゅう</rt></ruby>の<ruby>予定<rt>よてい</rt></ruby>を<ruby>立<rt>た</rt></ruby>てます。",
+            "translationZh": "根據本週的經驗，擬定下週計畫。"
+          }
+        },
+        {
+          "name": "〜に伴って",
+          "formation": "名詞／動詞辭書形の＋に伴って",
+          "explanationZh": "隨著某件事的變化，另一件事也跟著變化。",
+          "example": {
+            "japaneseHtml": "<ruby>仕事<rt>しごと</rt></ruby>の<ruby>増加<rt>ぞうか</rt></ruby>に<ruby>伴<rt>ともな</rt></ruby>って、メモの<ruby>量<rt>りょう</rt></ruby>も<ruby>増<rt>ふ</rt></ruby>えました。",
+            "translationZh": "隨著工作增加，筆記的量也增加了。"
+          }
+        },
+        {
+          "name": "〜ように（目的）",
+          "formation": "動詞辭書形／ない形＋ように",
+          "explanationZh": "為了達成或避免某種狀態而事先行動。",
+          "example": {
+            "japaneseHtml": "<ruby>忘<rt>わす</rt></ruby>れないように、<ruby>手帳<rt>てちょう</rt></ruby>に<ruby>書<rt>か</rt></ruby>きます。",
+            "translationZh": "為了不忘記，寫在手帳上。"
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "id": "q1",
+          "type": "singleChoice",
+          "promptZh": "這篇短文的結論是什麼？",
+          "choices": [
+            {
+              "value": "A",
+              "labelHtml": "A. <ruby>確認<rt>かくにん</rt></ruby>は<ruby>仕事<rt>しごと</rt></ruby>の<ruby>場面<rt>ばめん</rt></ruby>だけで<ruby>必要<rt>ひつよう</rt></ruby>だ"
+            },
+            {
+              "value": "B",
+              "labelHtml": "B. <ruby>確認<rt>かくにん</rt></ruby>は<ruby>面倒<rt>めんどう</rt></ruby>なのでやめる"
+            },
+            {
+              "value": "C",
+              "labelHtml": "C. <ruby>確認<rt>かくにん</rt></ruby>の<ruby>習慣<rt>しゅうかん</rt></ruby>は<ruby>仕事<rt>しごと</rt></ruby>や<ruby>勉強<rt>べんきょう</rt></ruby>が<ruby>増<rt>ふ</rt></ruby>えるほど<ruby>大切<rt>たいせつ</rt></ruby>になる"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "text",
+          "promptZh": "填空：予報を（　）まえて、早く家を出ます。請填入一個漢字。"
+        },
+        {
+          "id": "q3",
+          "type": "textarea",
+          "promptZh": "用「〜ように」寫一句：回顧本週，你為了下週會怎麼做。"
+        },
+        {
+          "id": "q4",
+          "type": "textarea",
+          "promptZh": "用「〜に伴って」寫一句：說明你的工作或學習隨時間產生的一項變化。"
+        }
+      ],
+      "outputPractice": {
+        "promptZh": "請用自己的情境自由寫 3–4 句日文：回顧本週學到的事，並至少使用「〜を踏まえて」「〜に伴って」「〜ように」其中兩個句型。",
+        "exampleJaHtml": "<ruby>今週<rt>こんしゅう</rt></ruby>の<ruby>経験<rt>けいけん</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>来週<rt>らいしゅう</rt></ruby>は<ruby>準備<rt>じゅんび</rt></ruby>を<ruby>早<rt>はや</rt></ruby>めます。<ruby>忙<rt>いそが</rt></ruby>しくなるのに<ruby>伴<rt>ともな</rt></ruby>って、<ruby>確認<rt>かくにん</rt></ruby>の<ruby>時間<rt>じかん</rt></ruby>も<ruby>作<rt>つく</rt></ruby>ります。",
+        "maxLength": 650
+      },
+      "previousReview": {
+        "pattern": "〜を踏まえて",
+        "explanationZh": "回收既有練習句型（課程延續，非新發現的弱點）：綜合本週，「〜を踏まえて」「〜に伴って」「〜ように」可以在同一段文章中並用。",
+        "exampleJaHtml": "<ruby>状況<rt>じょうきょう</rt></ruby>を<ruby>踏<rt>ふ</rt></ruby>まえて、<ruby>間違<rt>まちが</rt></ruby>えないように<ruby>準備<rt>じゅんび</rt></ruby>します。",
+        "promptZh": "請用「〜を踏まえて」另造一句，內容不可照抄範例。"
+      },
+      "weaknessRecovery": [
+        "〜を踏まえて",
+        "〜ように（目的／提醒）",
+        "〜に伴って",
+        "短篇自由輸出",
+        "一週情境的綜合復習"
+      ]
+    }
+  ]
+}
