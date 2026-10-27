@@ -154,13 +154,18 @@ def render_quiz(data: dict) -> str:
     return f'      <span class="kicker">05 · Quick Quiz</span><h2>快速練習</h2><div class="card"><fieldset>{"".join(questions)}</fieldset></div>'
 
 
+FEEDBACK_MAIL_SCRIPT = '''
+      <script>(function(){const id=__LESSON_ID__;const to='noahel815+jp@gmail.com';const status=document.getElementById('status');document.getElementById('prepare').addEventListener('click',function(){setTimeout(function(){status.textContent='已產生。可按「用郵件寄出」，或在文字框內全選拷貝後貼給 Claude。'},0)});document.getElementById('mailSend').addEventListener('click',function(){document.getElementById('prepare').click();const body=document.getElementById('resultText').value;status.textContent='正在開啟郵件 App，請按送出。';window.location.href='mailto:'+to+'?subject='+encodeURIComponent('[日文學習回饋] '+id)+'&body='+encodeURIComponent(body)})})();</script>'''
+
+
 def render_feedback(data: dict) -> str:
     weakness = "".join(f'<label class="weak"><input type="checkbox" name="weak" value="{html.escape(item, quote=True)}">{html.escape(item)}</label>' for item in data["weaknessRecovery"])
-    return f'''      <span class="kicker">08 · Feedback</span><h2>自評與回傳 ChatGPT</h2><div class="card">
+    return (f'''      <span class="kicker">08 · Feedback</span><h2>自評與回傳 Claude</h2><div class="card">
       <h3>今天的難度</h3><div class="difficulty" role="radiogroup" aria-label="自評難度">{''.join(f'<label><input type="radio" name="difficulty" value="{i}"><span>{i}</span></label>' for i in range(1,6))}</div><p class="note">1＝太簡單；5＝很吃力</p>
       <h3>標記不熟內容</h3><div class="weak-list">{weakness}</div><label for="weakOther"><strong>其他不熟或想複習的內容</strong></label><input type="text" id="weakOther" placeholder="自由填寫">
-      <div class="actions"><button class="btn primary" id="prepare" type="button">產生給 ChatGPT 的回饋文字</button><button class="btn secondary" id="clear" type="button">清除本課填答</button></div><p class="status" id="status" aria-live="polite"></p>
-      <div class="result" id="result"><label for="resultText"><strong>給 ChatGPT 的純文字回饋</strong></label><textarea id="resultText" readonly spellcheck="false" aria-describedby="status"></textarea><div class="actions"><button class="btn secondary compact" id="copyAgain" type="button">嘗試一鍵複製</button></div></div></div>'''
+      <div class="actions"><button class="btn primary" id="prepare" type="button">產生給 Claude 的回饋文字</button><button class="btn secondary" id="mailSend" type="button">用郵件寄出</button><button class="btn secondary" id="clear" type="button">清除本課填答</button></div><p class="status" id="status" aria-live="polite"></p>
+      <div class="result" id="result"><label for="resultText"><strong>給 Claude 的純文字回饋</strong></label><textarea id="resultText" readonly spellcheck="false" aria-describedby="status"></textarea><div class="actions"><button class="btn secondary compact" id="copyAgain" type="button">嘗試一鍵複製</button></div></div></div>'''
+    ) + FEEDBACK_MAIL_SCRIPT.replace('__LESSON_ID__', json.dumps(data['lesson']['id']))
 
 
 def render_lesson(template: str, data: dict) -> str:
