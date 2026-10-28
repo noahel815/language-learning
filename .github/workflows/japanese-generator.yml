@@ -33,7 +33,8 @@ jobs:
           path = (root / os.environ['CONTENT']).resolve()
           if not path.is_relative_to(root / 'generator') or path.suffix != '.json':
               raise SystemExit('Content must be a JSON file under generator/')
-          subprocess.run([sys.executable, 'generator/generate_weekly_japanese.py', '--content', str(path)], check=True)
+          # Throwaway CI checkout only: re-render reviewed content with the current renderer (nothing is pushed).
+          subprocess.run([sys.executable, 'generator/generate_weekly_japanese.py', '--content', str(path), '--overwrite'], check=True)
           PY
       - uses: actions/upload-artifact@v4
         with:
