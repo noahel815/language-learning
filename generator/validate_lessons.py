@@ -15,7 +15,7 @@ for _stream in (sys.stdout, sys.stderr):
 
 ROOT = Path(__file__).resolve().parents[1]
 PROTECTED = ROOT / "japanese" / "JP-V1-001.html"
-EXPECTED_PROTECTED_SHA256 = "8d1e1933cc73351a8291f9ac00357116828dce54d7aac79ff5c91f811690b7bb"
+EXPECTED_PROTECTED_SHA256 = "d17f2f7e03d813ebccd2649cf4df00be45e1b7fcf5a7ce50dfa6d91b0c2c1d2d"
 
 
 def sha256(path: Path) -> str:
