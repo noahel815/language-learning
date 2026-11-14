@@ -15,3 +15,6 @@
 ## 寫法
 - 情境一律虛構且通用；新聞只放自己改寫的摘要與來源連結，不轉載原文。
 - 產出前自行掃描上述項目，有就改掉再發佈。
+
+## 英文數字填字（english/）
+出題規則見 `english/README.md`；改過 `english/puzzles.js` 後要跑 `python3 english/validate_puzzles.py`。庫存上限 10 題。

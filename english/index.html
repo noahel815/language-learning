@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>數字填字 Codeword</title>
+<style>
+:root{--bg:#f4f6fb;--card:#fff;--ink:#27324d;--mute:#6b7691;--line:#dfe5f1;--accent:#e9a63a;--accent-soft:#fbe9c4;--ok:#2e9d6b;--bad:#e5484d;--key:#fff;--keyh:#e8ecf5;--cell:#fff}
+@media(prefers-color-scheme:dark){:root{--bg:#141a2b;--card:#1d2540;--ink:#e6eaf7;--mute:#9aa6c6;--line:#2c3658;--accent:#f0b650;--accent-soft:#4a3d1c;--ok:#4cc38a;--bad:#ff6b6b;--key:#2a3358;--keyh:#36406b;--cell:#252e50}}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Segoe UI",sans-serif}
+body{padding:12px 12px 280px;max-width:560px;margin:0 auto;-webkit-user-select:none;user-select:none}
+h1{font-size:18px;margin:4px 0 10px}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px}
+.tab{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:7px 13px;font-size:13px}
+.tab.on{background:var(--accent);border-color:var(--accent);color:#2b2108;font-weight:700}
+.tab.done::after{content:" ✓"}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px;margin-top:10px}
+.sticky{position:sticky;top:0;z-index:5;box-shadow:0 6px 10px -8px rgba(0,0,0,.35)}
+.theme{font-size:12px;color:var(--mute);margin-bottom:8px}
+.quote{display:flex;flex-wrap:wrap;gap:8px 12px;justify-content:center}
+.word{display:flex;gap:3px}
+.cell{width:26px;text-align:center;border:1px solid var(--line);background:var(--cell);border-radius:7px;padding:2px 0 1px;line-height:1.1;cursor:pointer}
+.quote .cell{width:23px}
+.cell b{display:block;height:20px;font-size:16px;font-weight:700;line-height:20px}
+.quote .cell b{height:18px;font-size:15px;line-height:18px}
+.quote.sm{gap:6px 9px}.quote.sm .word{gap:2px}
+.quote.sm .cell{width:19px;border-radius:5px}.quote.sm .cell b{height:15px;font-size:13px;line-height:15px}.quote.sm .cell i{font-size:9px}
+.cell i{display:block;font-style:normal;font-size:11px;color:var(--mute)}
+.cell.same{background:var(--accent-soft);border-color:var(--accent)}
+.cell.sel{background:var(--accent);border-color:var(--accent)}
+.cell.sel b,.cell.sel i{color:#2b2108}
+.cell.hint b{color:var(--ok)}
+.cell.wrong b{color:var(--bad)}
+.cell.wrong{border-color:var(--bad)}
+.clue{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 0;border-top:1px solid var(--line)}
+.clue:first-child{border-top:0;padding-top:2px}
+.clue .t{font-size:14px;line-height:1.35;flex:1}
+.clue .cells{display:flex;gap:3px;flex:0 0 auto}
+.bar{display:flex;gap:8px;margin-top:10px;align-items:center;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:12px;padding:9px 14px;font-size:14px}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:#2b2108;font-weight:700}
+.msg{font-size:13px;color:var(--mute);min-height:18px;margin-top:6px}
+.win h2{margin:0 0 6px;font-size:17px;color:var(--ok)}
+.win .q{font-size:15px;font-weight:700;margin:4px 0}
+.win .n{font-size:13px;color:var(--mute);margin-bottom:8px}
+.win table{width:100%;border-collapse:collapse;font-size:14px}
+.win td{padding:6px 4px;border-top:1px solid var(--line)}
+.win td:first-child{font-weight:700;letter-spacing:1px}
+.win td:nth-child(2){color:var(--mute);font-size:12px}
+.kb{position:fixed;left:0;right:0;bottom:0;background:var(--bg);border-top:1px solid var(--line);padding:8px 6px calc(10px + env(safe-area-inset-bottom));max-width:560px;margin:0 auto;z-index:6}
+.row{display:flex;justify-content:center;gap:5px;margin-top:6px}
+.row:first-child{margin-top:0}
+.key{flex:1;max-width:38px;height:46px;border:0;border-radius:8px;background:var(--key);color:var(--ink);font-size:18px;font-weight:600;box-shadow:0 1px 0 var(--line)}
+.key:active{background:var(--keyh)}
+.key.del{max-width:56px;font-size:15px}
+.hide{display:none}
+textarea{-webkit-user-select:text;user-select:text;font-family:inherit}
+</style>
+</head>
+<body>
+<h1>數字填字 Codeword</h1>
+<div class="tabs" id="tabs"></div>
+<div class="card sticky" id="qcard"></div>
+<div class="card" id="clues"></div>
+<div class="bar">
+  <button class="btn pri" id="hintBtn">提示</button>
+  <button class="btn" id="resetBtn">重來</button>
+  <button class="btn" id="allBtn">複製全部成績</button>
+</div>
+<textarea id="allBox" class="hide" readonly rows="6" style="width:100%;margin-top:8px;font-size:13px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:8px"></textarea>
+<div class="msg" id="msg"></div>
+<div class="card win hide" id="win"></div>
+<div class="kb" id="kb"></div>
+
+<script src="puzzles.js"></script>
+<script>
+const PUZZLES=window.PUZZLES_DATA||[];
+
+const KEY="codeword-eng-v1";
+let store={};
+try{store=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){store={}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(store))}catch(e){}}
+
+function prep(p){
+  const num={},sol={};let n=0;
+  const add=ch=>{if(/[A-Z]/.test(ch)&&!(ch in num)){num[ch]=++n;sol[n]=ch}};
+  for(const ch of p.quote)add(ch);
+  for(const c of p.clues)for(const ch of c[0])add(ch);
+  p.num=num;p.sol=sol;p.count=n;
+}
+PUZZLES.forEach(prep);
+
+let cur=0,selIdx=null;
+function st(){const p=PUZZLES[cur];if(!store[p.id])store[p.id]={g:{},h:{},hints:0,w:0,t:0,last:0,done:false};return store[p.id]}
+const allCells=()=>[...document.querySelectorAll("#qcard .cell, #clues .cell")];
+function selN(){const c=allCells()[selIdx];return c?+c.dataset.n:null}
+function fmt(ms){const sec=Math.round(ms/1000);return Math.floor(sec/60)+":"+String(sec%60).padStart(2,"0")}
+function statLine(q,i){
+  const s=store[q.id];
+  if(!s||!s.done)return `${i+1}. ${q.name}｜${q.level}｜未完成`;
+  return `${i+1}. ${q.name}｜${q.level}｜提示 ${s.hints} 次｜填錯 ${s.w||0} 次｜用時 ${fmt(s.t||0)}`;
+}
+function allStats(){return "Codeword 成績\n"+PUZZLES.map((q,i)=>statLine(q,i)).join("\n")}
+function copyFrom(box){
+  box.focus();box.select();try{box.setSelectionRange(0,99999)}catch(e){}
+  let ok=false;try{ok=document.execCommand("copy")}catch(e){}
+  if(!ok&&navigator.clipboard){try{navigator.clipboard.writeText(box.value).then(()=>msg("已複製"),()=>msg("請長按文字框全選複製"));return}catch(e){}}
+  msg(ok?"已複製":"請長按文字框全選複製");
+}
+function msg(t){document.getElementById("msg").textContent=t||""}
+
+function cellsHtml(word,p){
+  return [...word].map(ch=>`<span class="cell" data-n="${p.num[ch]}"><b></b><i>${p.num[ch]}</i></span>`).join("");
+}
+
+function render(){
+  const p=PUZZLES[cur],s=st();
+  document.getElementById("tabs").innerHTML=PUZZLES.map((q,i)=>`<button class="tab${i===cur?" on":""}${(store[q.id]&&store[q.id].done)?" done":""}" data-i="${i}">${i+1}. ${q.name}｜${q.level}</button>`).join("");
+  document.getElementById("qcard").innerHTML=
+    `<div class="theme">${p.theme}｜${p.level}</div><div class="quote${p.quote.replace(/ /g,"").length>30?" sm":""}">${p.quote.split(" ").map(w=>`<span class="word">${cellsHtml(w,p)}</span>`).join("")}</div>`;
+  document.getElementById("clues").innerHTML=
+    p.clues.map(c=>`<div class="clue"><div class="t">${c[1]}</div><div class="cells">${cellsHtml(c[0],p)}</div></div>`).join("");
+  const w=document.getElementById("win");
+  if(s.done){
+    w.classList.remove("hide");
+    w.innerHTML=`<h2>完成！</h2><div class="q">${p.quote}</div><div class="q" style="font-weight:400">${p.quoteZh}</div><div class="n">${p.note}（提示 ${s.hints} 次｜填錯 ${s.w||0} 次｜用時 ${fmt(s.t||0)}）</div>`+
+      `<table>${p.clues.map(c=>`<tr><td>${c[0]}</td><td>${c[1]}</td><td>${c[2]}</td></tr>`).join("")}</table>`+
+      `<textarea id="statBox" readonly rows="3" style="width:100%;margin-top:10px;font-size:13px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:8px">${allStats()}</textarea>`+
+      `<div class="bar"><button class="btn" id="copyBtn">複製成績給 Claude</button><button class="btn pri" id="nextBtn">${cur<PUZZLES.length-1?"下一題":"回第 1 題"}</button></div>`;
+  }else{w.classList.add("hide");w.innerHTML=""}
+  paint();
+}
+
+// 只更新字母與顏色，不重畫，避免畫面位移
+function paint(){
+  const p=PUZZLES[cur],s=st(),sn=selN();
+  allCells().forEach((el,i)=>{
+    const n=+el.dataset.n,g=s.g[n]||"";
+    el.querySelector("b").textContent=g;
+    el.classList.toggle("same",sn!=null&&n===sn&&i!==selIdx);
+    el.classList.toggle("sel",i===selIdx);
+    el.classList.toggle("wrong",!!g&&g!==p.sol[n]);
+    el.classList.toggle("hint",!!s.h[n]);
+  });
+}
+
+function nextEmpty(from){
+  const s=st(),cells=allCells(),L=cells.length;
+  for(let k=1;k<=L;k++){const i=((from==null?-1:from)+k)%L;if(!s.g[+cells[i].dataset.n])return i}
+  return null;
+}
+function keepVisible(){
+  const el=allCells()[selIdx];if(!el||el.closest("#qcard"))return;
+  const r=el.getBoundingClientRect();
+  const kb=document.getElementById("kb").getBoundingClientRect().top;
+  const qb=document.getElementById("qcard").getBoundingClientRect().bottom;
+  if(r.bottom>kb-12)window.scrollBy(0,r.bottom-kb+70);
+  else if(r.top<qb+6)window.scrollBy(0,r.top-qb-70);
+}
+function won(){
+  const p=PUZZLES[cur],s=st();
+  for(let n=1;n<=p.count;n++)if(s.g[n]!==p.sol[n])return false;
+  s.done=true;return true;
+}
+function finish(){
+  selIdx=null;save();render();
+  document.getElementById("win").scrollIntoView({behavior:"smooth",block:"center"});
+}
+
+function input(L){
+  const s=st();if(s.done)return;
+  if(selIdx==null){selIdx=nextEmpty(null);if(selIdx==null)return}
+  const n=selN();
+  if(s.h[n]){msg("這格已用提示揭曉");return}
+  for(const m in s.g){if(s.g[m]===L&&+m!==n){if(s.h[m]){msg("字母 "+L+" 已被提示用在數字 "+m);return}delete s.g[m]}}
+  s.g[n]=L;msg("");
+  const now=Date.now();if(s.last)s.t+=Math.min(now-s.last,30000);s.last=now;
+  if(L!==PUZZLES[cur].sol[n])s.w++;
+  if(won()){finish();return}
+  const nx=nextEmpty(selIdx);if(nx!=null)selIdx=nx;
+  save();paint();keepVisible();
+}
+function del(){
+  const s=st();if(s.done||selIdx==null)return;
+  const n=selN();if(s.h[n])return;
+  delete s.g[n];save();paint();
+}
+
+document.addEventListener("click",e=>{
+  const t=e.target.closest("[data-i]");
+  if(t){cur=+t.dataset.i;selIdx=null;msg("");render();window.scrollTo(0,0);return}
+  const c=e.target.closest(".cell");
+  if(c){selIdx=allCells().indexOf(c);paint();return}
+  const k=e.target.closest(".key");
+  if(k){if(k.dataset.k)input(k.dataset.k);else del();return}
+  if(e.target.id==="copyBtn"){copyFrom(document.getElementById("statBox"));return}
+  if(e.target.id==="allBtn"){const b=document.getElementById("allBox");b.value=allStats();b.classList.remove("hide");copyFrom(b);return}
+  if(e.target.id==="nextBtn"){cur=(cur+1)%PUZZLES.length;selIdx=null;msg("");render();window.scrollTo(0,0)}
+});
+document.addEventListener("keydown",e=>{
+  if(e.metaKey||e.ctrlKey||e.altKey)return;
+  if(/^[a-zA-Z]$/.test(e.key)){input(e.key.toUpperCase());e.preventDefault()}
+  else if(e.key==="Backspace"||e.key==="Delete"){del();e.preventDefault()}
+});
+document.getElementById("hintBtn").onclick=()=>{
+  const p=PUZZLES[cur],s=st();if(s.done)return;
+  let n=selN();
+  if(n==null||s.g[n]===p.sol[n]){n=null;for(const c of allCells()){const k=+c.dataset.n;if(s.g[k]!==p.sol[k]){n=k;break}}}
+  if(n==null)return;
+  for(const m in s.g){if(s.g[m]===p.sol[n]&&+m!==n&&!s.h[m])delete s.g[m]}
+  s.g[n]=p.sol[n];s.h[n]=true;s.hints++;
+  const cells=allCells();
+  if(selN()!==n)selIdx=cells.findIndex(c=>+c.dataset.n===n);
+  msg("數字 "+n+" = "+p.sol[n]);
+  if(won()){finish();return}
+  save();paint();keepVisible();
+};
+document.getElementById("resetBtn").onclick=()=>{
+  const p=PUZZLES[cur];store[p.id]={g:{},h:{},hints:0,w:0,t:0,last:0,done:false};selIdx=null;msg("");save();render();
+};
+
+const rows=["QWERTYUIOP","ASDFGHJKL","ZXCVBNM"];
+document.getElementById("kb").innerHTML=rows.map((r,i)=>`<div class="row">${[...r].map(k=>`<button class="key" data-k="${k}">${k}</button>`).join("")}${i===2?'<button class="key del">刪除</button>':""}</div>`).join("");
+render();
+</script>
+</body>
+</html>
