@@ -31,7 +31,7 @@ fetch `collection://399114a6-0358-4421-964e-f300470ea2fa` 最新 schema，使用
 
 ## 1b. 讀取郵件回饋（Gmail，優先於 Notion 查詢結果之前處理）
 
-學員從課程頁按「用郵件寄出」，信會寄到 noahel815+jp@gmail.com，主旨為 `[日文學習回饋] <Lesson ID>`。
+學員從課程頁按「用郵件寄出」會開啟郵件 App（收件人需自行填寫），主旨為 `[日文學習回饋] <Lesson ID>`；也可在文字框內全選拷貝後貼給 Claude。
 產新教材前先處理：
 
 1. 用 Gmail 連接器搜尋 `subject:"[日文學習回饋]" -label:日文回饋-已處理 newer_than:30d`。沒有新信就略過，照原流程（Notion 回饋或官方來源）。

@@ -155,7 +155,7 @@ def render_quiz(data: dict) -> str:
 
 
 FEEDBACK_MAIL_SCRIPT = '''
-      <script>(function(){const id=__LESSON_ID__;const to='noahel815+jp@gmail.com';const status=document.getElementById('status');document.getElementById('prepare').addEventListener('click',function(){setTimeout(function(){status.textContent='已產生。可按「用郵件寄出」，或在文字框內全選拷貝後貼給 Claude。'},0)});document.getElementById('mailSend').addEventListener('click',function(){document.getElementById('prepare').click();const body=document.getElementById('resultText').value;status.textContent='正在開啟郵件 App，請按送出。';window.location.href='mailto:'+to+'?subject='+encodeURIComponent('[日文學習回饋] '+id)+'&body='+encodeURIComponent(body)})})();</script>'''
+      <script>(function(){const id=__LESSON_ID__;const to='';const status=document.getElementById('status');document.getElementById('prepare').addEventListener('click',function(){setTimeout(function(){status.textContent='已產生。可按「用郵件寄出」，或在文字框內全選拷貝後貼給 Claude。'},0)});document.getElementById('mailSend').addEventListener('click',function(){document.getElementById('prepare').click();const body=document.getElementById('resultText').value;status.textContent='正在開啟郵件 App，請按送出。';window.location.href='mailto:'+to+'?subject='+encodeURIComponent('[日文學習回饋] '+id)+'&body='+encodeURIComponent(body)})})();</script>'''
 
 
 def render_feedback(data: dict) -> str:
