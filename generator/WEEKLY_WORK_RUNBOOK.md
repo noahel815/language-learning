@@ -1,6 +1,6 @@
 # 每週日文產製 — Candidate，尚未啟用永久排程
 
-正式根目錄：`C:\Users\tdliang\Documents\Codex\Projects\language-learning`。
+正式根目錄：本機的 language-learning 專案資料夾（路徑依各電腦而定）。
 本文件是可執行 Work 任務的作業契約。Work 必須有本機執行、已連線 Notion、GitHub 讀取與網頁工具。
 CLI ChatGPT 登入已確認；CLI 沒有 Notion connector。不可宣稱單獨 Python/CLI 能完成 Notion。
 工具 unavailable、quota、auth、查詢不完整，都必須停止並回報；不可假設沒有回饋。
