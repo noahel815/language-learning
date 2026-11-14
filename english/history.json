@@ -1,0 +1,92 @@
+{
+ "puzzles": [
+  {
+   "id": "e001",
+   "words": [
+    "ALGORITHM",
+    "BIAS",
+    "FACT",
+    "HEADLINE",
+    "HIDE",
+    "PRIVACY",
+    "REPORTER",
+    "SMOOTH",
+    "SOURCE",
+    "STILL",
+    "SUMMARY",
+    "WRONG"
+   ]
+  },
+  {
+   "id": "e002",
+   "words": [
+    "BEFORE",
+    "CHASE",
+    "CHILL",
+    "FALLS",
+    "GINKGO",
+    "GOLDEN",
+    "LEAF",
+    "ORANGE",
+    "SNACK",
+    "TEA",
+    "TREE"
+   ]
+  },
+  {
+   "id": "e003",
+   "words": [
+    "BEFORE",
+    "BUDGET",
+    "CHECKOUT",
+    "COUPON",
+    "DISCOUNT",
+    "LOUD",
+    "PAUSE",
+    "PAY",
+    "REFUND",
+    "SALE",
+    "SEASON",
+    "SHIPPING"
+   ],
+   "exempt": true,
+   "note": "BEFORE 與 e002 重複，建立規則前已出，不追溯"
+  },
+  {
+   "id": "e004",
+   "words": [
+    "CANDLE",
+    "CARD",
+    "EVERY",
+    "MAKES",
+    "MERRY",
+    "PARTY",
+    "PRESENT",
+    "SANTA",
+    "SECRET",
+    "SILLY",
+    "SMILE",
+    "TREAT",
+    "WARM"
+   ]
+  },
+  {
+   "id": "e005",
+   "words": [
+    "BREAKFAST",
+    "COVERS",
+    "JOURNEY",
+    "LUGGAGE",
+    "MOUNTAIN",
+    "ONSEN",
+    "QUIETLY",
+    "RISES",
+    "RYOKAN",
+    "SNOW",
+    "STEAM",
+    "WHILE",
+    "YUKATA"
+   ]
+  }
+ ]
+}
