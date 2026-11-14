@@ -3,7 +3,7 @@
 數字填字遊戲（英文）。網址：https://noahel815.github.io/language-learning/english/
 
 - 內容在 `puzzles.js`（純 JSON 陣列）；遊戲頁 `index.html` 不需改動。
-- 庫存上限 10 題；超過時刪掉最舊且已玩過的題。
+- 這是遊戲，庫存只放還沒玩的題：收到玩家貼回的成績後，立刻把成績裡玩過的題從 `puzzles.js` 刪掉（用字紀錄留在 `history.json`），再補新題；庫存上限 10 題。
 - 檢查：`python3 english/validate_puzzles.py`；新題加進 `puzzles.js` 後先跑 `--sync` 把用字記進 `history.json`，再跑一般檢查。
 
 ## 出題規則（每次出題前必讀，另見根目錄 CLAUDE.md）
