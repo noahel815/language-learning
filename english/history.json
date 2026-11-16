@@ -120,6 +120,41 @@
     "TRANSLATE",
     "VOICE"
    ]
+  },
+  {
+   "id": "e008",
+   "words": [
+    "BOBA",
+    "CHEESE",
+    "DRINK",
+    "HALF",
+    "HAPPY",
+    "ICE",
+    "KEEP",
+    "LESS",
+    "MILK",
+    "ORDER",
+    "PEARL",
+    "SHOP",
+    "SUGAR"
+   ]
+  },
+  {
+   "id": "e009",
+   "words": [
+    "AIRPORT",
+    "BOARDING",
+    "CALM",
+    "FEELS",
+    "LIGHT",
+    "MORNING",
+    "PACK",
+    "PASSPORT",
+    "SUITCASE",
+    "TICKET",
+    "VISA",
+    "WINDOW"
+   ]
   }
  ]
 }
