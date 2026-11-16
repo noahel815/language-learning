@@ -2,7 +2,7 @@
 import json, re, sys
 from pathlib import Path
 
-MAX_STOCK = 10
+MAX_STOCK = 30
 WINDOW = 20  # 同一個字，在最近 20 題內不可重複出現
 LEVELS = {"一般", "偏難"}
 # 虛詞不算「考過的字」（不然句子寫不出來）

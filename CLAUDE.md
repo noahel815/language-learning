@@ -17,4 +17,4 @@
 - 產出前自行掃描上述項目，有就改掉再發佈。
 
 ## 英文數字填字（english/）
-出題規則見 `english/README.md`；改過 `english/puzzles.js` 後要跑 `python3 english/validate_puzzles.py`。庫存只放未玩的題（玩過的收到成績就刪），上限 10 題；字詞 20 題內不可重複（`english/history.json`，規則見 README）。
+出題規則見 `english/README.md`；改過 `english/puzzles.js` 後要跑 `python3 english/validate_puzzles.py`。庫存只放未玩的題（玩過的收到成績就刪），上限 30 題，每次出 20 題；字詞 20 題內不可重複（`english/history.json`，規則見 README）。

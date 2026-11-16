@@ -155,6 +155,382 @@
     "VISA",
     "WINDOW"
    ]
+  },
+  {
+   "id": "e010",
+   "words": [
+    "BRAVE",
+    "CELEBRATE",
+    "CHAMPAGNE",
+    "COUNT",
+    "DOWN",
+    "FIREWORKS",
+    "JANUARY",
+    "LAST",
+    "MAKE",
+    "MIDNIGHT",
+    "ONE",
+    "PROMISE",
+    "RESOLUTION",
+    "SECONDS"
+   ]
+  },
+  {
+   "id": "e011",
+   "words": [
+    "CHAPTER",
+    "COFFEE",
+    "CORNER",
+    "DESKTOP",
+    "HOMEWORK",
+    "INTO",
+    "POCKET",
+    "PRINTER",
+    "PROGRESS",
+    "QUIET",
+    "SCREEN",
+    "STRONG",
+    "TURN",
+    "WORKSHOP"
+   ]
+  },
+  {
+   "id": "e012",
+   "words": [
+    "BETTER",
+    "CHICKEN",
+    "CRISPY",
+    "FINAL",
+    "FOOD",
+    "GINGER",
+    "LANTERN",
+    "PEANUT",
+    "SAUSAGE",
+    "SHARES",
+    "SKEWER",
+    "SOMEONE",
+    "STREET",
+    "TASTES",
+    "WHEN"
+   ]
+  },
+  {
+   "id": "e013",
+   "words": [
+    "BUILD",
+    "COMMUTER",
+    "CROWDED",
+    "ESCALATOR",
+    "EXIT",
+    "GATE",
+    "HEADPHONES",
+    "HOUR",
+    "PLATFORM",
+    "PRIVATE",
+    "ROOM",
+    "RUSH",
+    "STATION",
+    "TINY",
+    "TRAINS"
+   ]
+  },
+  {
+   "id": "e014",
+   "words": [
+    "BAD",
+    "BASKET",
+    "DAYS",
+    "FIXES",
+    "LEASH",
+    "MOST",
+    "MUDDY",
+    "PAWS",
+    "PUPPY",
+    "SLOW",
+    "SOFTLY",
+    "TOYS",
+    "WALK"
+   ]
+  },
+  {
+   "id": "e015",
+   "words": [
+    "ADMITS",
+    "BECAUSE",
+    "CONFUSION",
+    "DEADLINE",
+    "DISCUSS",
+    "EARLY",
+    "EVERYONE",
+    "GROUP",
+    "MEETING",
+    "PROJECTS",
+    "QUESTION",
+    "SLIDES",
+    "SURVIVE",
+    "WEEKEND"
+   ]
+  },
+  {
+   "id": "e016",
+   "words": [
+    "ANXIETY",
+    "BATTERY",
+    "CABLE",
+    "CHARGER",
+    "GOES",
+    "LOW",
+    "MISSING",
+    "PLUG",
+    "SECOND",
+    "SOCKET",
+    "STARTS",
+    "UPDATE",
+    "VOLTAGE",
+    "WIRELESS"
+   ]
+  },
+  {
+   "id": "e017",
+   "words": [
+    "ACCURATE",
+    "ANSWERS",
+    "CHATBOTS",
+    "CONFIDENT",
+    "EVEN",
+    "INVENTED",
+    "LANGUAGE",
+    "MEMORY",
+    "PROMPT",
+    "ROBOT",
+    "SOUND",
+    "THEIR",
+    "TRAINING"
+   ]
+  },
+  {
+   "id": "e018",
+   "words": [
+    "ANY",
+    "CASHIER",
+    "CONVENIENCE",
+    "DUMPLING",
+    "EVENING",
+    "FRESH",
+    "JAPANESE",
+    "LUNCHBOX",
+    "MICROWAVE",
+    "ONIGIRI",
+    "RECEIPT",
+    "SANDWICH",
+    "SAVE",
+    "STORES",
+    "TIRED"
+   ]
+  },
+  {
+   "id": "e019",
+   "words": [
+    "BENTO",
+    "CLOCKWORK",
+    "CONDUCTOR",
+    "ENJOY",
+    "FIELDS",
+    "LIKE",
+    "PASSENGERS",
+    "RAILWAY",
+    "RELAX",
+    "RUN",
+    "SCENERY",
+    "SCHEDULES",
+    "SHINKANSEN",
+    "SOUVENIR",
+    "TUNNEL"
+   ]
+  },
+  {
+   "id": "e020",
+   "words": [
+    "AFTERNOON",
+    "CINEMA",
+    "MOVIES",
+    "NOODLES",
+    "OLD",
+    "PERFECT",
+    "PLAYLIST",
+    "POPCORN",
+    "RAINY",
+    "ROMANTIC",
+    "SOFA",
+    "STORM"
+   ]
+  },
+  {
+   "id": "e021",
+   "words": [
+    "BENCH",
+    "EXCUSES",
+    "MARATHON",
+    "MATTERED",
+    "MORE",
+    "MUSCLES",
+    "PROTEIN",
+    "PROVE",
+    "SORE",
+    "SQUAT",
+    "STRETCH",
+    "THAN",
+    "WEIGHTS",
+    "YESTERDAY"
+   ]
+  },
+  {
+   "id": "e022",
+   "words": [
+    "BRIEF",
+    "ENDLESS",
+    "FOLDER",
+    "FREE",
+    "LIBRARIES",
+    "NOVELS",
+    "OFFER",
+    "READER",
+    "SEAT",
+    "SHELVES",
+    "SILENT",
+    "SOLVED",
+    "STUDENTS"
+   ]
+  },
+  {
+   "id": "e023",
+   "words": [
+    "ADDRESS",
+    "ARRIVES",
+    "CROSS",
+    "DELIVERY",
+    "HELMET",
+    "HUNGRY",
+    "PACKAGE",
+    "RAIN",
+    "RIDERS",
+    "SCOOTER",
+    "SOUP",
+    "TRAFFIC",
+    "UMBRELLA"
+   ]
+  },
+  {
+   "id": "e024",
+   "words": [
+    "BALCONY",
+    "CONCERT",
+    "DECIDE",
+    "ENCORE",
+    "EVERYTHING",
+    "FESTIVAL",
+    "JACKET",
+    "LUCK",
+    "MINUTES",
+    "PATIENCE",
+    "QUEUE",
+    "STADIUM",
+    "TICKETS",
+    "VANISH",
+    "WITHIN"
+   ]
+  },
+  {
+   "id": "e025",
+   "words": [
+    "BALANCE",
+    "CLEAN",
+    "COURT",
+    "DOUBLES",
+    "FOOTWORK",
+    "LOOSE",
+    "OPPONENT",
+    "RACKET",
+    "REQUIRES",
+    "SERVE",
+    "SMASH",
+    "TIMING",
+    "WRIST"
+   ]
+  },
+  {
+   "id": "e026",
+   "words": [
+    "BLUFFING",
+    "BOARD",
+    "CARDS",
+    "CASTLE",
+    "CHEATS",
+    "DICE",
+    "DRAGON",
+    "FRIEND",
+    "GAMES",
+    "GOBLIN",
+    "LOVES",
+    "REVEAL",
+    "WHICH",
+    "WHO",
+    "WINNER"
+   ]
+  },
+  {
+   "id": "e027",
+   "words": [
+    "BOTTLES",
+    "CARDBOARD",
+    "CLIMATE",
+    "GARBAGE",
+    "HABITAT",
+    "MOMENT",
+    "OCEANS",
+    "PLASTIC",
+    "PROTECTS",
+    "RECYCLE",
+    "SORTING",
+    "TAKES",
+    "WATER",
+    "YEARS"
+   ]
+  },
+  {
+   "id": "e028",
+   "words": [
+    "ASTRONAUT",
+    "COMET",
+    "DISCOVER",
+    "DISTANT",
+    "FLICKER",
+    "GALAXY",
+    "JUPITER",
+    "NEW",
+    "PLANETS",
+    "SCIENTISTS",
+    "STARS",
+    "TELESCOPE",
+    "UNIVERSE",
+    "WATCHING"
+   ]
+  },
+  {
+   "id": "e029",
+   "words": [
+    "BEDROOM",
+    "BRAIN",
+    "CHEAPEST",
+    "DREAMS",
+    "HEALTHY",
+    "MATTRESS",
+    "MOOD",
+    "RESTFUL",
+    "ROUTINE",
+    "SLEEP",
+    "UPGRADE"
+   ]
   }
  ]
 }
